@@ -242,6 +242,9 @@
 /* Define if you have the <sys/dsreq.h> header file. */
 #undef HAVE_SYS_DSREQ_H
 
+/* Define if you have the <windows.h> header file.  */
+#undef HAVE_WINDOWS_H
+
 /* Define if you have the <os2.h> header file.  */
 #undef HAVE_OS2_H
 

@@ -99,10 +99,10 @@
 #define PACKAGE "xsane"
 
 /* Define to the version of the distribution.  */
-#define VERSION "0.93"
+#define VERSION "0.94"
 
 /* The concatenation of the strings PACKAGE, "-", and VERSION.  */
-#define XSANE_PACKAGE_VERSION "xsane-0.93"
+#define XSANE_PACKAGE_VERSION "xsane-0.94"
 
 /* Define if you have the __argz_count function.  */
 #define HAVE___ARGZ_COUNT 1
@@ -243,6 +243,9 @@
 /* Define if you have the <sys/dsreq.h> header file. */
 /* #undef HAVE_SYS_DSREQ_H */
 
+/* Define if you have the <windows.h> header file.  */
+/* #undef HAVE_WINDOWS_H */
+
 /* Define if you have the <os2.h> header file.  */
 /* #undef HAVE_OS2_H */
 
@@ -268,13 +271,13 @@
 /* #undef HAVE_DLFCN_H */
 
 /* Define if you have GIMP installed - no matter what version.  */
-#define HAVE_ANY_GIMP 1
+/* #undef HAVE_ANY_GIMP */
 
 /* Define if you have GIMP-2.0 installed.  */
 /* #undef HAVE_GIMP_2 */
 
 /* Define if you have the GIMPfeatures header file.  */
-#define HAVE_LIBGIMP_GIMPFEATURES_H 1
+/* #undef HAVE_LIBGIMP_GIMPFEATURES_H */
 
 /* Define if you have libjpeg.  */
 #define HAVE_LIBJPEG 1
