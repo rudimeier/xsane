@@ -1,0 +1,101 @@
+This is a list of what I want to change/include for xsane.
+If you have any suggestions: mail to Oliver.Rauch@rauch-domain.de
+
+Sign explaination:
+ # planned for XSane-1.0.0
+ + planned to do this soon/higher priority (but not promised for XSane-1.0)
+ - comes later/lower priority
+
+ batch scan:
+ - load default list
+
+ scan-function:
+    # allow additional image data after each row (is sane standard conform)
+
+ save-function:
+    - list of last used filenames
+    - save several images into one file for:
+      - postscript
+      - may be tiff
+    ? enable filters in save mode?
+
+ fax-function:
+    # use internal viewer to display images
+      # while scanning save image as pnm
+      # convtert all images to one postscript file when sending fax
+    + create lock file, add information while spooling fax
+    + add coverpage with edit like mail function
+    - add send delayed option
+    - add options for sender/receiver Name
+    + zoom ?
+    # cleanup user interface of fax function
+
+ email-function:
+    # use internal viewer to display images
+      # while scanning save image as pnm
+      # convtert image to target format when sending email
+      # add new image types to email fileformat: tiff, jpeg
+    # cleanup user interface of email function
+
+ gamma function:
+    # add target gamma (e.g. for web publishing)
+    # correct gtk custom gamma functions and include it
+      or better: write an own gamma curve widget
+
+ medium selection:
+    - medium definition in dependance of the scanner (?)
+      (I am not sure if this makes sense with color managemant)
+
+ preview function:
+    # allow additional image data after each row (is sane standard conform)
+    - force size of scanarea in pixels (calculate resolution)
+      this will not produce exact results with some scanners!!!
+
+ viewer function:
+    # add more filters (sharpen?)
+      suggestions? - ONLY REALLY IMPORTANT FILTERS,
+      FOR OTHER IMAGE MANIPULATION THERE IS THE GIMP
+    # crop
+    # what about automatic increase of filename counter???
+      this is not simple because there may be several
+      viewers opend at the same time and a file in the
+      viewer may be saved several times
+
+ internal:
+    + add color management - may be via xcmsdb or scarse (www.scarse.org)
+      (not until xsane-1.0 I think)
+    - average of a multiple scan of the same image
+    + add range check / valid value when reading xsane.rc/*.drc files
+    + add several defaults (fax=> mode=gray,...)
+    - include much more parameters when saving images
+    + test memory after each call of malloc - partly done
+    - more/better online helpfiles (mostly done)
+    - add infrared filter for transmissive rgbi scans:
+      use next neighbour with high transmission(i) value
+      (may be to viewer)
+   + test if file is writable before scan is started
+   ? show histogram of scanned image (viewer?)?
+   ? show scanned image in save mode or automatically save image in viewer mode?
+   ? project save/load with preview image, scanmode, .... ???
+
+
+ include special functions for GNOME/KDE
+   *** DOES ANYONE HAVE ANY SUGGESTIONS TO THIS ? ***
+   - GNOME:
+     - gnome-print support?
+     - session management ?
+   - drag and drop for preview image?
+   - other drag and drop functions?
+
+ TWAIN:
+    - add a twain-win32 interface (for xsane-win32)
+    - define a twain-unix interface in cooperation with TWAIN-group
+      (first contact to TWAIN in summer 1999, TWAIN is intersted in
+      creating a TWAIN-unix interface that uses sane as scanner driver API)
+    - add a twain-unix interface to xsane
+ 
+ WIN32 version of xsane/sane
+    - may be xsane-win32 without cygwin.dll on native win32 mode
+    - may be later we make a sane-WIN32 version so that the backends do work too
+
+
