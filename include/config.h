@@ -99,10 +99,10 @@
 #define PACKAGE "xsane"
 
 /* Define to the version of the distribution.  */
-#define VERSION "0.94"
+#define VERSION "0.95"
 
 /* The concatenation of the strings PACKAGE, "-", and VERSION.  */
-#define XSANE_PACKAGE_VERSION "xsane-0.94"
+#define XSANE_PACKAGE_VERSION "xsane-0.95"
 
 /* Define if you have the __argz_count function.  */
 #define HAVE___ARGZ_COUNT 1
@@ -271,13 +271,13 @@
 /* #undef HAVE_DLFCN_H */
 
 /* Define if you have GIMP installed - no matter what version.  */
-/* #undef HAVE_ANY_GIMP */
+#define HAVE_ANY_GIMP 1
 
 /* Define if you have GIMP-2.0 installed.  */
 /* #undef HAVE_GIMP_2 */
 
 /* Define if you have the GIMPfeatures header file.  */
-/* #undef HAVE_LIBGIMP_GIMPFEATURES_H */
+#define HAVE_LIBGIMP_GIMPFEATURES_H 1
 
 /* Define if you have libjpeg.  */
 #define HAVE_LIBJPEG 1

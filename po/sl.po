@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: XSANE 0.84\n"
-"POT-Creation-Date: 2004-05-08 23:55+0200\n"
+"POT-Creation-Date: 2004-08-13 22:28+0200\n"
 "PO-Revision-Date: 2001-02-25 14:06+01:00\n"
 "Last-Translator: Ales Kosir <ales.kosir@lugos.si>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
@@ -24,6 +24,10 @@ msgid "(c)"
 msgstr "(c)"
 
 #. can be translated with \251
+#. FILENAME_PREFIX_CLONE_OF
+msgid "clone-of-"
+msgstr ""
+
 #. WINDOW_ABOUT_XSANE
 msgid "About"
 msgstr "O programu"
@@ -211,14 +215,26 @@ msgstr "Nastavitve"
 msgid "View"
 msgstr "Pogled"
 
+#. MENU_WINDOW
+msgid "Window"
+msgstr ""
+
 #. MENU_HELP
 msgid "Help"
 msgstr "Pomoè"
+
+#. MENU_EDIT
+msgid "Edit"
+msgstr ""
 
 #. MENU_FILTERS
 #, fuzzy
 msgid "Filters"
 msgstr "Datoteka"
+
+#. MENU_GEOMETRY
+msgid "Geometry"
+msgstr ""
 
 #. MENU_ITEM_ABOUT_XSANE
 msgid "About XSane"
@@ -255,6 +271,10 @@ msgstr "Skeniraj"
 msgid "Close"
 msgstr "Zapri"
 
+#. MENU_ITEM_UNDO
+msgid "Undo"
+msgstr ""
+
 #. MENU_ITEM_DESPECKLE
 msgid "Despeckle"
 msgstr ""
@@ -262,6 +282,28 @@ msgstr ""
 #. MENU_ITEM_BLUR
 msgid "Blur"
 msgstr ""
+
+#. MENU_ITEM_ROTATE90
+msgid "Rotate 90"
+msgstr ""
+
+#. MENU_ITEM_ROTATE180
+msgid "Rotate 180"
+msgstr ""
+
+#. MENU_ITEM_ROTATE270
+msgid "Rotate 270"
+msgstr ""
+
+#. MENU_ITEM_MIRROR_X
+#, fuzzy
+msgid "Mirror |"
+msgstr "napaka"
+
+#. MENU_ITEM_MIRROR_Y
+#, fuzzy
+msgid "Mirror -"
+msgstr "napaka"
 
 #. FRAME_RAW_IMAGE
 msgid "Raw image"
@@ -346,6 +388,11 @@ msgstr "Zbri¹i projekt"
 #, fuzzy
 msgid "Show image"
 msgstr "Prika¾i predogled"
+
+#. BUTTON_IMAGE_EDIT
+#, fuzzy
+msgid "Edit image"
+msgstr "Obdelana slika"
 
 #. BUTTON_IMAGE_RENAME
 #, fuzzy
@@ -702,6 +749,46 @@ msgstr ""
 
 #. TEXT_MAIL_STATUS
 msgid "Project status:"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_NOT_CREATED
+#, fuzzy
+msgid "not created"
+msgstr "beriljiva"
+
+#. TEXT_MAIL_STATUS_CREATED
+#, fuzzy
+msgid "created"
+msgstr "beriljiva"
+
+#. TEXT_MAIL_STATUS_CHANGED
+msgid "changed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_ERR_READ_PROJECT
+#, fuzzy
+msgid "error reading mailproject"
+msgstr "Vnesite ime projekta za faks"
+
+#. TEXT_MAIL_STATUS_POP3_CONNECTION_FAILED
+msgid "POP3 connection failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_POP3_LOGIN_FAILED
+msgid "POP3 login failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_SMTP_CONNECTION_FAILED
+msgid "SMTP connection failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_SENT
+#, fuzzy
+msgid "sent"
+msgstr "nastavi"
+
+#. TEXT_MAIL_STATUS_SENDING
+msgid "sending"
 msgstr ""
 
 #. TEXT_MEDIUM_DEFINITION_NAME
@@ -1939,7 +2026,7 @@ msgid "Enter command to be executed to view a mail image"
 msgstr "Podajte ukaz za prikaz faksa"
 
 #. DESC_HTML_MAIL
-msgid "Mail is sent in html mode, images are displayed directly"
+msgid "Mail is sent in html mode, place image with: <IMAGE>"
 msgstr ""
 
 #. DESC_OCR_COMMAND
@@ -2056,6 +2143,11 @@ msgstr ""
 #. DESC_VIEWER_OCR
 msgid "Optical Character Recognition"
 msgstr ""
+
+#. DESC_VIEWER_UNDO
+#, fuzzy
+msgid "Undo last change"
+msgstr "Preklièi zadnje pribli¾anje"
 
 #. DESC_VIEWER_CLONE
 #, fuzzy

@@ -33,6 +33,8 @@
 
 #define XSANE_COPYRIGHT_SIGN		_("(c)") /* can be translated with \251 */
 
+#define FILENAME_PREFIX_CLONE_OF	_("clone-of-")
+
 #define WINDOW_ABOUT_XSANE		_("About")
 #define WINDOW_ABOUT_TRANSLATION	_("About translation")
 #define WINDOW_AUTHORIZE		_("authorization")
@@ -77,8 +79,11 @@
 #define MENU_FILE			_("File")
 #define MENU_PREFERENCES		_("Preferences")
 #define MENU_VIEW			_("View")
+#define MENU_WINDOW			_("Window")
 #define MENU_HELP			_("Help")
+#define MENU_EDIT			_("Edit")
 #define MENU_FILTERS			_("Filters")
+#define MENU_GEOMETRY			_("Geometry")
 
 #define MENU_ITEM_ABOUT_XSANE		_("About XSane")
 #define MENU_ITEM_ABOUT_TRANSLATION	_("About translation")
@@ -91,8 +96,16 @@
 #define MENU_ITEM_SCALE			_("Scale")
 #define MENU_ITEM_CLOSE			_("Close")
 
+#define MENU_ITEM_UNDO			_("Undo")
+
 #define MENU_ITEM_DESPECKLE		_("Despeckle")
 #define MENU_ITEM_BLUR			_("Blur")
+
+#define MENU_ITEM_ROTATE90		_("Rotate 90")
+#define MENU_ITEM_ROTATE180		_("Rotate 180")
+#define MENU_ITEM_ROTATE270		_("Rotate 270")
+#define MENU_ITEM_MIRROR_X		_("Mirror |")
+#define MENU_ITEM_MIRROR_Y		_("Mirror -")
 
 #define FRAME_RAW_IMAGE			_("Raw image")
 #define FRAME_ENHANCED_IMAGE		_("Enhanced image")
@@ -116,6 +129,7 @@
 #define BUTTON_PAGE_RENAME		_("Rename page")
 #define BUTTON_IMAGE_DELETE		_("Delete image")
 #define BUTTON_IMAGE_SHOW		_("Show image")
+#define BUTTON_IMAGE_EDIT		_("Edit image")
 #define BUTTON_IMAGE_RENAME		_("Rename image")
 #define BUTTON_FILE_INSERT		_("Insert file")
 #define BUTTON_CREATE_PROJECT		_("Create project")
@@ -225,6 +239,15 @@
 #define TEXT_MAIL_TEXT			_("Email text:")
 #define TEXT_ATTACHMENTS		_("Attachments:")
 #define TEXT_MAIL_STATUS		_("Project status:")
+#define TEXT_MAIL_STATUS_NOT_CREATED		_("not created")
+#define TEXT_MAIL_STATUS_CREATED		_("created")
+#define TEXT_MAIL_STATUS_CHANGED		_("changed")
+#define TEXT_MAIL_STATUS_ERR_READ_PROJECT	_("error reading mailproject")
+#define TEXT_MAIL_STATUS_POP3_CONNECTION_FAILED	_("POP3 connection failed")
+#define TEXT_MAIL_STATUS_POP3_LOGIN_FAILED	_("POP3 login failed")
+#define TEXT_MAIL_STATUS_SMTP_CONNECTION_FAILED	_("SMTP connection failed")
+#define TEXT_MAIL_STATUS_SENT			_("sent")
+#define TEXT_MAIL_STATUS_SENDING		_("sending")
 
 #define TEXT_MEDIUM_DEFINITION_NAME	_("Medium Name:")
 
@@ -558,7 +581,7 @@
 #define DESC_POP3_USER			_("user name for POP3 server")
 #define DESC_POP3_PASS			_("password for POP3 server")
 #define DESC_MAIL_VIEWER		_("Enter command to be executed to view a mail image")
-#define DESC_HTML_MAIL			_("Mail is sent in html mode, images are displayed directly")
+#define DESC_HTML_MAIL			_("Mail is sent in html mode, place image with: <IMAGE>")
 #define DESC_OCR_COMMAND		_("Enter command to start ocr program")
 #define DESC_OCR_INPUTFILE_OPT		_("Enter option of the ocr program to define input file")
 #define DESC_OCR_OUTPUTFILE_OPT		_("Enter option of the ocr program to define output file")
@@ -594,6 +617,7 @@
 
 #define DESC_VIEWER_SAVE		_("Save image")
 #define DESC_VIEWER_OCR			_("Optical Character Recognition")
+#define DESC_VIEWER_UNDO		_("Undo last change")
 #define DESC_VIEWER_CLONE		_("Clone image")
 #define DESC_VIEWER_SCALE		_("Scale image")
 #define DESC_VIEWER_DESPECKLE		_("Despeckle image")

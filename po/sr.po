@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: XSANE 0.76\n"
-"POT-Creation-Date: 2004-05-08 23:55+0200\n"
+"POT-Creation-Date: 2004-08-13 22:28+0200\n"
 "PO-Revision-Date: 2002-01-17 00:47GMT\n"
 "Last-Translator: Rusmir Duško <drusmir@gmx.ch>\n"
 "Language-Team: srpski <sr@li.org>\n"
@@ -25,6 +25,10 @@ msgid "(c)"
 msgstr "(c)"
 
 #. can be translated with \251
+#. FILENAME_PREFIX_CLONE_OF
+msgid "clone-of-"
+msgstr ""
+
 #. WINDOW_ABOUT_XSANE
 msgid "About"
 msgstr "O programu"
@@ -203,13 +207,25 @@ msgstr "Podešavanja"
 msgid "View"
 msgstr "Pogled"
 
+#. MENU_WINDOW
+msgid "Window"
+msgstr ""
+
 #. MENU_HELP
 msgid "Help"
 msgstr "Pomoć"
 
+#. MENU_EDIT
+msgid "Edit"
+msgstr ""
+
 #. MENU_FILTERS
 msgid "Filters"
 msgstr "Filteri"
+
+#. MENU_GEOMETRY
+msgid "Geometry"
+msgstr ""
 
 #. MENU_ITEM_ABOUT_XSANE
 msgid "About XSane"
@@ -243,6 +259,10 @@ msgstr "Promeni veličinu"
 msgid "Close"
 msgstr "Zatvori"
 
+#. MENU_ITEM_UNDO
+msgid "Undo"
+msgstr ""
+
 #. MENU_ITEM_DESPECKLE
 msgid "Despeckle"
 msgstr "odflekati"
@@ -250,6 +270,30 @@ msgstr "odflekati"
 #. MENU_ITEM_BLUR
 msgid "Blur"
 msgstr "zamagli"
+
+#. MENU_ITEM_ROTATE90
+msgid "Rotate 90"
+msgstr ""
+
+#. MENU_ITEM_ROTATE180
+#, fuzzy
+msgid "Rotate 180"
+msgstr "Rotiraj sliku za 180 stepeni"
+
+#. MENU_ITEM_ROTATE270
+#, fuzzy
+msgid "Rotate 270"
+msgstr "Rotiraj sliku za 270 stepeni"
+
+#. MENU_ITEM_MIRROR_X
+#, fuzzy
+msgid "Mirror |"
+msgstr "greška"
+
+#. MENU_ITEM_MIRROR_Y
+#, fuzzy
+msgid "Mirror -"
+msgstr "greška"
 
 #. FRAME_RAW_IMAGE
 msgid "Raw image"
@@ -329,6 +373,11 @@ msgstr "Izbriši sliku"
 #. BUTTON_IMAGE_SHOW
 msgid "Show image"
 msgstr "Pokaži sliku"
+
+#. BUTTON_IMAGE_EDIT
+#, fuzzy
+msgid "Edit image"
+msgstr "Poboljšana slika"
 
 #. BUTTON_IMAGE_RENAME
 msgid "Rename image"
@@ -681,6 +730,46 @@ msgstr "Dodatci:"
 #. TEXT_MAIL_STATUS
 msgid "Project status:"
 msgstr "Status projekta:"
+
+#. TEXT_MAIL_STATUS_NOT_CREATED
+#, fuzzy
+msgid "not created"
+msgstr "čitati"
+
+#. TEXT_MAIL_STATUS_CREATED
+#, fuzzy
+msgid "created"
+msgstr "čitati"
+
+#. TEXT_MAIL_STATUS_CHANGED
+msgid "changed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_ERR_READ_PROJECT
+#, fuzzy
+msgid "error reading mailproject"
+msgstr "Unesi ime projekta za E-poštu"
+
+#. TEXT_MAIL_STATUS_POP3_CONNECTION_FAILED
+msgid "POP3 connection failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_POP3_LOGIN_FAILED
+msgid "POP3 login failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_SMTP_CONNECTION_FAILED
+msgid "SMTP connection failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_SENT
+#, fuzzy
+msgid "sent"
+msgstr "Konfiguracija"
+
+#. TEXT_MAIL_STATUS_SENDING
+msgid "sending"
+msgstr ""
 
 #. TEXT_MEDIUM_DEFINITION_NAME
 msgid "Medium Name:"
@@ -1871,7 +1960,8 @@ msgid "Enter command to be executed to view a mail image"
 msgstr "Komanda za prikaz slike iz e-pošte"
 
 #. DESC_HTML_MAIL
-msgid "Mail is sent in html mode, images are displayed directly"
+#, fuzzy
+msgid "Mail is sent in html mode, place image with: <IMAGE>"
 msgstr "e-pošta je poslata u html modusu, slike su prikazane direktno"
 
 #. DESC_OCR_COMMAND
@@ -1989,6 +2079,11 @@ msgstr ""
 #. DESC_VIEWER_OCR
 msgid "Optical Character Recognition"
 msgstr "Optical Character Recongnition"
+
+#. DESC_VIEWER_UNDO
+#, fuzzy
+msgid "Undo last change"
+msgstr "Odbaci zadnje uvećavanje"
 
 #. DESC_VIEWER_CLONE
 msgid "Clone image"

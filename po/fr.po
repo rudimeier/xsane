@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: XSANE 0.93\n"
-"POT-Creation-Date: 2004-05-08 23:55+0200\n"
+"POT-Creation-Date: 2004-08-13 22:28+0200\n"
 "PO-Revision-Date: 2000-02-09 21:00+01:00\n"
 "Last-Translator: Laurent Grawet <laurent.grawet@ibelgique.com>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -23,6 +23,10 @@ msgid "(c)"
 msgstr ""
 
 #. can be translated with \251
+#. FILENAME_PREFIX_CLONE_OF
+msgid "clone-of-"
+msgstr ""
+
 #. WINDOW_ABOUT_XSANE
 msgid "About"
 msgstr "A propos"
@@ -198,13 +202,25 @@ msgstr "Préférences"
 msgid "View"
 msgstr "Afficher"
 
+#. MENU_WINDOW
+msgid "Window"
+msgstr ""
+
 #. MENU_HELP
 msgid "Help"
 msgstr "Aide"
 
+#. MENU_EDIT
+msgid "Edit"
+msgstr ""
+
 #. MENU_FILTERS
 msgid "Filters"
 msgstr "Filtres"
+
+#. MENU_GEOMETRY
+msgid "Geometry"
+msgstr ""
 
 #. MENU_ITEM_ABOUT_XSANE
 msgid "About XSane"
@@ -238,6 +254,10 @@ msgstr "Redimensioner"
 msgid "Close"
 msgstr "Fermer"
 
+#. MENU_ITEM_UNDO
+msgid "Undo"
+msgstr ""
+
 #. MENU_ITEM_DESPECKLE
 msgid "Despeckle"
 msgstr "Déparasitage"
@@ -245,6 +265,30 @@ msgstr "Déparasitage"
 #. MENU_ITEM_BLUR
 msgid "Blur"
 msgstr "Flou"
+
+#. MENU_ITEM_ROTATE90
+msgid "Rotate 90"
+msgstr ""
+
+#. MENU_ITEM_ROTATE180
+#, fuzzy
+msgid "Rotate 180"
+msgstr "Rotation à 180° de l'image"
+
+#. MENU_ITEM_ROTATE270
+#, fuzzy
+msgid "Rotate 270"
+msgstr "Rotation à 270° de l'image"
+
+#. MENU_ITEM_MIRROR_X
+#, fuzzy
+msgid "Mirror |"
+msgstr "Erreur"
+
+#. MENU_ITEM_MIRROR_Y
+#, fuzzy
+msgid "Mirror -"
+msgstr "Erreur"
 
 #. FRAME_RAW_IMAGE
 msgid "Raw image"
@@ -321,6 +365,11 @@ msgstr "Effacer l'image"
 #. BUTTON_IMAGE_SHOW
 msgid "Show image"
 msgstr "Afficher l'image"
+
+#. BUTTON_IMAGE_EDIT
+#, fuzzy
+msgid "Edit image"
+msgstr "Image améliorée"
 
 #. BUTTON_IMAGE_RENAME
 msgid "Rename image"
@@ -692,6 +741,46 @@ msgstr "Pièces attachées:"
 #. TEXT_MAIL_STATUS
 msgid "Project status:"
 msgstr "Statut du projet:"
+
+#. TEXT_MAIL_STATUS_NOT_CREATED
+#, fuzzy
+msgid "not created"
+msgstr "lecture"
+
+#. TEXT_MAIL_STATUS_CREATED
+#, fuzzy
+msgid "created"
+msgstr "lecture"
+
+#. TEXT_MAIL_STATUS_CHANGED
+msgid "changed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_ERR_READ_PROJECT
+#, fuzzy
+msgid "error reading mailproject"
+msgstr "Entrez le nom du projet e-mail"
+
+#. TEXT_MAIL_STATUS_POP3_CONNECTION_FAILED
+msgid "POP3 connection failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_POP3_LOGIN_FAILED
+msgid "POP3 login failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_SMTP_CONNECTION_FAILED
+msgid "SMTP connection failed"
+msgstr ""
+
+#. TEXT_MAIL_STATUS_SENT
+#, fuzzy
+msgid "sent"
+msgstr "Configuration"
+
+#. TEXT_MAIL_STATUS_SENDING
+msgid "sending"
+msgstr ""
 
 #. TEXT_MEDIUM_DEFINITION_NAME
 msgid "Medium Name:"
@@ -1897,7 +1986,8 @@ msgid "Enter command to be executed to view a mail image"
 msgstr "Entrez la commande à être exécutée pour voir une image e-mail"
 
 #. DESC_HTML_MAIL
-msgid "Mail is sent in html mode, images are displayed directly"
+#, fuzzy
+msgid "Mail is sent in html mode, place image with: <IMAGE>"
 msgstr "Message envoyé en mode html, les images sont affichées directement"
 
 #. DESC_OCR_COMMAND
@@ -2015,6 +2105,11 @@ msgstr ""
 #. DESC_VIEWER_OCR
 msgid "Optical Character Recognition"
 msgstr "Reconnaissance Optique de Caractères"
+
+#. DESC_VIEWER_UNDO
+#, fuzzy
+msgid "Undo last change"
+msgstr "Annule le dernier zoom"
 
 #. DESC_VIEWER_CLONE
 msgid "Clone image"
