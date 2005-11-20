@@ -1,219 +1,223 @@
-# German translation for XSane.
-# Copyright (C) 1999-2002 Oliver Rauch
-# Oliver Rauch <Oliver.Rauch@rauch-domain.de>
-#
+# Translations for XSane English->Dutch
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# W. Sinke <sinke@wirehub.nl>, 2001, 2002,2004.
+#  <>, 2004.
+# 
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: XSANE 0.96\n"
-"POT-Creation-Date: 2004-08-21 15:31+0200\n"
-"PO-Revision-Date: 2000-01-21 15:51+01:00\n"
-"Last-Translator: Oliver Rauch <Oliver.Rauch@rauch-domain.de>\n"
-"Language-Team: German <de@li.org>\n"
+"POT-Creation-Date: 2005-10-23 00:20+0200\n"
+"PO-Revision-Date: 2004-08-26 11:29+0200\n"
+"Last-Translator: Wim Sinke <sinke@wirehub.nl>\n"
+"Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
 
 #. Please translate this to the correct directory name (eg. german=>de)
 #. XSANE_LANGUAGE_DIR
 msgid "language_dir"
-msgstr "de"
+msgstr "nl"
 
 #. XSANE_COPYRIGHT_SIGN
 msgid "(c)"
-msgstr "©"
+msgstr "�"
 
 #. can be translated with \251
 #. FILENAME_PREFIX_CLONE_OF
 msgid "clone-of-"
-msgstr "Duplikat-von-"
+msgstr "duplikaat-van-"
 
 #. WINDOW_ABOUT_XSANE
 msgid "About"
-msgstr "Über"
+msgstr "Over"
 
 #. WINDOW_ABOUT_TRANSLATION, MENU_ITEM_ABOUT_TRANSLATION
 msgid "About translation"
-msgstr "Über Übersetzung"
+msgstr "Over de vertaling"
 
 #. WINDOW_AUTHORIZE
 msgid "authorization"
-msgstr "Autorisation"
+msgstr "authorizatie"
 
 #. WINDOW_GPL
 msgid "GPL - the license"
-msgstr "GPL - die Lizenz"
+msgstr "GPL - de gebruikersrechten"
 
 #. WINDOW_EULA
 msgid "End User License Agreement"
-msgstr "Endbenutzervereinbarung (EULA)"
+msgstr "Eindgebruikersovereenkomst"
 
 #. WINDOW_INFO
 msgid "info"
-msgstr "Informationen"
+msgstr "Informatie"
 
 #. WINDOW_LOAD_BATCH_LIST
 msgid "load batch list"
-msgstr "Stapelliste laden"
+msgstr "laad batch lijst"
 
 #. WINDOW_SAVE_BATCH_LIST
 msgid "save batch list"
-msgstr "Stapelliste speichern"
+msgstr "bewaar batch lijst"
 
+# Goed genoeg?
 #. WINDOW_BATCH_SCAN
 msgid "batch scan"
-msgstr "Stapel Scan"
+msgstr "batch scan"
 
 #. WINDOW_BATCH_RENAME
 msgid "rename batch area"
-msgstr "Stapelscan Bereich umbenennen"
+msgstr "batchgebied hernoemen"
 
 #. WINDOW_FAX_PROJECT
 msgid "fax project"
-msgstr "Faxprojekt"
+msgstr "faxproject"
 
 #. WINDOW_FAX_RENAME
 msgid "rename fax page"
-msgstr "Faxseite umbenennen"
+msgstr "faxpagina hernoemen"
 
 #. WINDOW_FAX_INSERT
 msgid "insert ps-file into fax"
-msgstr "ps-Datei einfügen in Fax"
+msgstr "ps-bestand in fax voegen"
 
 #. WINDOW_MAIL_PROJECT
 msgid "mail project"
-msgstr "Mailprojekt"
+msgstr "e-mailproject"
 
 #. WINDOW_MAIL_RENAME
 msgid "rename mail image"
-msgstr "E-Mail Bild umbenennen"
+msgstr "e-mail afbeelding hernoemen"
 
 #. WINDOW_MAIL_INSERT
 msgid "insert file into mail"
-msgstr "Bild in E-Mail einfügen"
+msgstr "voeg afbeelding in e-mail"
 
 #. WINDOW_PRESET_AREA_RENAME
 msgid "rename preset area"
-msgstr "Bereichsvoreinstellung umbenennen"
+msgstr "scangebied hernoemen"
 
 #. WINDOW_PRESET_AREA_ADD
 msgid "add preset area"
-msgstr "Bereichsvoreinstellung hinzufügen"
+msgstr "scangebied toevoegen"
 
 #. WINDOW_MEDIUM_RENAME
 msgid "rename medium"
-msgstr "Medium umbenennen"
+msgstr "Medium hernoemen"
 
 #. WINDOW_MEDIUM_ADD
 msgid "add new medium"
-msgstr "Medium hinzufügen"
+msgstr "medium toevoegen"
 
 #. WINDOW_SETUP
 msgid "setup"
-msgstr "Konfiguration"
+msgstr "configuratie"
 
 #. WINDOW_HISTOGRAM
 msgid "Histogram"
-msgstr "Histogramm"
+msgstr "Histogram"
 
 #. WINDOW_GAMMA
 msgid "Gamma curve"
-msgstr "Gamma Kurve"
+msgstr "Gammakromme"
 
 #. WINDOW_STANDARD_OPTIONS
 msgid "Standard options"
-msgstr "Standard Optionen"
+msgstr "Standaard opties"
 
 #. WINDOW_ADVANCED_OPTIONS
 msgid "Advanced options"
-msgstr "Erweiterte Optionen"
+msgstr "Geavanceerde opties"
 
 #. WINDOW_DEVICE_SELECTION
 msgid "device selection"
-msgstr "Geräteauswahl"
+msgstr "apparaat selectie"
 
 #. WINDOW_PREVIEW
 msgid "Preview"
-msgstr "Vorschau"
+msgstr "Voorvertoning"
 
 #. WINDOW_VIEWER
 msgid "Viewer"
-msgstr "Betrachter"
+msgstr "Bekijken"
 
 #. WINDOW_VIEWER_OUTPUT_FILENAME
 msgid "Viewer: select output filename"
-msgstr "Betrachter: Ausgabedatei auswählen"
+msgstr "Bekijken: kies uitvoernaam"
 
 #. WINDOW_OCR_OUTPUT_FILENAME
 msgid "Select output filename for OCR text file"
-msgstr "Dateinamen für OCR Text auswählen"
+msgstr "Kies uitvoerbestand voor herkende tekst"
 
 #. WINDOW_OUTPUT_FILENAME
 msgid "select output filename"
-msgstr "Ausgabedatei auswählen"
+msgstr "kies uitvoernaam"
 
 #. WINDOW_SAVE_SETTINGS
 msgid "save device settings"
-msgstr "Speichere Geräteeinstellungen"
+msgstr "apparaatinstellingen bewaren"
 
 #. WINDOW_LOAD_SETTINGS
 msgid "load device settings"
-msgstr "Lade Geräteeinstellungen"
+msgstr "apparaatinstellingen laden"
 
 #. WINDOW_CHANGE_WORKING_DIR
 msgid "change working directory"
-msgstr "Arbeitsverzeichnis wechseln"
+msgstr "verander werkmap"
 
 #. WINDOW_TMP_PATH
 msgid "select temporary directory"
-msgstr "temporäres Verzeichnis auswählen"
+msgstr "selecteer tijdelijke map"
 
 #. WINDOW_SCALE
 msgid "Scale image"
-msgstr "Bild skalieren"
+msgstr "Schaal afbeelding"
 
 #. WINDOW_DESPECKLE
 msgid "Despeckle image"
-msgstr "Flecken entfernen"
+msgstr "Spikkels wegwerken"
 
 #. WINDOW_BLUR
 msgid "Blur image"
-msgstr "Bild weichzeichnen"
+msgstr "Afbeelding vervagen"
 
 #. WINDOW_STORE_MEDIUM
 msgid "Store medium definition"
-msgstr "Mediumdefinition speichern"
+msgstr "Bewaar mediumdefinitie"
 
 #. WINDOW_NO_DEVICES
 msgid "No devices available"
-msgstr "Keine Geräte erreichbar"
+msgstr "Geen apparaten vrij"
 
 #. MENU_FILE
 msgid "File"
-msgstr "Datei"
+msgstr "Bestand"
 
 #. MENU_PREFERENCES
 msgid "Preferences"
-msgstr "Einstellungen"
+msgstr "Instellingen"
 
 #. MENU_VIEW
 msgid "View"
-msgstr "Ansicht"
+msgstr "Bekijk"
 
 #. MENU_WINDOW
 msgid "Window"
-msgstr "Fenster"
+msgstr "Venster"
 
 #. MENU_HELP
 msgid "Help"
-msgstr "Hilfe"
+msgstr "Help"
 
 #. MENU_EDIT
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "Bewerk"
 
 #. MENU_FILTERS
 msgid "Filters"
-msgstr "Filter"
+msgstr "Filters"
 
 #. MENU_GEOMETRY
 msgid "Geometry"
@@ -221,79 +225,79 @@ msgstr "Geometrie"
 
 #. MENU_ITEM_ABOUT_XSANE
 msgid "About XSane"
-msgstr "Über XSane"
+msgstr "Over XSane"
 
 #. MENU_ITEM_INFO
 msgid "Info"
-msgstr "Informationen"
+msgstr "Informatie"
 
 #. MENU_ITEM_QUIT
 msgid "Quit"
-msgstr "Beenden"
+msgstr "Afsluiten"
 
 #. MENU_ITEM_SAVE_IMAGE
 msgid "Save image"
-msgstr "Bild speichern"
+msgstr "Bewaar afbeelding"
 
 #. MENU_ITEM_OCR
 msgid "OCR - save as text"
-msgstr "OCR - als Text speichern"
+msgstr "OCR - opslaan als tekst"
 
 #. MENU_ITEM_CLONE
 msgid "Clone"
-msgstr "Klonen"
+msgstr "Kloon"
 
 #. MENU_ITEM_SCALE
 msgid "Scale"
-msgstr "Skalieren"
+msgstr "Schaal"
 
 #. MENU_ITEM_CLOSE
 msgid "Close"
-msgstr "Schließen"
+msgstr "Sluiten"
 
 #. MENU_ITEM_UNDO
 msgid "Undo"
-msgstr "Rückgängig"
+msgstr "Ongedaan maken"
 
 #. MENU_ITEM_DESPECKLE
 msgid "Despeckle"
-msgstr "Entflecken"
+msgstr "Spikkels wegwerken"
 
 #. MENU_ITEM_BLUR
 msgid "Blur"
-msgstr "Weichzeichnen"
+msgstr "Vervagen"
 
 #. MENU_ITEM_ROTATE90
 msgid "Rotate 90"
-msgstr "Drehen 90°"
+msgstr "Draaien 90�"
 
 #. MENU_ITEM_ROTATE180
 msgid "Rotate 180"
-msgstr "Drehen 180°"
+msgstr "Draaien 180�"
 
 #. MENU_ITEM_ROTATE270
 msgid "Rotate 270"
-msgstr "Drehen 270°"
+msgstr "Draaien 270�"
 
 #. MENU_ITEM_MIRROR_X
 msgid "Mirror |"
-msgstr "Spiegeln |"
+msgstr "Spiegelen |"
 
 #. MENU_ITEM_MIRROR_Y
 msgid "Mirror -"
-msgstr "Spiegeln -"
+msgstr "Spiegelen -"
 
 #. FRAME_RAW_IMAGE
 msgid "Raw image"
-msgstr "Rohbild"
+msgstr "Onbewerkte afbeelding"
 
 #. FRAME_ENHANCED_IMAGE
 msgid "Enhanced image"
-msgstr "Verbessertes Bild"
+msgstr "Verbeterde afbeelding"
 
 #. BUTTON_SCAN
 msgid "Scan"
-msgstr "Scannen"
+msgstr "Scan"
 
 #. BUTTON_OK
 msgid "Ok"
@@ -301,344 +305,346 @@ msgstr "OK"
 
 #. BUTTON_ACCEPT
 msgid "Accept"
-msgstr "Akzeptieren"
+msgstr "Accepteren"
 
 #. BUTTON_NOT_ACCEPT
 msgid "Not accept"
-msgstr "Nicht akzeptieren"
+msgstr "Niet accepteren"
 
 #. BUTTON_APPLY
 msgid "Apply"
-msgstr "Anwenden"
+msgstr "Uitvoeren"
 
 #. BUTTON_CANCEL
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "Afbreken"
 
 #. BUTTON_REDUCE
 msgid "Reduce"
-msgstr "Reduzieren"
+msgstr "Reduceren"
 
 #. BUTTON_CONT_AT_OWN_RISK
 msgid "Continue at your own risk"
-msgstr "Auf eigenes Risiko fortfahren"
+msgstr "Doorgaan op eigen risico"
 
 #. BUTTON_BROWSE
 msgid "Browse"
-msgstr "Durchsuchen"
+msgstr "Doorzoeken"
 
 #. BUTTON_OVERWRITE
 msgid "Overwrite"
-msgstr "Überschreiben"
+msgstr "Overschrijven"
 
 #. BUTTON_BATCH_LIST_SCAN
 msgid "Scan batch list"
-msgstr "Stapelliste scannen"
+msgstr "Scan batch lijst"
 
 #. BUTTON_BATCH_AREA_SCAN
 msgid "Scan selected area"
-msgstr "Auswahl scannen"
+msgstr "Scan geselecteerde gebied"
 
 #. BUTTON_PAGE_DELETE
 msgid "Delete page"
-msgstr "Seite löschen"
+msgstr "Pagina verwijderen"
 
 #. BUTTON_PAGE_SHOW
 msgid "Show page"
-msgstr "Seite anzeigen"
+msgstr "Pagina bekijken"
 
 #. BUTTON_PAGE_RENAME
 msgid "Rename page"
-msgstr "Seite umbenennen"
+msgstr "Pagina hernoemen"
 
 #. BUTTON_IMAGE_DELETE
 msgid "Delete image"
-msgstr "Bild löschen"
+msgstr "Afbeelding verwijderen"
 
 #. BUTTON_IMAGE_SHOW
 msgid "Show image"
-msgstr "Bild anzeigen"
+msgstr "Afbeelding bekijken"
 
 #. BUTTON_IMAGE_EDIT
 msgid "Edit image"
-msgstr "Bild ändern"
+msgstr "Afbeelding bewerken"
 
 #. BUTTON_IMAGE_RENAME
 msgid "Rename image"
-msgstr "Bild umbenennen"
+msgstr "Afbeelding hernoemen"
 
 #. BUTTON_FILE_INSERT
 msgid "Insert file"
-msgstr "Datei einfügen"
+msgstr "Bestand invoegen"
 
 #. BUTTON_CREATE_PROJECT
 msgid "Create project"
-msgstr "Projekt erstellen"
+msgstr "Project beginnen"
 
 #. BUTTON_SEND_PROJECT
 msgid "Send project"
-msgstr "Projekt senden"
+msgstr "Project versturen"
 
 #. BUTTON_DELETE_PROJECT
 msgid "Delete project"
-msgstr "Projekt löschen"
+msgstr "Project verwijderen"
 
 #. BUTTON_ADD_PRINTER
 msgid "Add printer"
-msgstr "Drucker hinzufügen"
+msgstr "Printer toevoegen"
 
 #. BUTTON_DELETE_PRINTER
 msgid "Delete printer"
-msgstr "Drucker löschen"
+msgstr "Printer verwijderen"
 
 #. BUTTON_PREVIEW_ACQUIRE
 msgid "Acquire preview"
-msgstr "Vorschauscan"
+msgstr "Preview maken"
 
 #. BUTTON_PREVIEW_CANCEL
 msgid "Cancel preview"
-msgstr "Vorschauscan abbrechen"
+msgstr "Preview afbreken"
 
 #. BUTTON_DISCARD_IMAGE
 msgid "Discard image"
-msgstr "Bild verwerfen"
+msgstr "Afbeelding weggooien"
 
 #. BUTTON_DISCARD_ALL_IMAGES
 msgid "Discard all images"
-msgstr "alle Bilder verwerfen"
+msgstr "Alle afbeeldingen weggooien"
 
 #. BUTTON_DO_NOT_CLOSE
 msgid "Do not close"
-msgstr "nicht schliessen"
+msgstr "Niet sluiten"
 
+# TBD
 #. BUTTON_SCALE_BIND
 msgid "Bind scale"
-msgstr "Verbinde Skalierung"
+msgstr "Bind scale"
 
 #. RADIO_BUTTON_FINE_MODE
 msgid "Fine mode"
-msgstr "Fein-Modus"
+msgstr "Fijne modus"
 
 #. RADIO_BUTTON_HTML_MAIL
 msgid "HTML mail"
-msgstr "HTML mail"
+msgstr "HTML e-mail"
 
 #. RADIO_BUTTON_SAVE_DEVPREFS_AT_EXIT
 msgid "Save device preferences at exit"
-msgstr "Geräteeinstellungen beim Verlassen speichern"
+msgstr "Apparaatinstellingen bewaren bij verlaten"
 
 #. RADIO_BUTTON_OVERWRITE_WARNING
 msgid "Overwrite warning"
-msgstr "Überschreibwarnung"
+msgstr "Waarschuwing bij overschrijving"
 
 #. RADIO_BUTTON_SKIP_EXISTING_NRS
 msgid "Skip existing filenames"
-msgstr "Existierende Dateinamen überspringen"
+msgstr "Bestaande bestandnamen overslaan"
 
 #. RADIO_BUTTON_SAVE_PNM16_AS_ASCII
 msgid "Save 16bit pnm in ascii format"
-msgstr "Speichere 16bit pnm im ASCII-Format"
+msgstr "Bewaar 16 bit PNM in ASCII formaat"
 
 #. RADIO_BUTTON_REDUCE_16BIT_TO_8BIT
 msgid "Reduce 16 bit image to 8 bit"
-msgstr "Reduziere 16 Bit Bild auf 8 Bit"
+msgstr "16 bits afbeelding reduceren naar 8 bits"
 
 #. RADIO_BUTTON_WINDOW_FIXED
 msgid "Main window size fixed"
-msgstr "Feste Hauptfenstergröße"
+msgstr "Vaste hoofdvenstergrootte"
 
 #. RADIO_BUTTON_DISABLE_GIMP_PREVIEW_GAMMA
 msgid "Disable gimp preview gamma"
-msgstr "Vorschau-Gamma für Gimp deaktivieren"
+msgstr "Preview gamma voor Gimp deactiveren"
 
 #. RADIO_BUTTON_PRIVATE_COLORMAP
 msgid "Use private colormap"
-msgstr "Benutze eigene Farbpalette"
+msgstr "Gebruik eigen kleurenpallet"
 
 #. RADIO_BUTTON_AUTOENHANCE_GAMMA
 msgid "Autoenhance gamma"
-msgstr "Automatische Gammakorrektur"
+msgstr "Automatisch gamma verbeteren"
 
 #. RADIO_BUTTON_PRESELECT_SCANAREA
 msgid "Preselect scanarea"
-msgstr "Scanbereich automatisch wählen"
+msgstr "Automatisch scangebied selecteren"
 
 #. RADIO_BUTTON_AUTOCORRECT_COLORS
 msgid "Autocorrect colors"
-msgstr "Automatische Farbkorrektur"
+msgstr "Automatisch kleuren verbeteren"
 
 #. RADIO_BUTTON_POP3_AUTHENTIFICATION
 msgid "POP3 authentification"
-msgstr "POP3 Authentifizierung"
+msgstr "POP3 legalisatie"
 
 #. RADIO_BUTTON_OCR_USE_GUI_PIPE
 msgid "Use GUI progress pipe"
-msgstr "Benutze GUI Fortschritts Pipe"
+msgstr "Gebruik GUI progressie pipe"
 
 #. TEXT_SCANNING_DEVICES
 msgid "scanning for devices"
-msgstr "Suche nach Geräten"
+msgstr "Zoeken naar apparaten"
 
 #. TEXT_AVAILABLE_DEVICES
 msgid "Available devices:"
-msgstr "Erreichbare Geräte:"
+msgstr "Bruikbare apparaten:"
 
 #. TEXT_XSANE_OPTIONS
 msgid "XSane options"
-msgstr "XSane Optionen"
+msgstr "XSane opties"
 
 #. TEXT_XSANE_MODE
 msgid "XSane mode"
-msgstr "XSane Modus"
+msgstr "XSane mode"
 
 #. TEXT_FILENAME_COUNTER_STEP
 msgid "Step"
-msgstr "Schritt"
+msgstr "Stap"
 
 #. TEXT_FILETYPE
 msgid "Type"
-msgstr "Typ"
+msgstr "Type"
 
 #. TEXT_SCANNER_BACKEND
 msgid "Scanner and backend:"
-msgstr "Scanner und Backends"
+msgstr "Scanner en backend:"
 
 #. TEXT_VENDOR
 msgid "Vendor:"
-msgstr "Hersteller:"
+msgstr "Gemaakt door:"
 
 #. TEXT_MODEL
 msgid "Model:"
-msgstr "Modell:"
+msgstr "Model:"
 
 #. TEXT_TYPE
 msgid "Type:"
-msgstr "Typ:"
+msgstr "Type:"
 
 #. TEXT_DEVICE
 msgid "Device:"
-msgstr "Gerät:"
+msgstr "Apparaat:"
 
 #. TEXT_LOADED_BACKEND
 msgid "Loaded backend:"
-msgstr "Geladenes Backend:"
+msgstr "Geladen backend:"
 
 #. TEXT_SANE_VERSION
 msgid "Sane version:"
-msgstr "sane Version:"
+msgstr "Sane versie:"
 
 #. TEXT_RECENT_VALUES
 msgid "Recent values:"
-msgstr "Aktuelle Werte:"
+msgstr "Recente waarden:"
 
 #. TEXT_GAMMA_CORR_BY
 msgid "Gamma correction by:"
-msgstr "Gammakorrektur durch:"
+msgstr "Gammakorrectie door:"
 
 #. TEXT_SCANNER
 msgid "scanner"
-msgstr "Scanner"
+msgstr "scanner"
 
 #. TEXT_SOFTWARE_XSANE
 msgid "software (XSane)"
-msgstr "Software (XSane)"
+msgstr "software (XSane)"
 
 #. TEXT_NONE
 msgid "none"
-msgstr "keine"
+msgstr "geen"
 
 #. TEXT_GAMMA_INPUT_DEPTH
 msgid "Gamma input depth:"
-msgstr "Bittiefe Gammaeingabe:"
+msgstr "Bits in gamma invoer:"
 
 #. TEXT_GAMMA_OUTPUT_DEPTH
 msgid "Gamma output depth:"
-msgstr "Bittiefe Gammaausgabe:"
+msgstr "Bits in gamma uitvoer:"
 
 #. TEXT_SCANNER_OUTPUT_DEPTH
 msgid "Scanner output depth:"
-msgstr "Bittieffe Scannerausgabe:"
+msgstr "Bits in scanner uitvoer:"
 
 #. TEXT_OUTPUT_FORMATS
 msgid "XSane output formats:"
-msgstr "XSane Ausgabeformate:"
+msgstr "XSane uitvoerformaten:"
 
 #. TEXT_8BIT_FORMATS
 msgid "8 bit output formats:"
-msgstr "8 Bit Ausgabeformate:"
+msgstr "8 bits uitvoerformaten:"
 
 #. TEXT_16BIT_FORMATS
 msgid "16 bit output formats:"
-msgstr "16 Bit Ausgabeformate:"
+msgstr "16 bits uitvoerformaten:"
 
 #. TEXT_GIMP_REDUCE_16BIT_TO_8BIT
 msgid ""
 "Gimp does not support depth 16 bits/color.\n"
 "Do you want to reduce the depth to 8 bits/color?"
 msgstr ""
-"Gimp unterstützt die Bittiefe 16Bits/Farbe nicht.\n"
-"Möchten Sie die Bittiefe auf 8 Bits/Farbe reduzieren?"
+"Gimp kan geen 16 bits kleurdiepte aan.\n"
+"Wil je de diepte reduceren naar 8 bits?"
 
 #. TEXT_REDUCE_16BIT_TO_8BIT
 msgid ""
 "Bit depth 16 bits/color is not supported for this output format.\n"
 "Do you want to reduce the depth to 8 bits/color?"
 msgstr ""
-"Die Bittiefe 16Bits/Farbe wird von diesem Ausgabeformat nicht unterstützt.\n"
-"Möchten Sie die Bittiefe auf 8 Bits/Farbe reduzieren?"
+"Dit uitvoerformaat kan geen 16 bits kleurdiepte aan.\n"
+"Wil je de diepte reduceren naar 8 bits?"
 
 #. TEXT_AUTHORIZATION_REQ
 msgid "Authorization required for"
-msgstr "Autorisation benötigt für"
+msgstr "Authorizatie benodigd voor"
 
 #. TEXT_AUTHORIZATION_SECURE
 msgid "Password transmission is secure"
-msgstr "Passwortübertragung ist sicher"
+msgstr "Paswoordoverdracht is veilig"
 
 #. TEXT_AUTHORIZATION_INSECURE
 msgid "Backend requests plain-text password"
-msgstr "Backend erbittet unverschlüsseltes Passwort"
+msgstr "Backend vraagt om een onbeveiligd paswoord"
 
 #. TEXT_USERNAME
 msgid "Username :"
-msgstr "Benutzername:"
+msgstr "Gebruikersnaam:"
 
 #. TEXT_PASSWORD
 msgid "Password :"
-msgstr "Passwort:"
+msgstr "Paswoord:"
 
 #. TEXT_INVALID_PARAMS
 msgid "Invalid parameters."
-msgstr "Ungültige Parameter"
+msgstr "Ongeldige parameters."
 
 #. TEXT_VERSION
 msgid "version:"
-msgstr "Version:"
+msgstr "versie:"
 
 #. TEXT_PACKAGE
 msgid "package"
-msgstr "Paket"
+msgstr "pakket"
 
 #. TEXT_WITH_GIMP_SUPPORT
 msgid "with GIMP support"
-msgstr "mit GIMP-Unterstützung"
+msgstr "met GIMP ondersteuning"
 
 #. TEXT_WITHOUT_GIMP_SUPPORT
 msgid "without GIMP support"
-msgstr "ohne GIMP-Unterstützung"
+msgstr "zonder GIMP ondersteuning"
 
 #. TEXT_GTK_VERSION
 msgid "compiled with GTK-"
-msgstr "übersetzt mit GTK-"
+msgstr "gecompileerd met GTK-"
 
 #. TEXT_GIMP_VERSION
 msgid "compiled with GIMP-"
-msgstr "übersetzt mit GIMP-"
+msgstr "gecompileerd met GIMP-"
 
 #. TEXT_UNKNOWN
 msgid "unknown"
-msgstr "unbekannt"
+msgstr "onbekend"
 
+# TBD
 #. TEXT_EULA
 msgid ""
 "XSane is distributed under the terms of the GNU General Public License\n"
@@ -653,19 +659,19 @@ msgid ""
 "have to read, understand and accept the following\n"
 "\"NO WARRANTY\" agreement.\n"
 msgstr ""
-"XSane wird unter den Bedingungen der GNU General Public Licence, wie\n"
-"von der Free Software Foundation veröffentlicht, herausgegeben, entweder\n"
-"Version 2 der Lizenz, oder (wenn Sie wünschen) jeder späteren Version.\n"
+"XSane wordt gedistribueerd onder de voorwaarden van de GNU General Public\n"
+"License, zoals gepubliseerd door de Free Software Foundation; hetzij\n"
+"versie 2 van de licentie of (naar keuze) iedere latere versie\n"
 "\n"
-"Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es\n"
-"Ihnen von Nutzen sein wird, aber OHNE JEDE GEWÄHRLEISTUNG\n"
-"- sogar ohne die implizite Gewährleistung der MARKTREIFE oder der\n"
-"EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sollte das Programm einen\n"
-"Schaden verursachen, dann tragen Sie - der Benutzer - die Kosten\n"
-"für alle notwendigen Dienstleistungen, Reparaturen oder Korrekturen.\n"
-"Um dieses Programm zu benutzen, haben Sie die folgende Vereinbarung\n"
-"über den Haftungsausschluß zu lesen, zu verstehen und zu akzeptieren.\n"
+"Dit programma wordt gedistribueerd in de hoop dat het nuttig is, maar\n"
+"ZONDER ENIGE GARANTIE; zelfs zonder de impliciete garantie van \n"
+"VERHANDELBAARHEID of de BRUIKBAARHEID VOOR EEN SPECIAAL DOEL.\n"
+"Als het programma defekt blijkt, dan zijn onderhouds-, reparatie- en\n"
+"verbeteringskosten voor eigen rekening. Om dit programma te gebruiken moet\n"
+"je de volgende \"GEEN GARANTIE\" verklaring gelezen, begrepen en\n"
+"geaccepteerd hebben.\n"
 
+# TBD
 #. TEXT_GPL
 msgid ""
 "XSane is distributed under the terms of the GNU General Public License\n"
@@ -676,18 +682,20 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of\n"
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"XSane wird unter den Bedingungen der GNU General Public Licence, wie\n"
-"von der Free Software Foundation veröffentlicht, herausgegeben, entweder\n"
-"Version 2 der Lizenz, oder (wenn Sie wünschen) jeder späteren Version.\n"
+"XSane wordt gedistribueerd onder de voorwaarden van de GNU General Public\n"
+"License, zoals gepubliseerd door de Free Software Foundation; hetzij versie "
+"2\n"
+"van de licentie of (naar keuze) iedere latere versie\n"
 "\n"
-"Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es\n"
-"Ihnen von Nutzen sein wird, aber OHNE JEDE GEWÄHRLEISTUNG\n"
-"- sogar ohne die implizite Gewährleistung der MARKTREIFE oder der\n"
-"EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.\n"
+"Dit programma wordt gedistribueerd in de hoop dat het nuttig is, maar "
+"ZONDER\n"
+"ENIGE GARANTIE; zelfs zonder de impliciete garantie van VERHANDELBAARHEID of "
+"de\n"
+"BRUIKBAARHEID VOOR EEN SPECIAAL DOEL.\n"
 
 #. TEXT_EMAIL
 msgid "Email:"
-msgstr "E-Mail:"
+msgstr "E-mail:"
 
 #. TEXT_HOMEPAGE
 msgid "Homepage:"
@@ -695,11 +703,11 @@ msgstr "Homepage:"
 
 #. TEXT_FILE
 msgid "File:"
-msgstr "Datei:"
+msgstr "Bestand:"
 
 #. TEXT_TRANSLATION
 msgid "Translation:"
-msgstr "Übersetzung:"
+msgstr "Vertaling:"
 
 #. Please translate this to something like
 #. translation to YOUR LANGUAGE\n
@@ -711,9 +719,9 @@ msgid ""
 "by Oliver Rauch\n"
 "Email: Oliver.Rauch@rauch-domain.de\n"
 msgstr ""
-"Übersetzung ins Deutsche\n"
-"von Oliver Rauch\n"
-"Email: Oliver.Rauch@rauch-domain.de\n"
+"Vertaling naar het Nederlands\n"
+"door Wim Sinke\n"
+"E-mail: sinke@wirehub.nl\n"
 
 #. TEXT_INFO_BOX
 msgid "0x0: 0KB"
@@ -721,651 +729,652 @@ msgstr "0x0: 0KB"
 
 #. TEXT_ADF_PAGES_SCANNED
 msgid "Scanned pages: "
-msgstr "gescannte Seiten: "
+msgstr "Gescande paginas: "
 
 #. TEXT_MAIL_TEXT
 msgid "Email text:"
-msgstr "E-Mail Text:"
+msgstr "E-mail tekst:"
 
 #. TEXT_ATTACHMENTS
 msgid "Attachments:"
-msgstr "Anhang:"
+msgstr "Aanhangsels:"
 
 #. TEXT_MAIL_STATUS
 msgid "Project status:"
-msgstr "Projekt Status:"
+msgstr "Projectstatus:"
 
 #. TEXT_MAIL_FILETYPE
 msgid "Mail image filetype:"
-msgstr ""
+msgstr "E-mail afbeelding bestandstype:"
 
 #. TEXT_MEDIUM_DEFINITION_NAME
 msgid "Medium Name:"
-msgstr "Medium Name:"
+msgstr "Naam medium:"
 
 #. TEXT_VIEWER_IMAGE_INFO
 #, c-format
 msgid ""
 "Size %d x %d pixel, %d bit/color, %d colors, %1.0f dpi x %1.0f dpi, %1.1f %s"
 msgstr ""
-"Größe %d x %d Punkte, %d Bit/Farbe, %d Farben, %1.0f dpi x %1.0f dpi, %1.1f %"
-"s"
+"Grootte %d x %d pixels, %d bit/kleur, %d kleuren, %1.0f dpi x %1.0f dpi, %"
+"1.1f %s"
 
 #. TEXT_DESPECKLE_RADIUS
 msgid "Despeckle radius:"
-msgstr "Entflecken Radius:"
+msgstr "Ontspikkelradius:"
 
 #. TEXT_BLUR_RADIUS
 msgid "Blur radius:"
-msgstr "Weichzeichnen Radius:"
+msgstr "Vervagingsradius:"
 
 #. TEXT_BATCH_AREA_DEFAULT_NAME
 msgid "(no name)"
-msgstr "(kein Name)"
+msgstr "(geen naam)"
 
 #. TEXT_BATCH_LIST_AREANAME
 msgid "Area name:"
-msgstr "Bereichsname:"
+msgstr "Naam van gebied:"
 
 #. TEXT_BATCH_LIST_SCANMODE
 msgid "Scanmode:"
-msgstr "Scanmodus:"
+msgstr "XSane mode"
 
 #. TEXT_BATCH_LIST_GEOMETRY_TL
 msgid "Top left:"
-msgstr "Oben links:"
+msgstr "Linksboven:"
 
 #. TEXT_BATCH_LIST_GEOMETRY_SIZE
 msgid "Size:"
-msgstr "Größe:"
+msgstr "Grootte:"
 
 #. TEXT_BATCH_LIST_RESOLUTION
 msgid "Resolution:"
-msgstr "Auflösung:"
+msgstr "Resolutie:"
 
 #. TEXT_BATCH_LIST_BIT_DEPTH
 msgid "Bit depth:"
-msgstr "Bittiefe:"
+msgstr "Bits diepte:"
 
 #. TEXT_BATCH_LIST_BY_GUI
 msgid "as selected"
-msgstr "wie ausgewählt"
+msgstr "zoals geselecteerd"
 
 #. TEXT_SETUP_PRINTER_SEL
 msgid "Printer selection:"
-msgstr "Druckerauswahl:"
+msgstr "Printerselectie:"
 
 #. TEXT_SETUP_PRINTER_NAME
 msgid "Name:"
-msgstr "Name:"
+msgstr "Naam:"
 
 #. TEXT_SETUP_PRINTER_CMD, TEXT_SETUP_FAX_CMD
 msgid "Command:"
-msgstr "Befehl:"
+msgstr "Commando:"
 
 #. TEXT_SETUP_COPY_NR_OPT
 msgid "Copy number option:"
-msgstr "Option for Anzahl der Kopien:"
+msgstr "Aantal kopi�en optie:"
 
 #. TEXT_SETUP_PRINTER_LINEART_RES
 msgid "Lineart resolution (dpi):"
-msgstr "Lineart Auflösung (dpi):"
+msgstr "Zwart-wit resolutie (dpi):"
 
 #. TEXT_SETUP_PRINTER_GRAYSCALE_RES
 msgid "Grayscale resolution (dpi):"
-msgstr "Graustufen Auflösung (dpi):"
+msgstr "Grijswaarde resolutie (dpi):"
 
 #. TEXT_SETUP_PRINTER_COLOR_RES
 msgid "Color resolution (dpi):"
-msgstr "Farb-Auflösung (dpi):"
+msgstr "Kleur resolutie (dpi):"
 
 #. TEXT_SETUP_PRINTER_WIDTH
 msgid "Width"
-msgstr "Breite"
+msgstr "Breedte"
 
 #. TEXT_SETUP_PRINTER_HEIGHT
 msgid "Height"
-msgstr "Höhe"
+msgstr "Hoogte"
 
 #. TEXT_SETUP_PRINTER_LEFT
 msgid "Left offset"
-msgstr "Linker Rand"
+msgstr "Linker rand"
 
 #. TEXT_SETUP_PRINTER_BOTTOM
 msgid "Bottom offset"
-msgstr "Unterer Rand"
+msgstr "Onderrand"
 
 #. TEXT_SETUP_PRINTER_GAMMA
 msgid "Printer gamma value:"
-msgstr "Drucker Gammawert:"
+msgstr "Printer gammawaarde:"
 
 #. TEXT_SETUP_PRINTER_GAMMA_RED
 msgid "Printer gamma red:"
-msgstr "Drucker Gammawert rot:"
+msgstr "Printer gammawaarde rood:"
 
 #. TEXT_SETUP_PRINTER_GAMMA_GREEN
 msgid "Printer gamma green:"
-msgstr "Drucker Gammawert grün:"
+msgstr "Printer gammawaarde groen:"
 
 #. TEXT_SETUP_PRINTER_GAMMA_BLUE
 msgid "Printer gamma blue:"
-msgstr "Drucker Gammawert blau:"
+msgstr "Printer gammawaarde blauw:"
 
 #. TEXT_SETUP_TMP_PATH
 msgid "Temporary directory"
-msgstr "Temporäres Verzeichnis"
+msgstr "Tijdelijke map"
 
 #. TEXT_SETUP_IMAGE_PERMISSION
 msgid "Image-file permissions"
-msgstr "Bilddatei-Rechte"
+msgstr "Bestandspermissies afbeelding"
 
 #. TEXT_SETUP_DIR_PERMISSION
 msgid "Directory permissions"
-msgstr "Verzeichnisrechte"
+msgstr "Mappermissies"
 
 #. TEXT_SETUP_JPEG_QUALITY
 msgid "JPEG image quality"
-msgstr "JPEG Bildqualität"
+msgstr "JPEG kwaliteit"
 
 #. TEXT_SETUP_PNG_COMPRESSION
 msgid "PNG image compression"
-msgstr "PNG Bildkompression"
+msgstr "PNG compressie"
 
 #. TEXT_SETUP_FILENAME_COUNTER_LEN
 msgid "Filename counter length"
-msgstr "Dateinamenzähler Länge"
+msgstr "Bestandsnaamteller lengte"
 
 #. TEXT_SETUP_TIFF_COMPRESSION_16
 msgid "TIFF 16 bit image compression"
-msgstr "TIFF 16 bit Bildkompression"
+msgstr "TIFF 16 bit compressie"
 
 #. TEXT_SETUP_TIFF_COMPRESSION_8
 msgid "TIFF 8 bit image compression"
-msgstr "TIFF 8 bit Bildkompression"
+msgstr "TIFF 8 bit compressie"
 
 #. TEXT_SETUP_TIFF_COMPRESSION_1
 msgid "TIFF lineart image compression"
-msgstr "TIFF lineart Bildkompression"
+msgstr "TIFF lineart compressie"
 
 #. TEXT_SETUP_SHOW_RANGE_MODE
 msgid "Show range as:"
-msgstr "Zeige Bereich als:"
+msgstr "Bekijk range als:"
 
 #. TEXT_SETUP_PREVIEW_OVERSAMPLING
 msgid "Preview oversampling:"
-msgstr "Vorschau Oversampling:"
+msgstr "Preview oversampling:"
 
 #. TEXT_SETUP_PREVIEW_GAMMA
 msgid "Preview gamma:"
-msgstr "Vorschau Gamma:"
+msgstr "Preview gamma:"
 
 #. TEXT_SETUP_PREVIEW_GAMMA_RED
 msgid "Preview gamma red:"
-msgstr "Vorschau Gamma rot:"
+msgstr "Preview gamma rood:"
 
 #. TEXT_SETUP_PREVIEW_GAMMA_GREEN
 msgid "Preview gamma green:"
-msgstr "Vorschau Gamma grün:"
+msgstr "Preview gamma groen:"
 
 #. TEXT_SETUP_PREVIEW_GAMMA_BLUE
 msgid "Preview gamma blue:"
-msgstr "Vorschau Gamma blau:"
+msgstr "Preview gamma blauw:"
 
 #. TEXT_SETUP_LINEART_MODE
 msgid "Threshold option:"
-msgstr "Schwellwert Option:"
+msgstr "Drempelwaarde optie:"
 
 #. TEXT_SETUP_ADF_MODE
 msgid "Automatic Document Feeder Modus:"
-msgstr "Modus automatischer Dokumenteneinzug:"
+msgstr "Automatische document invoer mode:"
 
 #. TEXT_SETUP_PREVIEW_PIPETTE_RANGE
 msgid "Preview pipette range"
-msgstr "Vorschau Bereich Pipette"
+msgstr "Preview pipetbereik"
 
 #. TEXT_SETUP_THRESHOLD_MIN
 msgid "Threshold minimum:"
-msgstr "Schwellwert Minimum:"
+msgstr "Drempelwaarde minimum:"
 
 #. TEXT_SETUP_THRESHOLD_MAX
 msgid "Threshold maximum:"
-msgstr "Schwellwert Maximum:"
+msgstr "Drempelwaarde maximum:"
 
 #. TEXT_SETUP_THRESHOLD_MUL
 msgid "Threshold multiplier:"
-msgstr "Schwellwert Multiplikator:"
+msgstr "Drempelwaarde multiplicator:"
 
 #. TEXT_SETUP_THRESHOLD_OFF
 msgid "Threshold offset:"
-msgstr "Schwellwert Verschiebung:"
+msgstr "Drempelwaarde verschuiving:"
 
 #. TEXT_SETUP_GRAYSCALE_SCANMODE
 msgid "Name of grayscale scanmode:"
-msgstr "Name des Scanodus \"Graustufen\":"
+msgstr "Naam van grijswaarde scanmodus:"
 
 #. TEXT_SETUP_HELPFILE_VIEWER
 msgid "Helpfile viewer (HTML):"
-msgstr "Hilfedatei Betrachter (HTML):"
+msgstr "Hulpbestand bekijker (HTML):"
 
 #. TEXT_SETUP_FAX_RECEIVER_OPTION
 msgid "Receiver option:"
-msgstr "Option für Empfängernummer"
+msgstr "Ontvanger optie:"
 
 #. TEXT_SETUP_FAX_POSTSCRIPT_OPT
 msgid "Postscriptfile option:"
-msgstr "Option für Postscriptdatei:"
+msgstr "PostScriptbestand optie:"
 
 #. TEXT_SETUP_FAX_NORMAL_MODE_OPT
 msgid "Normal mode option:"
-msgstr "Option für Normalmodus:"
+msgstr "Normale modus optie:"
 
 #. TEXT_SETUP_FAX_FINE_MODE_OPT
 msgid "Fine mode option:"
-msgstr "Option für Feinmodus:"
+msgstr "Fijne modus optie:"
 
 #. TEXT_SETUP_FAX_PROGRAM_DEFAULTS
 msgid "Set program defaults for:"
-msgstr "Setze Standardwerte für folgendes Programm"
+msgstr "Geef programma standaardwaarden:"
 
 #. TEXT_SETUP_FAX_VIEWER
 msgid "Viewer (Postscript):"
-msgstr "Betrachter (Postscript):"
+msgstr "Bekijkprogramma (PostScript):"
 
 #. TEXT_SETUP_SMTP_SERVER
 msgid "SMTP server:"
-msgstr "SMTP Server:"
+msgstr "SMTP server:"
 
 #. TEXT_SETUP_SMTP_PORT
 msgid "SMTP port:"
-msgstr "SMTP Server:"
+msgstr "SMTP port:"
 
 #. TEXT_SETUP_MAIL_FROM
 msgid "From:"
-msgstr "Von:"
+msgstr "Van:"
 
 #. TEXT_SETUP_MAIL_REPLY_TO
 msgid "Reply to:"
-msgstr "Antwort an:"
+msgstr "Antwoord aan:"
 
 #. TEXT_SETUP_POP3_SERVER
 msgid "POP3 server:"
-msgstr "POP3 Server:"
+msgstr "POP3 server:"
 
 #. TEXT_SETUP_POP3_PORT
 msgid "POP3 port:"
-msgstr "POP3 Port:"
+msgstr "POP3 port:"
 
 #. TEXT_SETUP_POP3_USER
 msgid "POP3 user:"
-msgstr "POP3 Benutzer:"
+msgstr "POP3 gebruiker:"
 
 #. TEXT_SETUP_POP3_PASS
 msgid "POP3 password:"
-msgstr "POP3 Passwort:"
+msgstr "POP3 paswoord:"
 
 #. TEXT_SETUP_MAIL_VIEWER
 msgid "Viewer (png):"
-msgstr "Betrachter (png):"
+msgstr "Bekijkprogramma (png):"
 
 #. TEXT_SETUP_OCR_COMMAND
 msgid "OCR Command:"
-msgstr "OCR Befehl:"
+msgstr "Tekstherkennings- (OCR) commando:"
 
 #. TEXT_SETUP_OCR_INPUTFILE_OPT
 msgid "Inputfile option:"
-msgstr "Option für Eingabedatei:"
+msgstr "Invoeroptie:"
 
 #. TEXT_SETUP_OCR_OUTPUTFILE_OPT
 msgid "Outputfile option:"
-msgstr "Option für Ausgabedatei:"
+msgstr "Uitvoeroptie:"
 
 #. TEXT_SETUP_OCR_USE_GUI_PIPE_OPT
 msgid "Use GUI progress pipe:"
-msgstr "Benutze GUI Fortschritts-Pipe"
+msgstr "Gebruik GUI progressie pipe:"
 
 #. TEXT_SETUP_OCR_OUTFD_OPT
 msgid "GUI output-fd option:"
-msgstr "GUI Ausgabe-fd Option:"
+msgstr "GUI uitvoer-fd optie:"
 
 #. TEXT_SETUP_OCR_PROGRESS_KEYWORD
 msgid "Progress keyword:"
-msgstr "Fortschritts-Schluesselwort:"
+msgstr "Progressie sleutel:"
 
 #. TEXT_SETUP_PERMISSION_USER
 msgid "user"
-msgstr "Benutzer"
+msgstr "gebruiker"
 
 #. TEXT_SETUP_PERMISSION_GROUP
 msgid "group"
-msgstr "Gruppe"
+msgstr "groep"
 
 #. TEXT_SETUP_PERMISSION_ALL
 msgid "all"
-msgstr "Alle"
+msgstr "allemaal"
 
 msgid "new media"
-msgstr ""
+msgstr "nieuwe media"
 
 #. NOTEBOOK_SAVING_OPTIONS
 msgid "Save"
-msgstr "Speichern"
+msgstr "Opslaan"
 
 #. NOTEBOOK_IMAGE_OPTIONS
 msgid "Image"
-msgstr "Bild"
+msgstr "Afbeelding"
 
 #. NOTEBOOK_COPY_OPTIONS
 msgid "Copy"
-msgstr "Photokopie"
+msgstr "Kopi�ren"
 
 #. NOTEBOOK_FAX_OPTIONS
 msgid "Fax"
-msgstr "Fax"
+msgstr "Faxen"
 
 #. NOTEBOOK_MAIL_OPTIONS
 msgid "Mail"
-msgstr "E-Mail"
+msgstr "E-mailen"
 
 #. NOTEBOOK_OCR_OPTIONS
 msgid "OCR"
-msgstr "Texterkennung"
+msgstr "Tekstherkenning (OCR)"
 
 #. NOTEBOOK_DISPLAY_OPTIONS
 msgid "Display"
-msgstr "Darstellung"
+msgstr "Bekijk"
 
 #. NOTEBOOK_ENHANCE_OPTIONS
 msgid "Enhancement"
-msgstr "Verbesserungen"
+msgstr "Verbetering"
 
 #. MENU_ITEM_MAIL
 msgid "Email"
-msgstr "E-Mail"
+msgstr "E-mail"
 
 #. MENU_ITEM_SHOW_TOOLTIPS
 msgid "Show tooltips"
-msgstr "Zeige Tipps"
+msgstr "Laat tips zien"
 
 #. MENU_ITEM_SHOW_PREVIEW
 msgid "Show preview"
-msgstr "Zeige Vorschau"
+msgstr "Laat preview zien"
 
 #. MENU_ITEM_SHOW_HISTOGRAM
 msgid "Show histogram"
-msgstr "Zeige Histogramm"
+msgstr "Laat histogram zien"
 
 #. MENU_ITEM_SHOW_GAMMA
 msgid "Show gamma curve"
-msgstr "Zeige Gammakurve"
+msgstr "Laat gammakromme zien"
 
+# 
 #. MENU_ITEM_SHOW_BATCH_SCAN
 msgid "Show batch scan"
-msgstr "Zeige Stapelliste"
+msgstr "Batch scan tonen"
 
 #. MENU_ITEM_SHOW_STANDARDOPTIONS
 msgid "Show standard options"
-msgstr "Zeige Standardoptionen"
+msgstr "Laat standaard opties zien"
 
 #. MENU_ITEM_SHOW_ADVANCEDOPTIONS
 msgid "Show advanced options"
-msgstr "Zeige erweiterte Optionen"
+msgstr "Laat geavanceerde opties zien"
 
 #. MENU_ITEM_SETUP
 msgid "Setup"
-msgstr "Konfiguration"
+msgstr "Configuratie"
 
 #. MENU_ITEM_LENGTH_UNIT
 msgid "Length unit"
-msgstr "Längeneinheit"
+msgstr "Lengteeenheid"
 
 #. SUBMENU_ITEM_LENGTH_MILLIMETERS
 msgid "millimeters"
-msgstr "Millimeter"
+msgstr "millimeter"
 
 #. SUBMENU_ITEM_LENGTH_CENTIMETERS
 msgid "centimeters"
-msgstr "Zentimeter"
+msgstr "centimeter"
 
 #. SUBMENU_ITEM_LENGTH_INCHES
 msgid "inches"
-msgstr "Zoll"
+msgstr "inch"
 
 #. MENU_ITEM_UPDATE_POLICY
 msgid "Update policy"
-msgstr "Aktualisierung"
+msgstr "Bijwerk beleid"
 
 #. SUBMENU_ITEM_POLICY_CONTINUOUS
 msgid "continuous"
-msgstr "kontinuierlich"
+msgstr "continue"
 
 #. SUBMENU_ITEM_POLICY_DISCONTINU
 msgid "discontinuous"
-msgstr "diskontinuierlich"
+msgstr "niet continue"
 
 #. SUBMENU_ITEM_POLICY_DELAYED
 msgid "delayed"
-msgstr "verzögert"
+msgstr "vertraagd"
 
 #. MENU_ITEM_SHOW_RESOLUTIONLIST
 msgid "Show resolution list"
-msgstr "Zeige Auflösungsliste"
+msgstr "Laat resolutie lijst zien"
 
 #. MENU_ITEM_PAGE_ROTATE
 msgid "Rotate postscript"
-msgstr "Drehe Postscript"
+msgstr "Draai PostScript"
 
 #. MENU_ITEM_EDIT_MEDIUM_DEF
 msgid "Edit medium definition"
-msgstr "Mediumdefinition ändern"
+msgstr "Verander mediumdefinitie"
 
 #. MENU_ITEM_SAVE_DEVICE_SETTINGS
 msgid "Save device settings"
-msgstr "Speichere Geräteeinstellungen"
+msgstr "Bewaar apparaatinstellingen"
 
 #. MENU_ITEM_LOAD_DEVICE_SETTINGS
 msgid "Load device settings"
-msgstr "Lade Geräteeinstellungen"
+msgstr "Laad apparaatinstellingen"
 
 #. MENU_ITEM_CHANGE_WORKING_DIR
 msgid "Change directory"
-msgstr "Arbeitsverzeichnis ändern"
+msgstr "Verander map"
 
 #. MENU_ITEM_XSANE_EULA
 msgid "Show EULA"
-msgstr "Zeige Endbenutzervereinbarung"
+msgstr "Gebruikersovereenkomst (EULA)"
 
 #. MENU_ITEM_XSANE_GPL
 msgid "Show license (GPL)"
-msgstr "Zeige Lizenz (GPL)"
+msgstr "Licentie (GPL)"
 
 #. MENU_ITEM_XSANE_DOC
 msgid "XSane doc"
-msgstr "XSane Anleitung"
+msgstr "XSane documentatie"
 
 #. MENU_ITEM_BACKEND_DOC
 msgid "Backend doc"
-msgstr "Backend Anleitung"
+msgstr "Backend documentatie"
 
 #. MENU_ITEM_AVAILABLE_BACKENDS
 msgid "Available backends"
-msgstr "Erreichbare Backends"
+msgstr "Beschikbare backends"
 
 #. MENU_ITEM_SCANTIPS
 msgid "Scantips"
-msgstr "Scantipps"
+msgstr "Scantips"
 
 #. MENU_ITEM_PROBLEMS
 msgid "Problems?"
-msgstr "Probleme?"
+msgstr "Problemen?"
 
 #. MENU_ITEM_COUNTER_LEN_INACTIVE
 msgid "inactive"
-msgstr "nicht aktiv"
+msgstr "inactief"
 
 #. MENU_ITEM_TIFF_COMP_NONE
 msgid "no compression"
-msgstr "keine Kompression"
+msgstr "geen compressie"
 
 #. MENU_ITEM_TIFF_COMP_CCITTRLE
 msgid "CCITT 1D Huffman compression"
-msgstr "CCITT 1D Huffman Kompression"
+msgstr "CCITT 1D Huffman compressie"
 
 #. MENU_ITEM_TIFF_COMP_CCITFAX3
 msgid "CCITT Group 3 Fax compression"
-msgstr "CCITT Gruppe 3 Fax Kompression"
+msgstr "CCITT Group 3 Fax compressie"
 
 #. MENU_ITEM_TIFF_COMP_CCITFAX4
 msgid "CCITT Group 4 Fax compression"
-msgstr "CCITT Gruppe 4 Fax Kompression"
+msgstr "CCITT Group 4 Fax compressie"
 
 #. MENU_ITEM_TIFF_COMP_JPEG
 msgid "JPEG DCT compression"
-msgstr "JPEG DCT Kompression"
+msgstr "JPEG DCT compressie"
 
 #. MENU_ITEM_TIFF_COMP_PACKBITS
 msgid "pack bits"
-msgstr "gepackte Bits"
+msgstr "gepackte bits"
 
 #. MENU_ITEM_RANGE_SCALE
 msgid "Slider (Scale)"
-msgstr "Schieber (Scale)"
+msgstr "Slider (Vergroting)"
 
 #. MENU_ITEM_RANGE_SCROLLBAR
 msgid "Slider (Scrollbar)"
-msgstr "Schieber (Scrollbalken)"
+msgstr "Slider (Scrollbar)"
 
 #. MENU_ITEM_RANGE_SPINBUTTON
 msgid "Spinbutton"
-msgstr "Drehknopf"
+msgstr "Spinbutton"
 
 #. MENU_ITEM_RANGE_SCALE_SPIN
 msgid "Scale and Spinbutton"
-msgstr "Scale und Drehknopf"
+msgstr "Scale en Spinbutton"
 
 #. MENU_ITEM_RANGE_SCROLL_SPIN
 msgid "Scrollbar and Spinbutton"
-msgstr "Scrollbalken und Drehknopf"
+msgstr "Scrollbar en Spinbutton"
 
 #. MENU_ITEM_LINEART_MODE_STANDARD
 msgid "Standard options window (lineart)"
-msgstr "Standard Optionen Fenster (b/w)"
+msgstr "Standaard opties venster (z/w)"
 
 #. MENU_ITEM_LINEART_MODE_XSANE
 msgid "XSane main window (lineart)"
-msgstr "XSane Hauptfenster (b/w)"
+msgstr "XSane hoofdvenster (z/w)"
 
 #. MENU_ITEM_LINEART_MODE_GRAY
 msgid "XSane main window (grayscale->lineart)"
-msgstr "XSane Hauptfenster (grau->b/w)"
+msgstr "XSane hoofvenster (grijs->z/w)"
 
 #. MENU_ITEM_SELECTION_NONE
 msgid "(none)"
-msgstr "(nichts)"
+msgstr "(geen)"
 
 #. MENU_ITEM_FILETYPE_BY_EXT
 msgid "by ext"
-msgstr "nach Erw"
+msgstr "zoals extentie"
 
 #. MENU_ITEM_PRESET_AREA_ADD_SEL
 msgid "Add selection to list"
-msgstr "Auswahl zur Liste hinzufügen"
+msgstr "Voeg selectie toe aan lijst"
 
 #. MENU_ITEM_MEDIUM_ADD
 msgid "Add medium definition"
-msgstr "Mediumdefinition hinzufügen"
+msgstr "Mediumdefinitie toevoegen"
 
 #. MENU_ITEM_RENAME
 msgid "Rename item"
-msgstr "Eintrag umbenennen"
+msgstr "Element hernoemen"
 
 #. MENU_ITEM_DELETE
 msgid "Delete item"
-msgstr "Eintrag löschen"
+msgstr "Element verwijderen"
 
 #. MENU_ITEM_MOVE_UP
 msgid "Move item up"
-msgstr "Eintrag nach oben schieben"
+msgstr "Element naar boven"
 
 #. MENU_ITEM_MOVE_DWN
 msgid "Move item down"
-msgstr "Eintrag nach unten schieben"
+msgstr "Element naar beneden"
 
 #. PROGRESS_SCANNING
 msgid "Scanning"
-msgstr "Scanne"
+msgstr "Aan het scannen"
 
 #. PROGRESS_RECEIVING_FRAME_DATA
 #, c-format
 msgid "Receiving %s data"
-msgstr "Empfange %s Daten"
+msgstr "Ontvang %s gegevens"
 
 #. PROGRESS_TRANSFERING_DATA
 msgid "Transfering image"
-msgstr "Bild übertragen"
+msgstr "Versturen afbeelding"
 
 #. PROGRESS_ROTATING_DATA
 msgid "Rotating image"
-msgstr "Bild drehen"
+msgstr "Draaien afbeelding"
 
 #. PROGRESS_MIRRORING_DATA
 msgid "Mirroring image"
-msgstr "Bild spiegeln"
+msgstr "Afbeelding spiegelen"
 
 #. PROGRESS_PACKING_DATA
 msgid "Packing image"
-msgstr "Bild packen"
+msgstr "Afbeelding packen"
 
 #. PROGRESS_CONVERTING_DATA
 msgid "Converting image"
-msgstr "Bild konvertieren"
+msgstr "Afbeelding converteren"
 
 #. PROGRESS_SAVING_DATA
 msgid "Saving image"
-msgstr "Bild speichern"
+msgstr "Afbeelding bewaren"
 
 #. PROGRESS_CLONING_DATA
 msgid "Cloning image"
-msgstr "Bild clonen"
+msgstr "Afbeelding dupliceren"
 
 #. PROGRESS_SCALING_DATA
 msgid "Scaling image"
-msgstr "Bild skalieren"
+msgstr "Schalen afbeelding"
 
 #. PROGRESS_DESPECKLING_DATA
 msgid "Despeckling image"
-msgstr "Flecken entfernen"
+msgstr "Ontspikkelen"
 
 #. PROGRESS_BLURING_DATA
 msgid "Bluring image"
-msgstr "Bild weichzeichnen"
+msgstr "Afbeelding vervagen"
 
 #. PROGRESS_OCR
 msgid "OCR in progress"
-msgstr "Texterkennung"
+msgstr "Tekstherkenning is bezig"
 
 #. DESC_SCAN_START
 msgid "Start scan <Ctrl-Enter>"
-msgstr "Scan starten <Ctrl-Enter>"
+msgstr "Start scannen <Ctrl-Enter>"
 
 #. DESC_SCAN_CANCEL
 msgid "Cancel scan <ESC>"
-msgstr "Scan abbrechen <ESC>"
+msgstr "Onderbreek scan <ESC>"
 
 #. DESC_PREVIEW_ACQUIRE
 msgid "Acquire preview scan <Alt-p>"
-msgstr "Vorschauscan <Alt-p>"
+msgstr "Preview maken <Alt-p>"
 
 #. DESC_PREVIEW_CANCEL
 msgid "Cancel preview scan <Alt-ESC>"
-msgstr "Vorschauscan abbrechen <Alt-ESC>"
+msgstr "Breek de preview af <Alt-ESC>"
 
 #. DESC_XSANE_MODE
 msgid ""
 "save-<Ctrl-s>, view-<Ctrl-v>, photocopy-<Ctrl-c>, fax-<Ctrl-f> or mail-<Ctrl-"
 "m>"
 msgstr ""
-"speichern-<Ctrl-s>, betrachten-<Ctrl-v>, kopieren-<Ctrl-c>, faxen-<Ctrl-f> "
-"oder mailen-<Ctrl-m>"
+"opslaan-<Ctrl-s>, bekijk-<Ctrl-v>, kopieer-<Ctrl-c>, fax-<Ctrl-f> of mail-"
+"<Ctrl-m>"
 
 #. DESC_XSANE_MEDIUM
 msgid ""
@@ -1375,167 +1384,167 @@ msgid ""
 "To create a medium enable the option edit medium definition in preferences "
 "menu."
 msgstr ""
-"Quellmedium auswählen.\n"
-"Zum Umbennenn, Umsortieren oder Löschen eines Eintrags das Kontextmenü "
-"benutzen (rechter Mausknopf).\n"
-"Um ein neues Medium zu erzeugen, Option Medium ändern im Einstellungsmenü "
-"aktivieren."
+"Kies een bronmedium type\n"
+"Om medium te hernoemen, herordenen of te verwijderen de context menu "
+"gebruiken (rechter muisknop).\n"
+"Kies de optie 'edit medium definitie' in het instellingen menu om een nieuw "
+"medium te maken."
 
 #. DESC_FILENAME_COUNTER_STEP
 msgid "Value that is added to filenamecounter after scan"
-msgstr "Wert, der nach einem Scan zum Dateinamenzähler addiert wird"
+msgstr "Waarde die bij de bestandsnaamteller wordt opgeteld na de scan"
 
 #. DESC_BROWSE_FILENAME
 msgid "Browse for image filename"
-msgstr "Suche nach Bild-Dateinamen"
+msgstr "Kies een bestandsnaam"
 
 #. DESC_FILENAME
 msgid "Filename for scanned image"
-msgstr "Dateiname für gescanntes Bild"
+msgstr "Bestandsnaam voor gescande afbeelding"
 
 #. DESC_FILETYPE
 msgid ""
 "Type of image format, the suitable filename extension is automatically added "
 "to the filename"
 msgstr ""
-"Dateiformat, die passende Dateinamen-Erweiterung wird autmatisch an den "
-"Dateinamen angehängt"
+"Bestandstype, de gebruikelijke extentie wordt automatisch toegevoegd aan de "
+"bestandsnaam"
 
 #. DESC_FAXPROJECT
 msgid "Enter name of fax project"
-msgstr "Name des Faxprojekts"
+msgstr "De naam van het faxproject"
 
 #. DESC_FAXPAGENAME
 msgid "Enter new name for faxpage"
-msgstr "Name der Faxseite eingeben"
+msgstr "Geef de naam van de faxpagina"
 
 #. DESC_FAXRECEIVER
 msgid "Enter receiver phone number or address"
-msgstr "Telefonnummer des Empfängers eingeben"
+msgstr "Geef telefoonnummer of adres van de ontvanger"
 
 #. DESC_MAILPROJECT
 msgid "Enter name of mail project"
-msgstr "Name des Mailprojekts"
+msgstr "De naam van het e-mail project"
 
 #. DESC_MAILIMAGENAME
 msgid "Enter new name for mail image"
-msgstr "neuen Name für E-Mail Bild eingeben"
+msgstr "De naam van de afbeelding"
 
 #. DESC_MAILRECEIVER
 msgid "Enter email address"
-msgstr "EMail Adresse eingeben"
+msgstr "E-mail adres"
 
 #. DESC_MAILSUBJECT
 msgid "Enter subject of email"
-msgstr "Betreff eingeben"
+msgstr "E-mail onderwerp"
 
 #. DESC_MAIL_FILETYPE
 msgid "Select filetype for image attachments"
-msgstr ""
+msgstr "Selecteer het type van de afbeeldingen"
 
 #. DESC_PRESET_AREA_RENAME
 msgid "Enter new name for preset area"
-msgstr "Name der Gebietsvoreinstellung eingeben"
+msgstr "Geef naam voor scangebied"
 
 #. DESC_PRESET_AREA_ADD
 msgid "Enter name for new preset area"
-msgstr "Namen für Gebietsvoreinstellung eingeben"
+msgstr "Geef naam voor scangebied"
 
 #. DESC_MEDIUM_RENAME
 msgid "Enter new name for medium definition"
-msgstr "Namen für Mediendefinition eingeben"
+msgstr "Geef nieuwe naam voor mediumdefinitie"
 
 #. DESC_MEDIUM_ADD
 msgid "Enter name for new medium definition"
-msgstr "Namen für Mediendefinition eingeben"
+msgstr "Geef nieuwe naam voor mediumdefinitie"
 
 #. DESC_PRINTER_SELECT
 msgid "Select printerdefinition <Shift-F1/F2/...>"
-msgstr "Wähle Druckerdefinition <Shift-F1/F2/...>"
+msgstr "Kies printerdefinitie <Shift-F1/F2/...>"
 
 #. DESC_RESOLUTION
 msgid "Set scan resolution"
-msgstr "Bestimmt die Scanauflösung"
+msgstr "Kies de scanresolutie"
 
 #. DESC_RESOLUTION_X
 msgid "Set scan resolution for x direction"
-msgstr "Bestimmt die Scanauflösung in X-Richtung"
+msgstr "Kies de scanresolutie in de x-richting"
 
 #. DESC_RESOLUTION_Y
 msgid "Set scan resolution for y direction"
-msgstr "Bestimmt die Scanauflösung in Y-Richtung"
+msgstr "Kies de scanresolutie in de y-richting"
 
 #. DESC_ZOOM
 msgid "Set zoomfactor"
-msgstr "Bestimmt den Vergrößerungsfaktor"
+msgstr "Kies vergrotingsfactor"
 
 #. DESC_ZOOM_X
 msgid "Set zoomfactor for x direction"
-msgstr "Bestimmt den Vergrößerungsfaktor in X-Richtung"
+msgstr "Kies vergroting in x-richting"
 
 #. DESC_ZOOM_Y
 msgid "Set zoomfactor for y direction"
-msgstr "Bestimmt den Vergrößerungsfaktor in Y-Richtung"
+msgstr "Kies vergroting in y-richting"
 
 #. DESC_COPY_NUMBER
 msgid "Set number of copies"
-msgstr "Bestimmt die Anzahl der Kopien"
+msgstr "Stel het aantal kopi�n in"
 
 #. DESC_NEGATIVE
 msgid "Negative: Invert colors for scanning negatives <Ctrl-n>"
-msgstr "Negativ: Invertiere Farben, zum Scannen von Negativen <Ctrl-n>"
+msgstr "Negatief: Inverteer de kleuren van een negatief <Ctrl-n>"
 
 #. DESC_GAMMA
 msgid "Set gamma value"
-msgstr "Bestimmt Gammawert"
+msgstr "Verander de gamma waarde"
 
 #. DESC_GAMMA_R
 msgid "Set gamma value for red component"
-msgstr "Bestimmt Gammawert für rote Komponente"
+msgstr "Verander de gamma waarde voor rood"
 
 #. DESC_GAMMA_G
 msgid "Set gamma value for green component"
-msgstr "Bestimmt Gammawert für grüne Komponente"
+msgstr "Verander de gamma waarde voor groen"
 
 #. DESC_GAMMA_B
 msgid "Set gamma value for blue component"
-msgstr "Bestimmt Gammawert für blaue Komponente"
+msgstr "Verander de gamma waarde voor blauw"
 
 #. DESC_BRIGHTNESS
 msgid "Set brightness"
-msgstr "Bestimmt Helligkeit"
+msgstr "Kies helderheid"
 
 #. DESC_BRIGHTNESS_R
 msgid "Set brightness for red component"
-msgstr "Bestimmt Helligkeit für rote Komponente"
+msgstr "Kies helderheid voor rood"
 
 #. DESC_BRIGHTNESS_G
 msgid "Set brightness for green component"
-msgstr "Bestimmt Helligkeit für grüne Komponente"
+msgstr "Kies helderheid voor groen"
 
 #. DESC_BRIGHTNESS_B
 msgid "Set brightness for blue component"
-msgstr "Bestimmt Helligkeit für blaue Komponente"
+msgstr "Kies helderheid voor blauw"
 
 #. DESC_CONTRAST
 msgid "Set contrast"
-msgstr "Bestimmt Kontrast"
+msgstr "Kies contrast"
 
 #. DESC_CONTRAST_R
 msgid "Set contrast for red component"
-msgstr "Bestimmt Kontrast für rote Komponente"
+msgstr "Kies contrast voor rood"
 
 #. DESC_CONTRAST_G
 msgid "Set contrast for green component"
-msgstr "Bestimmt Kontrast für grüne Komponente"
+msgstr "Kies contrast voor groen"
 
 #. DESC_CONTRAST_B
 msgid "Set contrast for blue component"
-msgstr "Bestimmt Kontrast für blaue Komponente"
+msgstr "Kies contrast voor blauw"
 
 #. DESC_THRESHOLD
 msgid "Set threshold"
-msgstr "Schwellwert setzen"
+msgstr "Kies drempelwaarde"
 
 #. DESC_RGB_DEFAULT
 msgid ""
@@ -1545,15 +1554,15 @@ msgid ""
 " brightness = 0\n"
 " contrast = 0"
 msgstr ""
-"RGB Standard: Setzt Farbverbesserungswerte für rot, grün und blau auf "
-"Standardwerte <Ctrl-b>:\n"
-"Gamma = 1.0\n"
-"Helligkeit = 0\n"
-"Kontrast = 0"
+"RGB standaard: Zet de aanpassingswaarden voor rood, groen en blauw op de "
+"standaardwaarden <Ctrl-b>:\n"
+" gamma = 1.0\n"
+" helderheid = 0\n"
+" contrast = 0"
 
 #. DESC_ENH_AUTO
 msgid "Autoadjust gamma, brightness and contrast <Ctrl-e>"
-msgstr "Automatische Einstellung von Gamma, Helligkeit und Kontrast <Ctrl-e>"
+msgstr "Automatische aanpassing van gamma, helderheid en contrast <Ctrl-e>"
 
 #. DESC_ENH_DEFAULT
 msgid ""
@@ -1562,163 +1571,155 @@ msgid ""
 "brightness = 0\n"
 "contrast = 0"
 msgstr ""
-"Setze Standardwerte für Farbverbesserung <Ctrl-0>:\n"
-"Gamma = 1.0\n"
-"Helligkeit = 0\n"
-"Kontrast = 0"
+"Kies de standaardwaarden <Ctrl-d>:\n"
+"gamma = 1.0\n"
+"helderheid = 0\n"
+"contrast = 0"
 
 #. DESC_ENH_RESTORE
 msgid "Restore enhancement values from preferences <Ctrl-r>"
-msgstr "Lade Farbverbesserungswerte aus Einstellungen <Ctrl-r>"
+msgstr "Gebruik aanpassingswaarden van de configuratie <Ctrl-r>"
 
 #. DESC_ENH_STORE
 msgid "Store active enhancement values to preferences <Ctrl-+>"
-msgstr "Speichere Farbverbesserungswerte in Einstellungen <Ctrl-m>"
+msgstr "Bewaar huidige aanpassingswaarden in de configuratie <Ctrl-m>"
 
 #. DESC_HIST_INTENSITY
 msgid "Show histogram of intensity/gray <Alt-i>"
-msgstr "Zeige Histogramm für Intensität/grau <Alt-i>"
+msgstr "Histogram van intensiteit/grijs zien <Alt-i>"
 
 #. DESC_HIST_RED
 msgid "Show histogram of red component <Alt-r>"
-msgstr "Zeige Histogramm für rote Komponente <Alt-r>"
+msgstr "Histogram van rood <Alt-r>"
 
 #. DESC_HIST_GREEN
 msgid "Show histogram of green component <Alt-g>"
-msgstr "Zeige Histogramm für grüne Komponente <Alt-g>"
+msgstr "Histogram van groen <Alt-g>"
 
 #. DESC_HIST_BLUE
 msgid "Show histogram of blue component <Alt-b>"
-msgstr "Zeige Histogramm für blaue Komponente <Alt-b>"
+msgstr "Histogram van blauw <Alt-b>"
 
 #. DESC_HIST_PIXEL
 msgid "Display mode: show histogram with lines instead of pixels <Alt-m>"
-msgstr "Zeichne Histogramm mit Linien anstatt mit Punkten <Alt-m>"
+msgstr "Kies tussen lijnen of pixels <Alt-m>"
 
 #. DESC_HIST_LOG
 msgid "Show logarithm of pixelcount <Alt-l>"
-msgstr "Benutze Logarithmus der Pixelzahlen <Alt-l>"
+msgstr "Logaritmisch histogram <Alt-l>"
 
 #. DESC_PRINTER_SETUP
 msgid "Select definition to change"
-msgstr "Auswahl der zu ändernden Definition"
+msgstr "Kies definitie om te veranderen"
 
 #. DESC_PRINTER_NAME
 msgid "Define a name for the selection of this definition"
-msgstr "Namen der Definition"
+msgstr "Naam van deze definitie"
 
 #. DESC_PRINTER_COMMAND
 msgid "Enter command to be executed in copy mode (e.g. \"lpr\")"
-msgstr ""
-"Befehl der im Kopiermodus zum Drucken ausgeführt werden soll (z.B. \"lpr\")"
+msgstr "Geef het commando dat tijdens het kopi�ren uitgevoerd word (\"lpr\")"
 
 #. DESC_COPY_NUMBER_OPTION
 msgid "Enter option for copy numbers"
-msgstr "Option, mit der die Anzahl der Kopien angegeben wird"
+msgstr "Optie voor het aantal kopi�n"
 
 #. DESC_PRINTER_LINEART_RESOLUTION
 msgid ""
 "Resolution with which lineart images are printed and saved in postscript"
-msgstr ""
-"Auflösung, mit der Lineart-Bilder gedruckt und im Postscriptformat "
-"gespeichert werden"
+msgstr "Printresolutie voor zwart wit PostScript afbeeldingen"
 
 #. DESC_PRINTER_GRAYSCALE_RESOLUTION
 msgid ""
 "Resolution with which grayscale images are printed and saved in postscript"
-msgstr ""
-"Auflösung, mit der Graustufen-Bilder gedruckt und im Postscriptformat "
-"gespeichert werden"
+msgstr "Printresolutie voor grijswaarde PostScript afbeeldingen"
 
 #. DESC_PRINTER_COLOR_RESOLUTION
 msgid "Resolution with which color images are printed and saved in postscript"
-msgstr ""
-"Auflösung, mit der Farb-Bilder gedruckt und im Postscriptformat gespeichert "
-"werden"
+msgstr "Printresolutie voor PostScript kleurenafbeeldingen"
 
 #. DESC_PRINTER_WIDTH
 msgid "Width of printable area"
-msgstr "Breite des druckbaren Bereichs"
+msgstr "Printbreedte"
 
 #. DESC_PRINTER_HEIGHT
 msgid "Height of printable area"
-msgstr "Höhe des druckbaren Bereichs"
+msgstr "Printhoogte"
 
 #. DESC_PRINTER_LEFTOFFSET
 msgid "Left offset from the edge of the paper to the printable area"
-msgstr "Abstand vom linken Papierrand zum Beginn des druckbaren Bereichs"
+msgstr "Afstand van rand to printbare gebied"
 
 #. DESC_PRINTER_BOTTOMOFFSET
 msgid "Bottom offset from the edge of the paper to the printable area"
-msgstr "Abstand vom unteren Papierrand zum Beginn des druckbaren Bereichs"
+msgstr "Afstand van rand to printbare gebied"
 
 #. DESC_PRINTER_GAMMA
 msgid "Additional gamma value for photocopy"
-msgstr "Zusätzlicher Gammawert beim Photokopieren"
+msgstr "Extra gammacorrectie voor fotokopie"
 
 #. DESC_PRINTER_GAMMA_RED
 msgid "Additional gamma value for red component for photocopy"
-msgstr "Zusätzlicher Gammawert für rote Komponente beim Photokopieren"
+msgstr "Extra gammacorrectie voor rood voor fotokopie"
 
 #. DESC_PRINTER_GAMMA_GREEN
 msgid "Additional gamma value for green component for photocopy"
-msgstr "Zusätzlicher Gammawert für grüne Komponente beim Photokopieren"
+msgstr "Extra gammacorrectie voor groen voor fotokopie"
 
 #. DESC_PRINTER_GAMMA_BLUE
 msgid "Additional gamma value for blue component for photocopy"
-msgstr "Zusätzlicher Gammawert für blaue Komponente beim Photokopieren"
+msgstr "Extra gammacorrectie voor blauw voor fotokopie"
 
 #. DESC_TMP_PATH
 msgid "Path to temp directory"
-msgstr "Pfad zum temporären Verzeichnis"
+msgstr "Pad naar tijdelijke map"
 
 #. DESC_BUTTON_TMP_PATH_BROWSE
 msgid "Browse for temporary directory"
-msgstr "Nach temporärem Verzeichnis suchen"
+msgstr "Bekijk de tijdelijke map"
 
 #. DESC_JPEG_QUALITY
 msgid ""
 "Quality in percent if image is saved as jpeg or tiff with jpeg compression"
 msgstr ""
-"Qualität in Prozent wenn Bild als JPEG oder als TIFF mit JPEG-Kompression "
-"gespeichert wird"
+"Kwaliteit in procenten als afbeelding als JPEG of TIFF met JPEG compressie "
+"bewaard wordt"
 
 #. DESC_PNG_COMPRESSION
 msgid "Compression if image is saved as png"
-msgstr "Kompression wenn Bild im PNG-Format gespeichert wird"
+msgstr "Compressie van PNG afbeeldingen"
 
 #. DESC_FILENAME_COUNTER_LEN
 msgid "Minimum length of counter in filename"
-msgstr "Minimale Länge des Zählers im Dateinamen"
+msgstr "Minimale lengte van bestandenteller"
 
 #. DESC_TIFF_COMPRESSION_16
 msgid "Compression type if 16 bit image is saved as tiff"
-msgstr "Kompression wenn 16 bit Bild im TIFF-Format gespeichert wird"
+msgstr "Compressie van 16-bits TIFF afbeeldingen"
 
 #. DESC_TIFF_COMPRESSION_8
 msgid "Compression type if 8 bit image is saved as tiff"
-msgstr "Kompression wenn 8 bit Bild im TIFF-Format gespeichert wird"
+msgstr "Compressie van 8-bits TIFF afbeeldingen"
 
 #. DESC_TIFF_COMPRESSION_1
 msgid "Compression type if lineart image is saved as tiff"
-msgstr "Kompression wenn lineart Bild im TIFF-Format gespeichert wird"
+msgstr "Compressie van zwart wit TIFF afbeeldingen"
 
 #. DESC_SAVE_DEVPREFS_AT_EXIT
 msgid "Save device dependant preferences in default file at exit of xsane"
 msgstr ""
-"Geräteabhängige Einstellungen werden in der Default-Datei beim Beenden von "
-"xsane gespeichert"
+"Bewaar apparaatspecifieke instellingen in standaard bestand als XSane eindigt"
 
 #. DESC_OVERWRITE_WARNING
 msgid "Warn before overwriting an existing file"
-msgstr "Warne vorm Überschreiben exisitierender Dateien"
+msgstr "Geef een waarschuwing voordat een bestaand bestand overschreven wordt"
 
 #. DESC_SKIP_EXISTING
 msgid ""
 "If filename counter is automatically increased, used numbers are skipped"
 msgstr ""
-"Wenn der Dateinamenzähler automatisch erhöht wird, werden benutzte "
-"Dateinummern übersprungen"
+"Gebruikte numbers worden overgeslagen als de bestandsteller automatisch "
+"verhoogd wordt"
 
 #. DESC_SAVE_PNM16_AS_ASCII
 msgid ""
@@ -1727,322 +1728,299 @@ msgid ""
 "supported by all programs. The ascii format is supported by more programs "
 "but it produces really huge files!!!"
 msgstr ""
-"Speicher 16 Bit PNM-Bilder im ASCII Format anstatt im Binär Format. Das "
-"Binär Format ist ein neues Format, das nicht von allen Programmen "
-"unterstützt wird. Das ASCII Format wird von mehr Programmen unterstützt, "
-"aber die Dateien werden sehr groß!!!"
+"Gebruik tekst i.p.v. binair formaat om 16 bits afbeeldingen te bewaren. Het "
+"binaire formaat is nieuw en wordt niet door alle programma's ondersteund. "
+"Het tekst formaat wordt door meer programma's ondersteund, maar levert zeer "
+"grote bestanden op!!!"
 
 #. DESC_REDUCE_16BIT_TO_8BIT
 msgid "If scanner sends image with 16 bits/color save image with 8 bits/color"
-msgstr ""
-"Wenn der Scanner das Bild mit 16 Bits/Farbe liefert wird das Bild mit 8 Bits/"
-"Farbe gespeichert"
+msgstr "16-bits kleuren worden bewaard met 8-bits"
 
 #. DESC_PSFILE_WIDTH
 msgid "Width of paper for postscript files"
-msgstr "Breite des druckbaren Bereichs für Postscript"
+msgstr "Breedte van papier in PostScript bestanden"
 
 #. DESC_PSFILE_HEIGHT
 msgid "Height of paper for postscript files"
-msgstr "Höhe des druckbaren Bereichs für Postscript"
+msgstr "Hoogte van papier in PostScript bestanden"
 
 #. DESC_PSFILE_LEFTOFFSET
 msgid ""
 "Left offset from the edge of the paper to the usable area for postscript "
 "files"
-msgstr ""
-"Abstand vom linken Papierrand zum Beginn des druckbaren Bereichs für "
-"Postsciptdateien"
+msgstr "Linker afstand van de rand van het papier"
 
 #. DESC_PSFILE_BOTTOMOFFSET
 msgid ""
 "Bottom offset from the edge of the paper to the usable area for postscript "
 "files"
-msgstr ""
-"Abstand vom unteren Papierrand zum Beginn des druckbaren Bereichs für "
-"Postsciptdateien"
+msgstr "Onderste afstand van de rand van het papier"
 
 #. DESC_MAIN_WINDOW_FIXED
 msgid "Use fixed main window size or scrolled, resizable main window"
-msgstr "Verwende feste oder veränderbare Hauptfenstergröße"
+msgstr "Gebruik vaste grootte voor hoofdvenster of gebruik scrollbars"
 
 #. DESC_DISABLE_GIMP_PREVIEW_GAMMA
 msgid "Disable preview gamma when XSane runs as gimp plugin"
-msgstr "Preview Gamma deaktivieren wenn XSane als Gimp-Plugin gestartet wird"
+msgstr "Schakel preview gamma uit als XSane als Gimp plugin gebruikt wordt"
 
 #. DESC_PREVIEW_COLORMAP
 msgid "Use an own colormap for preview if display depth is 8 bpp"
-msgstr ""
-"Benutze eigene Farbpalette für Vorschaubild, wenn die Bildschirmfarbtiefe 8 "
-"Bit beträgt"
+msgstr "Gebruik eigen kleurenpallet als scherm diepte 8-bpp is"
 
 #. DESC_SHOW_RANGE_MODE
 msgid "Select how a range is displayed"
-msgstr "Bestimmen Sie, wie die Auswahle eines Bereichs dargestellt wird"
+msgstr "Selecteer hoe een range vetoond wordt"
 
 #. DESC_PREVIEW_OVERSAMPLING
 msgid "Value with that the calculated preview resolution is multiplied"
-msgstr "Wert, mit dem die berechnete Vorschauauflösung multipliziert wird"
+msgstr "Waarde waarmee de berekende preview resolutie vermenigvuldigd wordt"
 
 #. DESC_PREVIEW_GAMMA
 msgid "Set gamma correction value for preview image"
-msgstr "Bestimme Gammwert für Vorschaubild"
+msgstr "Gammacorrectie voor preview"
 
 #. DESC_PREVIEW_GAMMA_RED
 msgid "Set gamma correction value for red component of preview image"
-msgstr "Bestimme Gammwert der roten Komponente für Vorschaubild"
+msgstr "Gammacorrectie voor rood van preview"
 
 #. DESC_PREVIEW_GAMMA_GREEN
 msgid "Set gamma correction value for green component of preview image"
-msgstr "Bestimme Gammwert der grünen Komponente für Vorschaubild"
+msgstr "Gammacorrectie voor groen van preview"
 
 #. DESC_PREVIEW_GAMMA_BLUE
 msgid "Set gamma correction value for blue component of preview image"
-msgstr "Bestimme Gammwert der blauen Komponente für Vorschaubild"
+msgstr "Gammacorrectie voor blauw van preview"
 
 #. DESC_LINEART_MODE
 msgid "Define the way XSane shall handle the threshold option"
-msgstr "Definiert die Art, wie XSane die Schwellwert-Option behandeln soll"
+msgstr "Hoe moet XSane de drempelwaarde gebruiken"
 
 #. DESC_GRAYSCALE_SCANMODE
 msgid ""
 "Select grayscale scanmode. This scanmode is used for lineart preview scan "
 "when transformation from grayscale to lineart is enabled"
 msgstr ""
-"Name des Graustufen-Scanmodus auswählen. Dieser Scanmodus wird beim Schwarz-"
-"Weiss Vorschauscan verwendet, wenn Umwandlung von Graustufen in Schwarz/Weiß "
-"aktiviert ist."
+"Kies grijswaarde scanmode. Dit wordt gebruikt voor de zwart wit preview als "
+"de transformatie van grijs naar zwart-wit aanstaat"
 
 #. DESC_PREVIEW_THRESHOLD_MIN
 #, no-c-format
 msgid "The scanner's minimum threshold level in %"
-msgstr "Minimaler Schwellwert des Scanners in %"
+msgstr "De minimale drempelwaarde in % van de scanner"
 
 #. DESC_PREVIEW_THRESHOLD_MAX
 #, no-c-format
 msgid "The scanner's maximum threshold level in %"
-msgstr "Maximaler Schwellwert des Scanners in %"
+msgstr "De maximale drempelwaarde in % van de scanner"
 
 #. DESC_PREVIEW_THRESHOLD_MUL
 msgid ""
 "Multiplier to make XSane threshold range and scanner threshold range the same"
 msgstr ""
-"Multiplikator um XSane's Schwellwertbereich und den Schwellwertbereich des "
-"Scanners aufeinander abzustimmen"
+"Factor om de drempelwaarde van XSane gelijk te maken aan die van de scanner"
 
 #. DESC_PREVIEW_THRESHOLD_OFF
 msgid ""
 "Offset to make XSane threshold range and scanner threshold range the same"
 msgstr ""
-"Schwellwertverschiebung um XSane's Schwellwertbereich und den "
-"Schwellwertbereich des Scanners aufeinander abzustimmen"
+"Verschuiving om de drempelwaarde van XSane gelijk te maken aan die van de "
+"scanner"
 
 #. DESC_ADF_MODE
 msgid ""
 "Select scansource for Automatic Document feeder. If this scansource is "
 "selected XSane scans until \"out of paper\" or error."
 msgstr ""
-"Scanquelle für automatischen Dokumenteneinzug auswählen. Wenn diese "
-"Scanquelle angewählt ist, scannt XSane bis \"kein Papier\" oder ein Fehler "
-"auftritt."
+"Kies bron voor automatische document doorvoer. Indien geselecteerd gaat "
+"XSane door met scannen to een \"papier op\" fout."
 
 #. DESC_PREVIEW_PIPETTE_RANGE
 msgid "dimension of square that is used to average color for pipette function"
-msgstr ""
-"Größe des Quadrats, das zum Mitteln der Farbe für die Pipette Funktion "
-"benutzt wird"
+msgstr "grootte van het vierkantje waar de pipet het gemiddelde berekent"
 
 #. DESC_DOC_VIEWER
 msgid ""
 "Enter command to be executed to display helpfiles, must be a html-viewer!"
-msgstr ""
-"Befehl, der ausgeführt werden soll, um Hilfedateien anzuzeigen, muß ein HTML-"
-"Betrachter sein!"
+msgstr "HTML programma om de helpfiles te bekijken"
 
 #. DESC_AUTOENHANCE_GAMMA
 msgid "Change gamma value when autoenhancement button is pressed"
 msgstr ""
-"Gamma Wert wird angepasst wenn Knopf für automatische Verbesserung gedrückt "
-"wird"
+"Verander gammawaarde als de automatische aanpassings knop ingedrukt wordt"
 
 #. DESC_PRESELECT_SCANAREA
 msgid "Select scanarea after preview scan has finished"
-msgstr "Scanbereich nach Vorschauscan automatisch auswählen"
+msgstr "Kies scangebied nadat preview klaar is"
 
 #. DESC_AUTOCORRECT_COLORS
 msgid "Do color correction after preview scan has finished"
-msgstr "Farbkorrektur nach Vorschauscan ausführen"
+msgstr "Verbeter de kleuren nadat preview klaar is"
 
 #. DESC_FAX_COMMAND
 msgid "Enter command to be executed in fax mode"
-msgstr "Befehl, der zum Senden eines Faxprojekts ausgeführt werden soll"
+msgstr "Geef commando dat in fax-mode uitgevoerd moet worden"
 
 #. DESC_FAX_RECEIVER_OPT
 msgid "Enter option to specify receiver"
-msgstr "Option, mit der die Empfängertelephonnumer angegeben wird"
+msgstr "Geef optie om ontvanger te specificeren"
 
 #. DESC_FAX_POSTSCRIPT_OPT
 msgid "Enter option to specify postscript files following"
-msgstr ""
-"Option, mit der angegeben wird, dass der Dateiname einer Postscriptdatei "
-"folgt"
+msgstr "Geef optie voor de PostScript bestanden"
 
 #. DESC_FAX_NORMAL_OPT
 msgid "Enter option to specify normal mode (low resolution)"
-msgstr "Option, mit der die vertikale Auflösung auf 98 lpi gestellt wird"
+msgstr "Geef optie voor normale mode (lage resolutie)"
 
 #. DESC_FAX_FINE_OPT
 msgid "Enter option to specify fine mode (high resolution)"
-msgstr "Option, mit der die vertikale Auflösung auf 196 lpi gestellt wird"
+msgstr "Geef optie voor fijne mode (hoge resolutie)"
 
 #. DESC_FAX_VIEWER
 msgid "Enter command to be executed to view a fax"
-msgstr ""
-"Befehl, der ausgeführt werden soll, um Faxseiten(Postscript) anzuzeigen"
+msgstr "Commando om fax te bekijken"
 
 #. DESC_FAX_FINE_MODE
 msgid "Send fax with high vertical resolution (196 lpi instead of 98 lpi)"
-msgstr "Sende Fax mit hoher vertikaler Auflösung (196 lpi anstatt 98 lpi)"
+msgstr "Verstuur hoge resolutie fax (196 lpi inplaats van 98 lpi)"
 
 #. DESC_SMTP_SERVER
 msgid "IP Address or Domain name of SMTP server"
-msgstr "IP Adresse oder Domain Name des SMTP Servers"
+msgstr "IP-adres of domain name van SMTP server"
 
 #. DESC_SMTP_PORT
 msgid "port to connect to SMTP server"
-msgstr "Port, auf dem zum SMTP Server verbunden werden soll"
+msgstr "port om met SMTP server te communiceren"
 
 #. DESC_MAIL_FROM
 msgid "enter your email address"
-msgstr "Geben Sie Ihre E-Mail Adresse ein"
+msgstr "geef je e-mail adres"
 
 #. DESC_MAIL_REPLY_TO
 msgid "enter email address for replied emails"
-msgstr "Geben Sie die E-Mail Adresse für Antworten auf diese Mail ein"
+msgstr "geef e-mail adres voor antwoord e-mails"
 
 #. DESC_POP3_AUTHENTIFICATION
 msgid "Authentificate at POP3 server before sending mail"
-msgstr ""
-"Authentifizierung über POP3 Server durchführen bevor mail gesendet wird"
+msgstr "Inloggen in POP3 server voor het versturen van e-mail"
 
 #. DESC_POP3_SERVER
 msgid "IP Address or Domain name of POP3 server"
-msgstr "IP Adresse oder Domain Name des POP3 Servers"
+msgstr "IP-adres of domain name van POP3 server"
 
 #. DESC_POP3_PORT
 msgid "port to connect to POP3 server"
-msgstr "Port, auf dem zum POP3 Server verbunden werden soll"
+msgstr "port om met POP3 server te communiceren"
 
 #. DESC_POP3_USER
 msgid "user name for POP3 server"
-msgstr "Benuter Name für den POP3 Server"
+msgstr "gebruikersnaam voor POP3 server"
 
 #. DESC_POP3_PASS
 msgid "password for POP3 server"
-msgstr "Passwort für den POP3 Server"
+msgstr "paswoord voor POP3 server"
 
 #. DESC_MAIL_VIEWER
 msgid "Enter command to be executed to view a mail image"
-msgstr "Befehl, der ausgeführt werden soll, um Mail-Bilder anzuzeigen"
+msgstr "Commando om e-mail afbeelding te bekijken"
 
 #. DESC_HTML_MAIL
 msgid "Mail is sent in html mode, place image with: <IMAGE>"
-msgstr "E-Mail wird im hmtl Modus gesandt, Bild placieren mit: <IMAGE>"
+msgstr "E-mail wordt als HTML verstuurd. Afbeeldingen plaatsen met: <IMAGE>"
 
 #. DESC_OCR_COMMAND
 msgid "Enter command to start ocr program"
-msgstr "OCR Befehl eingeben"
+msgstr "Geef commando om tekstherkenningsprogramma te starten"
 
 #. DESC_OCR_INPUTFILE_OPT
 msgid "Enter option of the ocr program to define input file"
-msgstr "Eingabe-Datei-Option für OCR Programm eingeben"
+msgstr "Geef de optie om een invoerbestand op te geven"
 
 #. DESC_OCR_OUTPUTFILE_OPT
 msgid "Enter option of the ocr program to define output file"
-msgstr "Ausgabe-Datei-Option für OCR Programm eingeben"
+msgstr "Geef de optie om een uitvoerbestand op te geven"
 
 #. DESC_OCR_USE_GUI_PIPE_OPT
 msgid "Define if the ocr program supports gui progress pipe"
-msgstr ""
-"Definieren Sie, ob das OCR Programm eine GUI-Fortschritts-Pipe unterstützt"
+msgstr "Ondersteund het OCR programma een GUI progressie pipe"
 
 #. DESC_OCR_OUTFD_OPT
 msgid ""
 "Enter option of the ocr program to define output filedescripor in GUI mode"
 msgstr ""
-"Geben Sie die Option des OCR Programms ein, mit der der Ausgabefildeskriptor "
-"im GUI Mode übergeben wird"
+"Geef de optie van het OCR programma om de file descriptor te geven in GUI "
+"mode"
 
 #. DESC_OCR_PROGRESS_KEYWORD
 msgid "Define Keyword that is used to mark progress information"
-msgstr ""
-"Definieren Sie das Schlüsselwort, das benutzt wird, um Fortschritssangaben "
-"zu kennzeichenen"
+msgstr "Met welke sleutel word progressie informatie gemarkeerd"
 
 #. DESC_PERMISSION_READ
 msgid "read"
-msgstr "lesen"
+msgstr "lezen"
 
 #. DESC_PERMISSION_WRITE
 msgid "write"
-msgstr "schreiben"
+msgstr "schrijven"
 
 #. DESC_PERMISSION_EXECUTE
 msgid "execute"
-msgstr "ausführen"
+msgstr "uitvoeren"
 
 #. DESC_ADD_BATCH
 msgid "Add selection for batch scan"
-msgstr "Auswahl zur Stapelliste hinzufügen"
+msgstr "Voeg selectie toe aan batch lijst"
 
 #. DESC_PIPETTE_WHITE
 msgid "Pick white point"
-msgstr "Wähle weißen Punkt"
+msgstr "Kies wit punt"
 
 #. DESC_PIPETTE_GRAY
 msgid "Pick gray point"
-msgstr "Wähle grauen Punkt"
+msgstr "Kies grijs punt"
 
 #. DESC_PIPETTE_BLACK
 msgid "Pick black point"
-msgstr "Wähle schwarzen Punkt"
+msgstr "Kies zwart punt"
 
 #. DESC_ZOOM_FULL
 msgid "Use full scanarea"
-msgstr "Zoomt auf kompletten Scanbereich"
+msgstr "Gebruik volledige scangebied"
 
 #. DESC_ZOOM_OUT
 #, no-c-format
 msgid "Zoom 20% out"
-msgstr "Zoomt um 20% heraus"
+msgstr "Zoom 20% uit"
 
 #. DESC_ZOOM_IN
 msgid "Click at position to zoom to"
-msgstr "In gewünschten Bereich zum Zoomen klicken"
+msgstr "Klik op de positie om in te zoomen"
 
 #. DESC_ZOOM_AREA
 msgid "Zoom into selected area"
-msgstr "Zoomt in den gewählten Bereich hinein"
+msgstr "Zoom in het geselecteerde gebied"
 
 #. DESC_ZOOM_UNDO
 msgid "Undo last zoom"
-msgstr "letzten Zoom rückgängig machen"
+msgstr "E�n zoom terug"
 
 #. DESC_FULL_PREVIEW_AREA
 msgid "Select visible area"
-msgstr "Sichtbaren Bereich auswählen"
+msgstr "Selecteer zichtbare gebied"
 
 #. DESC_AUTOSELECT_SCANAREA
 msgid "Autoselect scanarea"
-msgstr "Scanbereich automatisch wählen"
+msgstr "Automatische selectie"
 
 #. DESC_AUTORAISE_SCANAREA
 msgid "Autoraise scanarea"
-msgstr "Scanbereich automatisch aufziehen"
+msgstr "Automatisch naar voren brengen"
 
 #. DESC_DELETE_IMAGES
 msgid "Delete preview image cache"
-msgstr "Vorschau Speicher löschen"
+msgstr "Verwijder preview uit geheugen"
 
 #. DESC_PRESET_AREA
 msgid ""
@@ -2050,321 +2028,326 @@ msgid ""
 "To add new area or edit an existing area use contect menu (right mouse "
 "button)."
 msgstr ""
-"Bereichsvoreinstellung:\n"
-"Um einen neuen Bereich hinzuzufügen oder exisitierende Voreinstellungen zu "
-"ändern verwenden Sie das Kontextmenü (rechter Mausknopf)."
+"Scangebied:\n"
+"Om scangebieden toe te voegen of the bewerken het context menu gebruiken "
+"(rechter muisknop)."
 
 #. DESC_ROTATION
 msgid "Rotate preview and scan"
-msgstr "Drehe Vorschau und Scan"
+msgstr "Draai preview en scan"
 
 #. DESC_RATIO
 msgid "Aspect ratio of selection"
-msgstr "Seitenverhältnis der Auswahl"
+msgstr "Aspectratio van selectie"
 
 #. DESC_PAPER_ORIENTATION
 msgid "Define image position for printing"
-msgstr "Bildposition beim Drucken definieren"
+msgstr "Definieer positie van de afbeelding voor printen"
 
 #. DESC_VIEWER_OCR
 msgid "Optical Character Recognition"
-msgstr "Optische Zeichenerkennung (OCR)"
+msgstr "Tekstherkenning (OCR)"
 
 #. DESC_VIEWER_UNDO
 msgid "Undo last change"
-msgstr "Letzte Änderung rückgängig machen"
+msgstr "Laatste verandering ongedaan maken"
 
 #. DESC_VIEWER_CLONE
 msgid "Clone image"
-msgstr "Bild clonen"
+msgstr "Kopi�er afbeelding"
 
 #. DESC_ROTATE90
 msgid "Rotate image 90 degree"
-msgstr "Drehe Bild um 90 Grad"
+msgstr "Draai 90 graden"
 
 #. DESC_ROTATE180
 msgid "Rotate image 180 degree"
-msgstr "Drehe Bild um 180 Grad"
+msgstr "Draai 180 graden"
 
 #. DESC_ROTATE270
 msgid "Rotate image 270 degree"
-msgstr "Drehe Bild um 270 Grad"
+msgstr "Draai 270 graden"
 
 #. DESC_MIRROR_X
 msgid "Mirror image at vertical axis"
-msgstr "Bild an vertikaler Achse spiegeln"
+msgstr "Spiegel in vertikale richting"
 
 #. DESC_MIRROR_Y
 msgid "Mirror image at horizontal axis"
-msgstr "Bild an horizontaler Achse spiegeln"
+msgstr "Spiegel in horizontale richting"
 
 #. DESC_VIEWER_ZOOM
 msgid "Zoom image"
-msgstr "Bild zoomen"
+msgstr "Inzomen"
 
 #. DESC_STORE_MEDIUM
 msgid "Store medium"
-msgstr "Medium speichern"
+msgstr "Sla medium op"
 
 #. DESC_DELETE_MEDIUM
 msgid "Delete active medium"
-msgstr "Medium löschen"
+msgstr "Huidige medium verwijderen"
 
 #. DESC_SCALE_FACTOR
 msgid "Scale factor"
-msgstr "Vergrößerungsfaktor"
+msgstr "Vergroting"
 
 #. DESC_X_SCALE_FACTOR
 msgid "X-Scale factor"
-msgstr "Vergrößerungsfaktor X"
+msgstr "Vergroting in x-richting"
 
 #. DESC_Y_SCALE_FACTOR
 msgid "Y-Scale factor"
-msgstr "Vergrößerungsfaktor Y"
+msgstr "Vergroting in y-richting"
 
 #. DESC_SCALE_WIDTH
 msgid "Scale image to width [in pixel]"
-msgstr "Bild auf Breite [in Pixeln] skalieren"
+msgstr "Schaal afbeelding naar breedte [in pixels]"
 
 #. DESC_SCALE_HEIGHT
 msgid "Scale image to height [in pixel]"
-msgstr "Bild auf Höhe [in Pixeln] skalieren"
+msgstr "Schaal afbeelding naar hoogte [in pixels]"
 
 #. DESC_BATCH_LIST_EMPTY
 msgid "Empty batch list"
-msgstr "Stapelliste leeren"
+msgstr "Lege batch"
 
 #. DESC_BATCH_LIST_SAVE
 msgid "Save batch list"
-msgstr "Stapelliste speichern"
+msgstr "Bewaar batch lijst"
 
 #. DESC_BATCH_LIST_LOAD
 msgid "Load batch list"
-msgstr "Stapelliste laden"
+msgstr "Laad batch lijst"
 
 #. DESC_BATCH_RENAME
 msgid "Rename area"
-msgstr "Bereich umbenennen"
+msgstr "Gebied hernoemen"
 
 #. DESC_BATCH_ADD
 msgid "Add selected preview area to batch list"
-msgstr "Vorschau-Auswahl zur Stapelliste hinzufügen"
+msgstr "Voeg geselecteerde gebied toe aan batch lijst"
 
 #. DESC_BATCH_DEL
 msgid "Delete selected area from batch list"
-msgstr "Ausgewählten Bereich aus Stapelliste löschen"
+msgstr "Verwijder geselecteerde gebied van de batch lijst"
 
 #. DESC_AUTOMATIC
 msgid "Turns on automatic mode"
-msgstr "Schaltet automatische Einstellung ein"
+msgstr "Activeer de automatische mode"
 
 #. ERR_HOME_DIR
 msgid "Failed to determine home directory:"
-msgstr "Konnte Heimatverzeichnis nicht bestimmen"
+msgstr "Kon hoofdmap niet vinden:"
 
 #. ERR_CHANGE_WORKING_DIR
 msgid "Failed to change working directory to"
-msgstr "Konnte Verzeichnis nicht wechseln"
+msgstr "Kon werkmap niet veranderen in"
 
 #. ERR_FILENAME_TOO_LONG
 msgid "Filename too long"
-msgstr "Dateiname zu lang"
+msgstr "Bestandsnaam te lang"
 
 #. ERR_CREATE_TEMP_FILE
 msgid "Could not create temporary file"
-msgstr "Konnte temporäre Datei nicht erzeugen"
+msgstr "Kon geen tijdelijk bestand maken"
 
 #. ERR_SET_OPTION
 msgid "Failed to set value of option"
-msgstr "Fehler beim Ändern der Option"
+msgstr "Kon waarde van optie niet veranderen"
 
 #. ERR_GET_OPTION
 msgid "Failed to obtain value of option"
-msgstr "Fehler beim Lesen der Option"
+msgstr "Kon geen waarde van optie verkrijgen"
 
 #. ERR_OPTION_COUNT
 msgid "Error obtaining option count"
-msgstr "Konnte Anzahl der Optionen nicht bestimmen"
+msgstr "Kon aantal opties niet vinden"
 
 #. ERR_DEVICE_OPEN_FAILED
 msgid "Failed to open device"
-msgstr "Fehler beim Öffnen des Geräts"
+msgstr "Kon apparaat niet vinden"
 
 #. ERR_NO_DEVICES
 msgid "no devices available"
-msgstr "Keine Geräte erreichbar"
+msgstr "geen apparaten aanwezig"
 
 #. ERR_DURING_READ
 msgid "Error during read:"
-msgstr "Fehler beim Lesen:"
+msgstr "Fout tijden lezen:"
 
 #. ERR_DURING_SAVE
 msgid "Error during save:"
-msgstr "Fehler beim Speichern:"
+msgstr "Fout tijdens bewaren:"
 
 #. ERR_BAD_DEPTH
 msgid "Can't handle depth"
-msgstr "Nicht unterstützte Bittiefe"
+msgstr "Kan diepte niet aan"
 
 #. ERR_GIMP_BAD_DEPTH
 #, c-format
 msgid "GIMP can't handle depth %d bits/color"
-msgstr "GIMP unterstützt Bittieffe %d Bits/Farbe nicht"
+msgstr "GIMP kan niet met %d bits per kleur overweg"
 
 #. ERR_UNKNOWN_SAVING_FORMAT
 msgid "Unknown file format for saving"
-msgstr "Unbekanntes Ausgabedateiformat"
+msgstr "Onbekend bestandstype tijdens bewaren"
 
 #. ERR_OPEN_FAILED
 msgid "Failed to open"
-msgstr "Fehler beim Öffnen von"
+msgstr "Kon niet openen"
 
 #. ERR_CREATE_SECURE_FILE
 msgid "Could not create secure file (may be a link does exist):"
-msgstr ""
-"Konnte keine sichere Datei erzeugen (möglicherweise exisitiert ein Link):"
+msgstr "Kon geen 'secure' bestand maken (misschien mist een link):"
 
 #. ERR_FAILED_PRINTER_PIPE
 msgid "Failed to open pipe for executing printercommand"
-msgstr "Konnte Pipe für Druckbefehl nicht öffnen"
+msgstr "Kon geen printercommando openen"
 
 #. ERR_FAILED_EXEC_PRINTER_CMD
 msgid "Failed to execute printercommand:"
-msgstr "Konnte Druckbefehl nicht ausführen"
+msgstr "Kon printercommando niet uitvoeren:"
 
 #. ERR_FAILED_START_SCANNER
 msgid "Failed to start scanner:"
-msgstr "Konnte Scanner nicht starten"
+msgstr "Kon scanner niet aanzetten:"
 
 #. ERR_FAILED_GET_PARAMS
 msgid "Failed to get parameters:"
-msgstr "Konnte Parameter nicht lesen"
+msgstr "Kon parameters niet verkrijgen:"
 
 #. ERR_NO_OUTPUT_FORMAT
 msgid "No output format given"
-msgstr "Kein Ausgabedateiformat angegeben"
+msgstr "Geen uitvoerformaat gegeven"
 
 #. ERR_NO_MEM
 msgid "out of memory"
-msgstr "Kein Speicher"
+msgstr "geheugen vol"
 
 #. ERR_TOO_MUCH_DATA
 msgid "Backend sends more image data than it defined in parameters"
-msgstr "Backend sendet mehr Bilddaten als es in Parametern definiert hat"
+msgstr "Backend geeft meer data dan gewenst"
 
 #. ERR_LIBTIFF
 msgid "LIBTIFF reports error"
-msgstr "LIBTIFF meldet Fehler"
+msgstr "LIBTIFF geeft fout"
 
 #. ERR_LIBPNG
 msgid "LIBPNG reports error"
-msgstr "LIBPNG meldet Fehler"
+msgstr "LIBPNG geeft fout"
 
 #. ERR_LIBJPEG
 msgid "LIBJPEG reports error"
-msgstr "LIBJPEG meldet Fehler"
+msgstr "LIBJPEG geeft foutmelding"
+
+#. ERR_ZLIB
+msgid "ZLIB error or memory allocation problem"
+msgstr ""
 
 #. ERR_UNKNOWN_TYPE
 msgid "unknown type"
-msgstr "unbekannter Typ"
+msgstr "onbekend type"
 
 #. ERR_UNKNOWN_CONSTRAINT_TYPE
 msgid "unknown constraint type"
-msgstr "unbekannter verpflichtender Typ"
+msgstr "onbekende beperking type"
 
 #. ERR_OPTION_NAME_NULL
 msgid "Option has empty name (NULL)."
-msgstr "Option hat leeren Namen (NULL)."
+msgstr "Optie heeft een lege naam (NULL)."
 
 #. ERR_BACKEND_BUG
 msgid "This is a backend bug. Please inform the author of the backend!"
 msgstr ""
-"Das ist ein Backend-Fehler. Bitte informieren Sie den Autor des Backends!"
+"Dit is een fout in de backend. Speel de informatie door aan de auteur van de "
+"backend!"
 
 #. ERR_FAILED_EXEC_DOC_VIEWER
 msgid "Failed to execute documentation viewer:"
-msgstr "Konnte Hilfedateibetrachter nicht ausführen:"
+msgstr "Kon documentatie programma niet starten:"
 
 #. ERR_FAILED_EXEC_FAX_VIEWER
 msgid "Failed to execute fax viewer:"
-msgstr "Konnte Faxbetrachter nicht ausführen:"
+msgstr "Kon fax programma niet starten:"
 
 #. ERR_FAILED_EXEC_FAX_CMD
 msgid "Failed to execute fax command:"
-msgstr "Konnte Faxbefehl nicht ausführen:"
+msgstr "Kon fax commando niet uitvoeren:"
 
 #. ERR_FAILED_EXEC_MAIL_VIEWER
 msgid "Failed to execute mail image viewer:"
-msgstr "Konnte E-Mail Bildbetrachter nicht ausführen:"
+msgstr "Kon e-mail afbeelding niet bekijken:"
 
 #. ERR_FAILED_EXEC_OCR_CMD
 msgid "Failed to execute ocr command:"
-msgstr "Konnte OCR-Befehl nicht ausführen:"
+msgstr "Kon tekstherkenningscommando niet uitvoeren:"
 
+# TBD
 #. ERR_BAD_FRAME_FORMAT
 msgid "bad frame format"
-msgstr "unerwartetes FRAME-Format"
+msgstr "slecht frame formaat"
 
 #. ERR_FAILED_SET_RESOLUTION
 msgid "unable to set resolution"
-msgstr "konnte Auflösung nicht definieren"
+msgstr "kon resolutie niet veranderen"
 
 #. ERR_PASSWORD_FILE_INSECURE
 #, c-format
 msgid "Password file (%s) is insecure, use permission x00\n"
-msgstr "Passwortdatei (%s) ist unsicher, benutze Rechte x00\n"
+msgstr "Paswoordbestand (%s) in niet veilig, gebruik permissie x00\n"
 
 #. ERR_ERROR
 msgid "error"
-msgstr "Fehler"
+msgstr "fout"
 
 #. ERR_MAJOR_VERSION_NR_CONFLICT
 msgid "Sane major version number mismatch!"
-msgstr "Sane Hauptversionsnummern-Konflikt!"
+msgstr "Sane hoofdversie nummer incorrect!"
 
 #. ERR_XSANE_MAJOR_VERSION
 msgid "XSane major version ="
-msgstr "XSane Hauptversionsnummer ="
+msgstr "XSane hoofdversie ="
 
 #. ERR_BACKEND_MAJOR_VERSION
 msgid "backend major version ="
-msgstr "backend Hauptversionsnummer ="
+msgstr "backend hoofdversie ="
 
 #. ERR_PROGRAM_ABORTED
 msgid "*** PROGRAM ABORTED ***"
-msgstr "*** PROGRAMM ABGEBROCHEN ***"
+msgstr "*** PROGRAMMA BE�NDIGD ***"
 
 #. ERR_FAILED_ALLOCATE_IMAGE
 msgid "Failed to allocate image memory:"
-msgstr "Konnte Bildspeicher nicht allozieren:"
+msgstr "Kon geen geheugen voor afbeelding krijgen:"
 
 #. ERR_PREVIEW_BAD_DEPTH
 msgid "Preview cannot handle bit depth"
-msgstr "Vorschau kann Bittiefe nicht handhaben:"
+msgstr "Preview kan niet met deze kleurdiepte werken"
 
 #. ERR_GIMP_SUPPORT_MISSING
 msgid "GIMP support missing"
-msgstr "GIMP Unterstützung fehlt"
+msgstr "Geen GIMP ondersteuning"
 
 #. ERR_CREATE_PREVIEW_FILE
 msgid "Could not create temporary preview files"
-msgstr "Konnte temporäre Vorschaudateien nicht erzeugen"
+msgstr "Kon geen tijdelijke preview bestanden maken"
 
 #. ERR_CREATE_PREVIEW_FILENAME
 msgid "Could not create filenames for preview files"
-msgstr "Konnte Dateinamen für Vorschaudateien nicht erzeugen"
+msgstr "Kon geen naam maken voor previewbestand"
 
 #. ERR_CREATE_FAX_PROJECT
 msgid "Could not create faxproject"
-msgstr "Konnte Faxprojekt nicht erstellen"
+msgstr "Kon geen faxproject maken"
 
 #. WARN_COUNTER_UNDERRUN
 msgid "Filename counter underrun"
-msgstr "Dateinamenzähler Unterlauf"
+msgstr "Bestandsnaamteller te klein"
 
 #. WARN_NO_VALUE_CONSTRAINT
 msgid "warning: option has no value constraint"
-msgstr "Warnung: Option hat keinen vorgeschriebenen Wert"
+msgstr "waarschuwing: optie heeft geen waardebeperking"
 
 #. WARN_XSANE_AS_ROOT
 msgid ""
@@ -2374,97 +2357,96 @@ msgid ""
 "have any problem while running XSane as root:\n"
 "YOU ARE ALONE!"
 msgstr ""
-"Sie versuchen XSane als ROOT auszuführen,\n"
-"das ist wirklich GEFÄHRLICH!\n"
+"Je probeert XSane als ROOT te draaien. Dat is heel GEVAARLIJK!\n"
 "\n"
-"Senden Sie keine Fehlermeldungen wenn Sie Probleme\n"
-"haben während Sie xsane als root ausführen:\n"
-"Sie sind alleine!"
+"Stuur geen foutmeldingen op als je XSane\n"
+"als root draait.\n"
+"JE STAAT ER ALLEEN VOOR!"
 
 #. ERR_HEADER_ERROR
 msgid "Error"
-msgstr "Fehler"
+msgstr "Fout"
 
 #. ERR_HEADER_WARNING
 msgid "Warning"
-msgstr "Warnung"
+msgstr "Waarschuwing"
 
 #. ERR_HEADER_INFO
 msgid "Information"
-msgstr "Information"
+msgstr "Informatie"
 
 #. ERR_HEADER_CHILD_PROCESS_ERROR
 msgid "Child process error"
-msgstr "Kindprozess-Fehler"
+msgstr "Child process fout"
 
 #. ERR_FAILED_CREATE_FILE
 msgid "Failed to create file:"
-msgstr "Fehler beim Erstellen der Datei:"
+msgstr "Kon bestand niet maken:"
 
 #. ERR_LOAD_DEVICE_SETTINGS
 msgid "Error while loading device settings:"
-msgstr "Fehler beim Laden der Geräteeinstellungen"
+msgstr "Fout tijdens het laden van apparaatinstellingen:"
 
 #. ERR_NO_DRC_FILE
 msgid "is not a device-rc-file !!!"
-msgstr "ist keine Geräteeinstellungs-Datei !!!"
+msgstr "is geen apparaat-rc-bestand!!!"
 
 #. ERR_NETSCAPE_EXECUTE_FAIL
 msgid "Failed to execute netscape!"
-msgstr "Konnte Netscape nicht aufrufen"
+msgstr "Kon netscape niet starten!"
 
 #. ERR_SENDFAX_RECEIVER_MISSING
 msgid "Send fax: no receiver defined"
-msgstr "Fax senden: kein Empfänger angegeben"
+msgstr "Zenden fax: geen ontvanger gedefinieerd"
 
 #. ERR_CREATED_FOR_DEVICE
 msgid "has been created for device"
-msgstr "wurde erstellt für das Gerät"
+msgstr "is gemaakt voor apparaat"
 
 #. ERR_USED_FOR_DEVICE
 msgid "you want to use it for device"
-msgstr "wird benutzt für das Gerät"
+msgstr "je wilt het voor apparaat gebruiken"
 
 #. ERR_MAY_CAUSE_PROBLEMS
 msgid "this may cause problems!"
-msgstr "das kann zu Problemen führen!"
+msgstr "dit kan problemen veroorzaken!"
 
 #. WARN_UNSAVED_IMAGES
 #, c-format
 msgid "There are %d unsaved images"
-msgstr "Es gibt %d nicht gespeicherte Bilder"
+msgstr "Er zijn %d afbeeldingen niet bewaard"
 
 #. WARN_FILE_EXISTS
 #, c-format
 msgid "File %s already exists"
-msgstr "Datei %s exisitiert bereits"
+msgstr "Bestand %s bestaat al"
 
 #. ERR_FILE_NOT_EXISTS
 #, c-format
 msgid "File %s does not exist"
-msgstr "Datei %s exisitiert nicht"
+msgstr "Kon bestand %s niet vinden"
 
 #. ERR_FILE_NOT_POSTSCRIPT
 #, c-format
 msgid "File %s is not a postscript file"
-msgstr "Datei %s is keine Postscript Datei"
+msgstr "%s is geen PostScript bestand"
 
 #. ERR_UNSUPPORTED_OUTPUT_FORMAT
 #, c-format
 msgid "Unsupported %d-bit output format: %s"
-msgstr "Nicht unterstütztes %d-bit Ausgabeformat: %s"
+msgstr "Geen ondersteuning van %d-bits kleuren in het %s formaat"
 
 #. WARN_VIEWER_IMAGE_NOT_SAVED
 msgid "viewer image is not saved"
-msgstr "Betrachter Bild ist nicht gespeichert"
+msgstr "Afbeelding is niet bewaard"
 
 #. TEXT_USAGE
 msgid "Usage:"
-msgstr "Gebrauch:"
+msgstr "Gebruik:"
 
 #. TEXT_USAGE_OPTIONS
 msgid "[OPTION]... [DEVICE]"
-msgstr "[OPTION]... [GERÄT]"
+msgstr "[OPTIE]... [APPARAAT]"
 
 #. TEXT_HELP
 msgid ""
@@ -2501,51 +2483,56 @@ msgid ""
 " --sync                       request a synchronous connection with the X11 "
 "server"
 msgstr ""
-"Startet graphisches Benutzerinterface für SANE (Scanner Access Now Easy)\n"
+"Start een grafische gebruikers interface om SANE (Scanner Access Now Easy) "
+"apparaten te gebruiken.\n"
 "\n"
-"Das Format von [GERÄT] ist Backendname:Gerätedatei (z.B. umax:/dev/scanner)\n"
-"[OPTION]... kann eine Kombination aus den folgenden Elementen sein:\n"
-" -h, --help                   zeigt diesen Hilfetext\n"
-" -v, --version                gibt Versionsinformationen aus\n"
-" -l, --license                gibt Lizenzinformationen aus\n"
+"Het formaat van [APPARAAT] is backendnaam:apparaatbestand (b.v. umax:/dev/"
+"scanner).\n"
+"[OPTIE]... kan een combinatie zijn van de volgende:\n"
+" -h, --help                   laat deze tekst zien en stop\n"
+" -v, --version                print versie informatie\n"
+" -l, --license                print licentie informatie\n"
 "\n"
-" -d, --device-settings datei  lädt Geräteeinstellungen von datei\n"
+" -d, --device-settings bestand laad apparaatinstellingen van bestand (zonder "
+"\".drc\")\n"
 "\n"
-" -V, --viewer                 starte im Betrachtermodus (default)\n"
-" -s, --save                   starte im Speichernmodus\n"
-" -c, --copy                   starte im Kopiermodus\n"
-" -f, --fax                    starte im Faxmodus\n"
-" -m, --mail                   starte im E-Mailmodus\n"
-" -n, --no-mode-selection      deaktiviere Modusauswahl\n"
+" -V, --viewer                 begin in bekijk-mode (standaard)\n"
+" -s, --save                   begin in save-mode\n"
+" -c, --copy                   begin in kopieer-mode\n"
+" -f, --fax                    begin in fax-mode\n"
+" -m, --mail                   begin in e-mail-mode\n"
+" -n, --no-mode-selection      deactiveer menu voor XSane-mode selectie\n"
 "\n"
-" -F, --Fixed                  Hauptfenstergröße ist fest\n"
-" -R, --Resizeable             Hauptfenstergröße ist veränderbar\n"
+" -F, --Fixed                  vaste grootte hoofdvenster (overschrijft "
+"voorkeurinstellingen\n"
+" -R, --Resizeable             geen vaste grootte hoofdvenster (overschrijft "
+"voorkeurinstellingen\n"
 "\n"
-" -p, --print-filenames        gibt Dateinamen erzeugter Bilder aus\n"
-" -N, --force-filename name    benutze name als Dateinamen,\n"
-"                              deaktiviere Auswahl für Dateinamen\n"
+" -p, --print-filenames        print bestandnamen die-door XSane gemaakt\n"
+" -N, --force-filename naam    forceer een bestandsnaam en deactiveer "
+"filename selectie door gebruiker\n"
 "\n"
-" --display X11-display        lenkt X-Ausgabe auf X11-Display um\n"
-" --no-xshm                    keine shared memory Bilder benutzen\n"
-" --sync                       fordert synchrone Verbindung zum X-Server an"
+" --display X11-display        output naar X11-display\n"
+" --no-xshm                    gebruik geen shared memory afbeeldingen\n"
+" --sync                       vraag synchrone connectie met X11 server"
 
 #. strings for gimp plugin
 #. XSANE_GIMP_INSTALL_BLURB
 msgid "Front-end to the SANE interface"
-msgstr "Frontend zum SANE-Interface"
+msgstr "Front-end voor de SANE interface"
 
 #. XSANE_GIMP_INSTALL_HELP
 msgid ""
 "This function provides access to scanners and other image acquisition "
 "devices through the SANE (Scanner Access Now Easy) interface."
 msgstr ""
-"Diese Funktion gibt Zugang zu Scannern und anderen bilderzeugenden Geräten "
-"durch das SANE (Scanner Access Now Easy) Interface"
+"Deze functie geeft toegang tot scanners en andere aquisitie apparaten door "
+"de SANE (Scanner Access Now Easy) interface."
 
 #. Menu path must not be translated, this is done by the gimp. Only translate the text behind the last "/"
 #. XSANE_GIMP_MENU_DIALOG
 msgid "<Toolbox>/File/Acquire/XSane: Device dialog..."
-msgstr "<Toolbox>/File/Acquire/XSane: Geräteauswahl"
+msgstr "<Toolbox>/File/Acquire/XSane: Apparaat kiezen..."
 
 #. XSANE_GIMP_MENU
 msgid "<Toolbox>/File/Acquire/XSane: "
@@ -2553,7 +2540,7 @@ msgstr "<Toolbox>/File/Acquire/XSane: "
 
 #. XSANE_GIMP_MENU_DIALOG_OLD
 msgid "<Toolbox>/Xtns/XSane/Device dialog..."
-msgstr "<Toolbox>/Xtns/XSane/Geräteauswahl"
+msgstr "<Toolbox>/Xtns/XSane/Apparaat kiezen..."
 
 #. XSANE_GIMP_MENU_OLD
 msgid "<Toolbox>/Xtns/XSane/"
@@ -2570,44 +2557,43 @@ msgid ""
 "5) The backend is not configured correct (man sane-\"backendname\")\n"
 "6) Possibly there is more than one SANE version installed"
 msgstr ""
-"Mögliche Gründe:\n"
-"1) Es ist wirklich kein von SANE unterstützes Gerät vorhanden\n"
-"2) Unterstützte Geräte sind belegt\n"
-"3) Die Rechte für die Gerätedatei erlauben Ihnen keinen Zugriff - Versuchen "
-"Sie es als root\n"
-"4) Das Backend wurde von SANE nicht geladen (man sane-dll)\n"
-"5) Das Backend wurde nicht richtig konfiguriert (man sane-\"backendname\")\n"
-"6) Möglicherweise sind mehrere SANE Versionen installiert"
+"Mogelijke redenen:\n"
+"1) Er is echt geen apparaat dat door SANE ondersteund wordt\n"
+"2) De ondersteunde apparaten zijn bezet\n"
+"3) Je hebt geen permissie om het apparaat te gebruiken, probeer als root\n"
+"4) De backend is niet geladen door SANE (man sane-dll)\n"
+"5) De backend is niet goed geconfigureerd (man sane-<backendnaam>)\n"
+"6) Misschien is er meer dan ��n versie van SANE ge�nstalleerd"
 
 #. strings that are used in structures, so it is not allowed to use _()/gettext() here
 #. gettext_noop does mark these texts but does not change the string
 #. MENU_ITEM_SURFACE_FULL_SIZE
 msgid "full size"
-msgstr "volle Größe"
+msgstr "volledige grootte"
 
 #. MENU_ITEM_SURFACE_DIN_A3P
 msgid "DIN A3 port."
-msgstr "DIN A3 hoch"
+msgstr "DIN A3 port."
 
 #. MENU_ITEM_SURFACE_DIN_A3L
 msgid "DIN A3 land."
-msgstr "DIN A3 quer"
+msgstr "DIN A3 land."
 
 #. MENU_ITEM_SURFACE_DIN_A4P
 msgid "DIN A4 port."
-msgstr "DIN A4 hoch"
+msgstr "DIN A4 port."
 
 #. MENU_ITEM_SURFACE_DIN_A4L
 msgid "DIN A4 land."
-msgstr "DIN A4 quer"
+msgstr "DIN A4 land."
 
 #. MENU_ITEM_SURFACE_DIN_A5P
 msgid "DIN A5 port."
-msgstr "DIN A5 hoch"
+msgstr "DIN A5 port."
 
 #. MENU_ITEM_SURFACE_DIN_A5L
 msgid "DIN A5 land."
-msgstr "DIN A5 quer"
+msgstr "DIN A5 land."
 
 #. MENU_ITEM_SURFACE_13cmx18cm
 msgid "13cm x 18cm"
@@ -2635,23 +2621,23 @@ msgstr "13cm x 9cm"
 
 #. MENU_ITEM_SURFACE_legal_P
 msgid "legal port."
-msgstr "legal hoch"
+msgstr "legal port."
 
 #. MENU_ITEM_SURFACE_legal_L
 msgid "legal land."
-msgstr "legal quer"
+msgstr "legal land."
 
 #. MENU_ITEM_SURFACE_letter_P
 msgid "letter port."
-msgstr "letter hoch"
+msgstr "letter port."
 
 #. MENU_ITEM_SURFACE_letter_L
 msgid "letter land."
-msgstr "letter quer"
+msgstr "letter land."
 
 #. MENU_ITEM_MEDIUM_FULL_COLOR_RANGE
 msgid "Full color range"
-msgstr "Voller Farbumfang"
+msgstr "Volledig kleuren bereik"
 
 #. MENU_ITEM_MEDIUM_SLIDE
 msgid "Slide"
@@ -2659,159 +2645,159 @@ msgstr "Dia"
 
 #. MENU_ITEM_MEDIUM_STANDARD_NEG
 msgid "Standard negative"
-msgstr "Standard Negativ"
+msgstr "Standaard negatief"
 
 #. MENU_ITEM_MEDIUM_AGFA_NEG
 msgid "Agfa negative"
-msgstr "Agfa Negativ"
+msgstr "Agfa negatief"
 
 #. MENU_ITEM_MEDIUM_AGFA_NEG_XRG200_4
 msgid "Agfa negative XRG 200-4"
-msgstr "Agfa Negativ XRG 200-4"
+msgstr "Agfa negatief XRG 200-4"
 
 #. MENU_ITEM_MEDIUM_AGFA_NEG_HDC_100
 msgid "Agfa negative HDC 100"
-msgstr "Agfa Negativ HDC 100"
+msgstr "Agfa negatief HDC 100"
 
 #. MENU_ITEM_MEDIUM_FUJI_NEG
 msgid "Fuji negative"
-msgstr "Fuji Negativ"
+msgstr "Fuji negatief"
 
 #. MENU_ITEM_MEDIUM_KODAK_NEG
 msgid "Kodak negative"
-msgstr "Kodak Negativ"
+msgstr "Kodak negatief"
 
 #. MENU_ITEM_MEDIUM_KONICA_NEG
 msgid "Konica negative"
-msgstr "Konica Negativ"
+msgstr "Konica negatief"
 
 #. MENU_ITEM_MEDIUM_KONICA_NEG_VX_100
 msgid "Konica negative VX 100"
-msgstr "Konica Negativ VX 100"
+msgstr "Konica negatief VX 100"
 
 #. MENU_ITEM_MEDIUM_ROSSMANN_NEG_HR_100
 msgid "Rossmann negative HR 100"
-msgstr "Rossmann Negativ HR 100"
+msgstr "Rossmann negatief HR 100"
 
 #. TEXT_MAIL_STATUS_NOT_CREATED
 msgid "Mail project not created"
-msgstr "Mail-Projekt nicht erstellt"
+msgstr "E-mail project niet gemaakt"
 
 #. TEXT_MAIL_STATUS_CREATED
 msgid "Mail project created"
-msgstr "Mail-Projekt erstellt"
+msgstr "E-mail project gemaakt"
 
 #. TEXT_MAIL_STATUS_CHANGED
 msgid "Mail project changed"
-msgstr "Mail-Projekt geändert"
+msgstr "E-mail project veranderd"
 
 #. TEXT_MAIL_STATUS_ERR_READ_PROJECT
 msgid "Error reading mailproject"
-msgstr "Fehler beim Lesen des Mailprojekts"
+msgstr "Fout tijdens lezen van e-mail project"
 
 #. TEXT_MAIL_STATUS_POP3_CONNECTION_FAILED
 msgid "POP3 connection failed"
-msgstr "POP3 Verbindung fehlgeschlagen"
+msgstr "POP3 verbinding mislukt"
 
 #. TEXT_MAIL_STATUS_POP3_LOGIN_FAILED
 msgid "POP3 login failed"
-msgstr "POP3 Login fehlgeschlagen"
+msgstr "POP3 login mislukt"
 
 #. TEXT_MAIL_STATUS_SMTP_CONNECTION_FAILED
 msgid "SMTP connection failed"
-msgstr "SMTP Verbindung fehlgeschlagen"
+msgstr "SMTP verbinding mislukt"
 
 #. TEXT_MAIL_STATUS_SMTP_ERR_FROM
 msgid "From entry not accepted"
-msgstr "Absender Eintrag nicht akzeptiert"
+msgstr "Verstuurder adres is afgewezen"
 
 #. TEXT_MAIL_STATUS_SMTP_ERR_RCPT
 msgid "Receiver entry not accepted"
-msgstr "Empfänger Eintrag nicht akzeptiert"
+msgstr "Ontvanger adres is afgewezen"
 
 #. TEXT_MAIL_STATUS_SMTP_ERR_DATA
 msgid "Mail data not accepted"
-msgstr "Mail Daten nicht akzeptiert"
+msgstr "E-mail data niet geaccepteerd"
 
 #. TEXT_MAIL_STATUS_SENDING
 msgid "Sending mail"
-msgstr "Mail wird gesendet"
+msgstr "Versturen e-mail"
 
 #. TEXT_MAIL_STATUS_SENT
 msgid "Mail has been sent"
-msgstr "Mail wurde gesendet"
+msgstr "E-mail is verstuurd"
 
 #. TEXT_FAX_STATUS_NOT_CREATED
 msgid "Fax project not created"
-msgstr "Fax-Projekt nicht erstellt"
+msgstr "Fax project is niet gemaakt"
 
 #. TEXT_FAX_STATUS_CREATED
 msgid "Fax project created"
-msgstr "Fax-Projekt erstellt"
+msgstr "Fax project gemaakt"
 
 #. TEXT_FAX_STATUS_CHANGED
 msgid "Fax project changed"
-msgstr "Fax-Projekt geändert"
+msgstr "Fax project veranderd"
 
 #. TEXT_FAX_STATUS_QUEUEING_FAX
 msgid "Queueing Fax"
-msgstr "Fax zum Senden einreihen"
+msgstr "Fax in de wachtrij aan het zetten"
 
 #. TEXT_FAX_STATUS_FAX_QUEUED
 msgid "Fax is queued"
-msgstr "Fax ist zum Senden eingereiht"
+msgstr "Fax staat in de wachtrij"
 
 #. Sane backend messages
 msgid "flatbed scanner"
-msgstr "Flachbettscanner"
+msgstr "flatbedscanner"
 
 msgid "frame grabber"
-msgstr "Framegrabber"
+msgstr "framegrabber"
 
 msgid "handheld scanner"
-msgstr "Handscanner"
+msgstr "handscanner"
 
 msgid "still camera"
-msgstr "Photokamera"
+msgstr "still camera"
 
 msgid "video camera"
-msgstr "Videokamera"
+msgstr "videocamera"
 
 msgid "virtual device"
-msgstr "virtuelles Gerät"
+msgstr "virtueel apparaat"
 
 msgid "Success"
-msgstr "Erfolg"
+msgstr "Succes"
 
 msgid "Operation not supported"
-msgstr "Operation nicht unterstützt"
+msgstr "Functie niet ondersteund"
 
 msgid "Operation was cancelled"
-msgstr "Operation abgebrochen"
+msgstr "Functie was onderbroken"
 
 msgid "Device busy"
-msgstr "Gerät besetzt"
+msgstr "Apparaat bezig"
 
 msgid "Invalid argument"
-msgstr "Ungültiges Argument"
+msgstr "Fout argument"
 
 msgid "End of file reached"
-msgstr "Dateiende erreicht"
+msgstr "Einde van bestand bereikt"
 
 msgid "Document feeder jammed"
-msgstr "Dokumenteneinzug blockiert"
+msgstr "Document doorvoer geblokkeerd"
 
 msgid "Document feeder out of documents"
-msgstr "Dokumenteneinzug ohne Papier"
+msgstr "Geen documenten meer"
 
 msgid "Scanner cover is open"
-msgstr "Scannerdeckel ist offen"
+msgstr "Scanner deksel is open"
 
 msgid "Error during device I/O"
-msgstr "Fehler während Geräte I/O"
+msgstr "Fout tijdens apparaat communicatie"
 
 msgid "Out of memory"
-msgstr "Kein Speicher"
+msgstr "Geheugen vol"
 
 msgid "Access to resource has been denied"
-msgstr "Zugang zum Gerät wurde verweigert"
+msgstr "Geen toegang tot apparaat"

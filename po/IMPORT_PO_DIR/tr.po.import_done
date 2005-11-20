@@ -1,25 +1,24 @@
-# translation of es.po to Castellano
-# XSane Spanish .po file
-# Copyright (C) 2001,2002, 2004 Free Software Foundation, Inc.
-# Gustavo D. Vranjes <gvranjes@SoftHome.net>, 2001,2002, 2004.
-# Gustavo D. Vranjes <gvranjes@abaconet.com.ar>, 2002.
+# translation of tr.po to Turkish
+# Turkish Translation for XSane
+# TOGAN MUFTUOGLU  <toganm@yahoo.com>, 2000.
+# Togan Muftuoglu <toganm@yahoo.com>, 2004
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: XSANE 0.96\n"
-"POT-Creation-Date: 2004-08-21 15:31+0200\n"
-"PO-Revision-Date: 2004-08-22 19:15GMT\n"
-"Last-Translator: Gustavo D. Vranjes <gvranjes@SoftHome.net>\n"
-"Language-Team: Castellano <es@li.org>\n"
+"POT-Creation-Date: 2005-10-23 00:20+0200\n"
+"PO-Revision-Date: 2004-08-26 11:08+0200\n"
+"Last-Translator: Togan Muftuoglu <toganm@yahoo.com>\n"
+"Language-Team: Turkish <kde-i18n-tr@kde.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=ISO-8859-9\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9\n"
+"X-Generator: KBabel 1.0.1\n"
 
 #. Please translate this to the correct directory name (eg. german=>de)
 #. XSANE_LANGUAGE_DIR
 msgid "language_dir"
-msgstr "es"
+msgstr "tr"
 
 #. XSANE_COPYRIGHT_SIGN
 msgid "(c)"
@@ -28,620 +27,619 @@ msgstr "(c)"
 #. can be translated with \251
 #. FILENAME_PREFIX_CLONE_OF
 msgid "clone-of-"
-msgstr "clon-de-"
+msgstr "Klonu"
 
 #. WINDOW_ABOUT_XSANE
 msgid "About"
-msgstr "Acerca..."
+msgstr "Hakkında"
 
 #. WINDOW_ABOUT_TRANSLATION, MENU_ITEM_ABOUT_TRANSLATION
 msgid "About translation"
-msgstr "Acerca de la traducciÃ³n..."
+msgstr "Tercüme hakkında"
 
 #. WINDOW_AUTHORIZE
 msgid "authorization"
-msgstr "autorizaciÃ³n"
+msgstr "Otorizasyon"
 
 #. WINDOW_GPL
 msgid "GPL - the license"
-msgstr "GPL - la licencia"
+msgstr "GPL - lisans"
 
 #. WINDOW_EULA
 msgid "End User License Agreement"
-msgstr "Acuerdo de Licencia para Usuario Final"
+msgstr "Son Kullanıcı Lisans Anlaşması"
 
 #. WINDOW_INFO
 msgid "info"
-msgstr "informaciÃ³n"
+msgstr "bilgi"
 
 #. WINDOW_LOAD_BATCH_LIST
 msgid "load batch list"
-msgstr "cargar lista de proceso por lotes"
+msgstr "sıralı listeyi yükle"
 
 #. WINDOW_SAVE_BATCH_LIST
 msgid "save batch list"
-msgstr "guardar lista de proceso por lotes"
+msgstr "sıralı listeyi sakla"
 
 #. WINDOW_BATCH_SCAN
 msgid "batch scan"
-msgstr "Escaneo por lotes"
+msgstr "sıralı tarama"
 
 #. WINDOW_BATCH_RENAME
 msgid "rename batch area"
-msgstr "renombrar area de proceso por lotes"
+msgstr "Alanı yeniden isimlendir"
 
 #. WINDOW_FAX_PROJECT
 msgid "fax project"
-msgstr "proyecto de fax"
+msgstr "fax projesi"
 
 #. WINDOW_FAX_RENAME
 msgid "rename fax page"
-msgstr "renombrar pÃ¡gina de fax"
+msgstr "fax sayfasını yeniden isimlendir"
 
 #. WINDOW_FAX_INSERT
 msgid "insert ps-file into fax"
-msgstr "insertar archivo-ps dentro de fax"
+msgstr "ps-dosyasını faxa yerleştirin"
 
 #. WINDOW_MAIL_PROJECT
 msgid "mail project"
-msgstr "proyecto de correo electrÃ³nico"
+msgstr "posta projesi"
 
 #. WINDOW_MAIL_RENAME
 msgid "rename mail image"
-msgstr "renombrar imagen de correo electrÃ³nico"
+msgstr "posta resmini yeniden isimlendir"
 
 #. WINDOW_MAIL_INSERT
 msgid "insert file into mail"
-msgstr "insertar archivo dentro de correo electrÃ³nico"
+msgstr "dosyayı postaya yerleştirin"
 
 #. WINDOW_PRESET_AREA_RENAME
 msgid "rename preset area"
-msgstr "renombrar area de preset"
+msgstr "Önceden belirlenmiş alanı yeniden isimlendir"
 
 #. WINDOW_PRESET_AREA_ADD
 msgid "add preset area"
-msgstr "agregar area de preset"
+msgstr "Önceden belirlenmiş alan ekle"
 
 #. WINDOW_MEDIUM_RENAME
 msgid "rename medium"
-msgstr "renombrar medio"
+msgstr "Saklama ortamının ismini değiştir"
 
 #. WINDOW_MEDIUM_ADD
 msgid "add new medium"
-msgstr "agregar medio nuevo"
+msgstr "Yeni saklama ortamı ekle"
 
 #. WINDOW_SETUP
 msgid "setup"
-msgstr "configuraciÃ³n"
+msgstr "ayarlar"
 
 #. WINDOW_HISTOGRAM
 msgid "Histogram"
-msgstr "Histograma"
+msgstr "Histogram"
 
 #. WINDOW_GAMMA
 msgid "Gamma curve"
-msgstr "Curva Gamma"
+msgstr "Gamma eğrisi"
 
 #. WINDOW_STANDARD_OPTIONS
 msgid "Standard options"
-msgstr "Opciones estÃ¡ndar"
+msgstr "Standart seçenekler"
 
 #. WINDOW_ADVANCED_OPTIONS
 msgid "Advanced options"
-msgstr "Ociones avanzadas"
+msgstr "Gelişmiş seçenekler"
 
 #. WINDOW_DEVICE_SELECTION
 msgid "device selection"
-msgstr "selecciÃ³n de dispositivo"
+msgstr "aygıt seçimi"
 
 #. WINDOW_PREVIEW
 msgid "Preview"
-msgstr "Vista previa"
+msgstr "Önizleme"
 
 #. WINDOW_VIEWER
 msgid "Viewer"
-msgstr "Visor interno"
+msgstr "Gösterici"
 
 #. WINDOW_VIEWER_OUTPUT_FILENAME
 msgid "Viewer: select output filename"
-msgstr "Visor: seleccionar archivo de salida"
+msgstr "Gösterici: çıktı dosya adını seçiniz"
 
 #. WINDOW_OCR_OUTPUT_FILENAME
 msgid "Select output filename for OCR text file"
-msgstr "Seleccionar nombre de archivo de salida para archivo de texto OCR"
+msgstr "OCR metin çıktı dosya adını seçiniz"
 
 #. WINDOW_OUTPUT_FILENAME
 msgid "select output filename"
-msgstr "seleccionar archivo de salida"
+msgstr "çıktı dosya adını seçiniz"
 
 #. WINDOW_SAVE_SETTINGS
 msgid "save device settings"
-msgstr "guardar configuraciÃ³n de dispositivo"
+msgstr "aygıt ayarlarını sakla"
 
 #. WINDOW_LOAD_SETTINGS
 msgid "load device settings"
-msgstr "cargar configuraciÃ³n de dispositivo"
+msgstr "aygıt ayarlarını yükle"
 
 #. WINDOW_CHANGE_WORKING_DIR
 msgid "change working directory"
-msgstr "cambiar directorio de trabajo"
+msgstr "çalışma dizinini değiştir"
 
 #. WINDOW_TMP_PATH
 msgid "select temporary directory"
-msgstr "seleccionar directorio temporal"
+msgstr "geçici dizini seçin"
 
 #. WINDOW_SCALE
 msgid "Scale image"
-msgstr "Redimensionar imagen"
+msgstr "Resmi ölçülendir"
 
 #. WINDOW_DESPECKLE
 msgid "Despeckle image"
-msgstr "Desparasitar imagen"
+msgstr "Resmi beneksizleştir"
 
 #. WINDOW_BLUR
 msgid "Blur image"
-msgstr "Desenfocar imagen"
+msgstr "Resmi bulanıklaştır"
 
 #. WINDOW_STORE_MEDIUM
 msgid "Store medium definition"
-msgstr "Guardar definiciÃ³n de medio"
+msgstr "Ortam tanımını sakla"
 
 #. WINDOW_NO_DEVICES
 msgid "No devices available"
-msgstr "No hay dispositivos obtenibles"
+msgstr "Hiçbir aygıt mevcut değil"
 
 #. MENU_FILE
 msgid "File"
-msgstr "Archivo"
+msgstr "Dosya"
 
 #. MENU_PREFERENCES
 msgid "Preferences"
-msgstr "Preferencias"
+msgstr "Ayarlar"
 
 #. MENU_VIEW
 msgid "View"
-msgstr "Ver"
+msgstr "İzleme"
 
 #. MENU_WINDOW
 msgid "Window"
-msgstr "Ventana"
+msgstr "Pencere"
 
 #. MENU_HELP
 msgid "Help"
-msgstr "Ayuda"
+msgstr "Yardım"
 
 #. MENU_EDIT
 msgid "Edit"
-msgstr "Editar"
+msgstr "Düzelt"
 
 #. MENU_FILTERS
 msgid "Filters"
-msgstr "Filtros"
+msgstr "Filtreler"
 
 #. MENU_GEOMETRY
 msgid "Geometry"
-msgstr "GeometrÃ­a"
+msgstr "Geometri"
 
 #. MENU_ITEM_ABOUT_XSANE
 msgid "About XSane"
-msgstr "Acerca de XSane..."
+msgstr "Xsane hakkında"
 
 #. MENU_ITEM_INFO
 msgid "Info"
-msgstr "InformaciÃ³n"
+msgstr "Bilgi"
 
 #. MENU_ITEM_QUIT
 msgid "Quit"
-msgstr "Salir"
+msgstr "Çık"
 
 #. MENU_ITEM_SAVE_IMAGE
 msgid "Save image"
-msgstr "Guardar imagen"
+msgstr "Resmi kaydet"
 
 #. MENU_ITEM_OCR
 msgid "OCR - save as text"
-msgstr "OCR - guardar como texto"
+msgstr "OCR - metin olarak sakla"
 
 #. MENU_ITEM_CLONE
 msgid "Clone"
-msgstr "Duplicar"
+msgstr "Klonla"
 
 #. MENU_ITEM_SCALE
 msgid "Scale"
-msgstr "Redimensionar"
+msgstr "Boyutlandırma"
 
 #. MENU_ITEM_CLOSE
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Kapat"
 
 #. MENU_ITEM_UNDO
 msgid "Undo"
-msgstr "Deshacer"
+msgstr "Geri al"
 
 #. MENU_ITEM_DESPECKLE
 msgid "Despeckle"
-msgstr "Desparasitar "
+msgstr "Beneksizleştirme"
 
 #. MENU_ITEM_BLUR
 msgid "Blur"
-msgstr "Desenfoque"
+msgstr "Bulanıklaştırma"
 
 #. MENU_ITEM_ROTATE90
 msgid "Rotate 90"
-msgstr "Rotar imagen 90 grados"
+msgstr "Döndür 90"
 
 #. MENU_ITEM_ROTATE180
 msgid "Rotate 180"
-msgstr "Rotar imagen 180 grados"
+msgstr "Döndür 180"
 
 #. MENU_ITEM_ROTATE270
 msgid "Rotate 270"
-msgstr "Rotar imagen 270 grados"
+msgstr "Döndür 270"
 
 #. MENU_ITEM_MIRROR_X
 msgid "Mirror |"
-msgstr "Espejo |"
+msgstr "Ayna"
 
 #. MENU_ITEM_MIRROR_Y
 msgid "Mirror -"
-msgstr "Espejo -"
+msgstr "Ayna-"
 
 #. FRAME_RAW_IMAGE
 msgid "Raw image"
-msgstr "Imagen Cruda"
+msgstr "Ham resim"
 
 #. FRAME_ENHANCED_IMAGE
 msgid "Enhanced image"
-msgstr "Imagen mejorada"
+msgstr "Gelişmiş resim"
 
 #. BUTTON_SCAN
 msgid "Scan"
-msgstr "Escanear"
+msgstr "Tara"
 
 #. BUTTON_OK
 msgid "Ok"
-msgstr "Ok"
+msgstr "Tamam"
 
 #. BUTTON_ACCEPT
 msgid "Accept"
-msgstr "Aceptar"
+msgstr "Kabul et"
 
 #. BUTTON_NOT_ACCEPT
 msgid "Not accept"
-msgstr "No aceptar"
+msgstr "Reddet"
 
 #. BUTTON_APPLY
 msgid "Apply"
-msgstr "Aplicar"
+msgstr "Uygula"
 
 #. BUTTON_CANCEL
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Vazgeç"
 
 #. BUTTON_REDUCE
 msgid "Reduce"
-msgstr "Reducir"
+msgstr "Azalt"
 
 #. BUTTON_CONT_AT_OWN_RISK
 msgid "Continue at your own risk"
-msgstr "Continuar a su propio riesgo"
+msgstr "Kendi riskiniz altında devam edin"
 
 #. BUTTON_BROWSE
 msgid "Browse"
-msgstr "Explorar"
+msgstr "Gözat"
 
 #. BUTTON_OVERWRITE
 msgid "Overwrite"
-msgstr "Sobreescribir"
+msgstr "Üzerine yaz"
 
 #. BUTTON_BATCH_LIST_SCAN
 msgid "Scan batch list"
-msgstr "Lista de escaneo por lotes"
+msgstr "Sıralı listeyi tara"
 
 #. BUTTON_BATCH_AREA_SCAN
 msgid "Scan selected area"
-msgstr "Escanear Ã¡rea seleccionada"
+msgstr "Seçilen alanı tara"
 
 #. BUTTON_PAGE_DELETE
 msgid "Delete page"
-msgstr "Borrar pÃ¡gina"
+msgstr "Sayfayı sil"
 
 #. BUTTON_PAGE_SHOW
 msgid "Show page"
-msgstr "Mostrar pÃ¡gina"
+msgstr "Sayfayı göster"
 
 #. BUTTON_PAGE_RENAME
 msgid "Rename page"
-msgstr "Renombrar pÃ¡gina"
+msgstr "Sayfayı yeniden isimlendir"
 
 #. BUTTON_IMAGE_DELETE
 msgid "Delete image"
-msgstr "Borrar imagen"
+msgstr "Resmi sil"
 
 #. BUTTON_IMAGE_SHOW
 msgid "Show image"
-msgstr "Mostrar imagen"
+msgstr "Resmi göster"
 
 #. BUTTON_IMAGE_EDIT
 msgid "Edit image"
-msgstr "Editar imagen"
+msgstr "Resmi düzelt"
 
 #. BUTTON_IMAGE_RENAME
 msgid "Rename image"
-msgstr "Renombrar imagen"
+msgstr "Resmi yeniden isimlendir"
 
 #. BUTTON_FILE_INSERT
 msgid "Insert file"
-msgstr "Insertar archivo"
+msgstr "Dosya koy"
 
 #. BUTTON_CREATE_PROJECT
 msgid "Create project"
-msgstr "Crear proyecto"
+msgstr "Proje yarat"
 
 #. BUTTON_SEND_PROJECT
 msgid "Send project"
-msgstr "Enviar proyecto"
+msgstr "Projeyi gönder"
 
 #. BUTTON_DELETE_PROJECT
 msgid "Delete project"
-msgstr "Borrar proyecto"
+msgstr "Projeyi sil"
 
 #. BUTTON_ADD_PRINTER
 msgid "Add printer"
-msgstr "AÃ±adir impresora"
+msgstr "Yazıcı ekle"
 
 #. BUTTON_DELETE_PRINTER
 msgid "Delete printer"
-msgstr "Borrar impresora"
+msgstr "Yazıcı sil"
 
 #. BUTTON_PREVIEW_ACQUIRE
 msgid "Acquire preview"
-msgstr "Adquirir vista previa"
+msgstr "Önizleme iste"
 
 #. BUTTON_PREVIEW_CANCEL
 msgid "Cancel preview"
-msgstr "Cancelar vista previa"
+msgstr "Önizlemeyi iptal et"
 
 #. BUTTON_DISCARD_IMAGE
 msgid "Discard image"
-msgstr "Descartar imagen"
+msgstr "Resmi sil"
 
 #. BUTTON_DISCARD_ALL_IMAGES
 msgid "Discard all images"
-msgstr "Descartar todas las imÃ¡genes"
+msgstr "Tüm resimleri  sil"
 
 #. BUTTON_DO_NOT_CLOSE
 msgid "Do not close"
-msgstr "No cerrar"
+msgstr "Kapatma"
 
 #. BUTTON_SCALE_BIND
 msgid "Bind scale"
-msgstr "Atar escala"
+msgstr "Boyutları tut"
 
 #. RADIO_BUTTON_FINE_MODE
 msgid "Fine mode"
-msgstr "Modo fino"
+msgstr "Fine modu"
 
 #. RADIO_BUTTON_HTML_MAIL
 msgid "HTML mail"
-msgstr "Correo electrÃ³nico HTML"
+msgstr "HTML e-posta"
 
 #. RADIO_BUTTON_SAVE_DEVPREFS_AT_EXIT
 msgid "Save device preferences at exit"
-msgstr "Guardar preferencias de dispositivo al salir"
+msgstr "Aygıt tercihlerini sakla ve çık"
 
 #. RADIO_BUTTON_OVERWRITE_WARNING
 msgid "Overwrite warning"
-msgstr "Advertencia de sobreescritura"
+msgstr "Üzerine yazma uyarısı"
 
 #. RADIO_BUTTON_SKIP_EXISTING_NRS
 msgid "Skip existing filenames"
-msgstr "Omitir nombres de archivos existentes"
+msgstr "Varolan dosya isimlerini atla"
 
 #. RADIO_BUTTON_SAVE_PNM16_AS_ASCII
 msgid "Save 16bit pnm in ascii format"
-msgstr "Guardar 16bit pnm en formato ascii"
+msgstr "16bit pnm'yi ascii formatında sakla"
 
 #. RADIO_BUTTON_REDUCE_16BIT_TO_8BIT
 msgid "Reduce 16 bit image to 8 bit"
-msgstr "Reducir imagen de 16 bits a imagen de 8 bits"
+msgstr "16 bit resmi 8 bite indirge"
 
 #. RADIO_BUTTON_WINDOW_FIXED
 msgid "Main window size fixed"
-msgstr "TamaÃ±o de ventana principal fijo"
+msgstr "Ana pencere boyutu sabitlendi"
 
 #. RADIO_BUTTON_DISABLE_GIMP_PREVIEW_GAMMA
 msgid "Disable gimp preview gamma"
-msgstr "Deshabilitar vista previa de gamma de gimp"
+msgstr "Gimp önizleme gamması pasif kılındı"
 
 #. RADIO_BUTTON_PRIVATE_COLORMAP
 msgid "Use private colormap"
-msgstr "Usar mapa de colores privado"
+msgstr "Özel renk tablosu kullan"
 
 #. RADIO_BUTTON_AUTOENHANCE_GAMMA
 msgid "Autoenhance gamma"
-msgstr "Automejorar gamma"
+msgstr "Gamma otomatik düzenlensin"
 
 #. RADIO_BUTTON_PRESELECT_SCANAREA
 msgid "Preselect scanarea"
-msgstr "Preseleccionar Ã¡rea de escaneado"
+msgstr "Tarama alanını önceden seç"
 
 #. RADIO_BUTTON_AUTOCORRECT_COLORS
 msgid "Autocorrect colors"
-msgstr "Autocorregir colores"
+msgstr "Renkleri otomatik düzelt"
 
 #. RADIO_BUTTON_POP3_AUTHENTIFICATION
 msgid "POP3 authentification"
-msgstr "AutentificaciÃ³n POP3"
+msgstr "POP3 otorizasyon"
 
 #. RADIO_BUTTON_OCR_USE_GUI_PIPE
 msgid "Use GUI progress pipe"
-msgstr "Usar progreso de tuberÃ­a GUI "
+msgstr "GUI ilerleme çubuğunu kullan"
 
 #. TEXT_SCANNING_DEVICES
 msgid "scanning for devices"
-msgstr "Escaneando dispositivos"
+msgstr "aygıtları arıyor"
 
 #. TEXT_AVAILABLE_DEVICES
 msgid "Available devices:"
-msgstr "Dispositivos disponibles:"
+msgstr "Varolan aygıtlar"
 
 #. TEXT_XSANE_OPTIONS
 msgid "XSane options"
-msgstr "Opciones de XSane"
+msgstr "Xsane seçenekleri"
 
 #. TEXT_XSANE_MODE
 msgid "XSane mode"
-msgstr "Modo de XSane"
+msgstr "Xsane modu"
 
 #. TEXT_FILENAME_COUNTER_STEP
 msgid "Step"
-msgstr "Paso"
+msgstr "Sayaç"
 
 #. TEXT_FILETYPE
 msgid "Type"
-msgstr "Tipo"
+msgstr "Tip"
 
 #. TEXT_SCANNER_BACKEND
 msgid "Scanner and backend:"
-msgstr "EscÃ¡ner y backend:"
+msgstr "Tarayıcı ve sürücü:"
 
 #. TEXT_VENDOR
 msgid "Vendor:"
-msgstr "Vendedor:"
+msgstr "Üretici:"
 
 #. TEXT_MODEL
 msgid "Model:"
-msgstr "Modelo:"
+msgstr "Model:"
 
 #. TEXT_TYPE
 msgid "Type:"
-msgstr "Tipo:"
+msgstr "Tip:"
 
 #. TEXT_DEVICE
 msgid "Device:"
-msgstr "Dispositivo:"
+msgstr "Aygıt:"
 
 #. TEXT_LOADED_BACKEND
 msgid "Loaded backend:"
-msgstr "Backend cargado:"
+msgstr "Yüklenen sürücü:"
 
 #. TEXT_SANE_VERSION
 msgid "Sane version:"
-msgstr "VersiÃ³n de Sane:"
+msgstr "Sane sürümü:"
 
 #. TEXT_RECENT_VALUES
 msgid "Recent values:"
-msgstr "Valores recientes:"
+msgstr "Son değerler:"
 
 #. TEXT_GAMMA_CORR_BY
 msgid "Gamma correction by:"
-msgstr "CorrecciÃ³n gamma por:"
+msgstr "Gamma düzeltmesi:"
 
 #. TEXT_SCANNER
 msgid "scanner"
-msgstr "escÃ¡ner"
+msgstr "tarayıcı"
 
 #. TEXT_SOFTWARE_XSANE
 msgid "software (XSane)"
-msgstr "software (XSane)"
+msgstr "yazılım (Xsane)"
 
 #. TEXT_NONE
 msgid "none"
-msgstr "ninguno"
+msgstr "hiçbiri"
 
 #. TEXT_GAMMA_INPUT_DEPTH
 msgid "Gamma input depth:"
-msgstr "Profundidad de entrada de gamma:"
+msgstr "Gamma giriş derinliği"
 
 #. TEXT_GAMMA_OUTPUT_DEPTH
 msgid "Gamma output depth:"
-msgstr "Profundidad de salida de gamma:"
+msgstr "Gamma çıkış derinliği"
 
 #. TEXT_SCANNER_OUTPUT_DEPTH
 msgid "Scanner output depth:"
-msgstr "Profundidad de salida de escÃ¡ner:"
+msgstr "Tarayıcı çıktı derinliği"
 
 #. TEXT_OUTPUT_FORMATS
 msgid "XSane output formats:"
-msgstr "Formatos de salida de XSane:"
+msgstr "Xsane çıktı formatları: "
 
 #. TEXT_8BIT_FORMATS
 msgid "8 bit output formats:"
-msgstr "Formatos de salida de 8 bits:"
+msgstr "8 bit çıktı formatları:"
 
 #. TEXT_16BIT_FORMATS
 msgid "16 bit output formats:"
-msgstr "Formatos de salida de 16 bits:"
+msgstr "16 bit formatları:"
 
 #. TEXT_GIMP_REDUCE_16BIT_TO_8BIT
 msgid ""
 "Gimp does not support depth 16 bits/color.\n"
 "Do you want to reduce the depth to 8 bits/color?"
 msgstr ""
-"Gimp no soporta profundidad de 16 bits/color.\n"
-"Â¿Quire reducir la profundidad a 8 bits/color?"
+"Gimp 16 bit/renk derinliğini desteklemiyor.\n"
+"Derinliği 8bit/renk haline getirmek istermisiniz ?"
 
 #. TEXT_REDUCE_16BIT_TO_8BIT
 msgid ""
 "Bit depth 16 bits/color is not supported for this output format.\n"
 "Do you want to reduce the depth to 8 bits/color?"
 msgstr ""
-"La profundidad de 16 bits/color no estÃ¡ soportada en Ã©ste formato de "
-"salida.\n"
-"Â¿Quire reducir la profundidad a 8 bits/color?"
+"Bu çıktı formatı için 16 bit/renk derinliği desteklenmiyor\n"
+"Derinliği 8 bit/renk olarak değiştirmek istermisiniz ?"
 
 #. TEXT_AUTHORIZATION_REQ
 msgid "Authorization required for"
-msgstr "Se requiere autorizaciÃ³n para"
+msgstr "Otorizayon gerekli :"
 
 #. TEXT_AUTHORIZATION_SECURE
 msgid "Password transmission is secure"
-msgstr "La transmisiÃ³n de contraseÃ±a es segura"
+msgstr "Şifre yollanması güvenli "
 
 #. TEXT_AUTHORIZATION_INSECURE
 msgid "Backend requests plain-text password"
-msgstr "Los pedidos de backend requieren contraseÃ±a de texto puro."
+msgstr "Sürücü düz-metin şifre istiyor"
 
 #. TEXT_USERNAME
 msgid "Username :"
-msgstr "Nombre de usuario:"
+msgstr "Kullanıcı adı:"
 
 #. TEXT_PASSWORD
 msgid "Password :"
-msgstr "ContraseÃ±a:"
+msgstr "Şifre:"
 
 #. TEXT_INVALID_PARAMS
 msgid "Invalid parameters."
-msgstr "ParÃ¡metros no vÃ¡lidos."
+msgstr "Geçersiz parametreler"
 
 #. TEXT_VERSION
 msgid "version:"
-msgstr "versiÃ³n:"
+msgstr "sürüm:"
 
 #. TEXT_PACKAGE
 msgid "package"
-msgstr "paquete"
+msgstr "paket"
 
 #. TEXT_WITH_GIMP_SUPPORT
 msgid "with GIMP support"
-msgstr "Con soporte de GIMP"
+msgstr "GIMP desteği ile"
 
 #. TEXT_WITHOUT_GIMP_SUPPORT
 msgid "without GIMP support"
-msgstr "Sin soporte de GIMP"
+msgstr "GIMP desteği olmadan"
 
 #. TEXT_GTK_VERSION
 msgid "compiled with GTK-"
-msgstr "compilado con GTK-"
+msgstr "GTK- ile derlenmiştir"
 
 #. TEXT_GIMP_VERSION
 msgid "compiled with GIMP-"
-msgstr "compilado con GIMP-"
+msgstr "GIMP- ile derlenmiştir"
 
 #. TEXT_UNKNOWN
 msgid "unknown"
-msgstr "desconocido"
+msgstr "bilinmiyor"
 
 #. TEXT_EULA
 msgid ""
@@ -657,18 +655,17 @@ msgid ""
 "have to read, understand and accept the following\n"
 "\"NO WARRANTY\" agreement.\n"
 msgstr ""
-"XSane se distribuye bajo los tÃ©rminos de la Licencia PÃºblica General GNU\n"
-"tal como se la publica por la Free Software Foundation; cualquier versiÃ³n \n"
-"2 de la Licencia, or (a su opciÃ³n) cualquier versiÃ³n posterior\n"
+"XSane, Free Software Foundation GNU Genel Kamu Lisansı, \n"
+"lisansın 2. sürümüne göre veya (sizin tercihiniz olarak)daha sonraki bir \n"
+"bir sürümü, altında dağıtılmaktadır.\n"
 "\n"
-"Ã‰ste programa se distribuye con el deseo que pueda ser Ãºtil, pero\n"
-"SIN NINGUNA GARANTÃA; aÃºn sin la garantÃ­a implÃ­cita de\n"
-"MERCANTILISMO o AJUSTE PARA ALGÃšN PROPÃ“SITO PARTICULAR\n"
-"Sea el caso de probarse defecto del programa, usted asumirÃ¡ el costo de "
-"toda\n"
-"reparaciÃ³n, servicio Ã³ correcciÃ³n necesarios. Para usar Ã©ste programa usted\n"
-"tiene que leer, entender y aceptar el siguiente\n"
-"acuerdo de \"NO GARANTÃA\".\n"
+"Bu program faydalı olacağı umuduyla dağıtılmaktadır, ama\n"
+"HİÇBİR GARANTİ İÇERMEZ; hatta HERHANGİ BİR AMACA \n"
+"UYGUNLUĞU VEYA ÜRÜNLEŞTİRİLMESİNİ bile.\n"
+"Eğer program hatalı çıkarsa, gerekli tüm servislerin, tamirlerin veya \n"
+"düzeltmelerin maliyetini kabullenirsiniz. Bu programı kullanmak için \n"
+"aşağıdaki \"GARANTİ YOK\" anlaşmasını okuyup, anlamak ve kabul etmek \n"
+"durumundasınız. \n"
 
 #. TEXT_GPL
 msgid ""
@@ -680,29 +677,29 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of\n"
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"XSane se distribuye bajo los tÃ©rminos de la Licencia PÃºblica General GNU\n"
-"tal como se la publica por la Free Software Foundation; cualquier versiÃ³n \n"
-"2 de la Licencia, or (a su opciÃ³n) cualquier versiÃ³n posterior\n"
+"XSane, Free Software Foundation GNU Genel Kamu Lisansı, \n"
+"lisansın 2. sürümüne göre veya (sizin tercihiniz olarak)daha sonraki bir \n"
+"bir sürümü, altında dağıtılmaktadır.\n"
 "\n"
-"Ã‰ste programa se distribuye con el deseo que pueda ser Ãºtil, pero\n"
-"SIN NINGUNA GARANTÃA; aÃºn sin la garantÃ­a implÃ­cita de\n"
-"MERCANTILISMO o AJUSTE PARA ALGÃšN PROPÃ“SITO PARTICULAR\n"
+"Bu program faydalı olacağı umuduyla dağıtılmaktadır, ama\n"
+"HİÇBİR GARANTİ İÇERMEZ; hatta HERHANGİ BİR AMACA \n"
+"UYGUNLUĞU VEYA ÜRÜNLEŞTİRİLMESİNİ bile.\n"
 
 #. TEXT_EMAIL
 msgid "Email:"
-msgstr "Correo electrÃ³nico:"
+msgstr "Eposta:"
 
 #. TEXT_HOMEPAGE
 msgid "Homepage:"
-msgstr "PÃ¡gina web:"
+msgstr "Web adresi"
 
 #. TEXT_FILE
 msgid "File:"
-msgstr "Archivo:"
+msgstr "Dosya"
 
 #. TEXT_TRANSLATION
 msgid "Translation:"
-msgstr "TraducciÃ³n:"
+msgstr "Tercüme:"
 
 #. Please translate this to something like
 #. translation to YOUR LANGUAGE\n
@@ -714,352 +711,352 @@ msgid ""
 "by Oliver Rauch\n"
 "Email: Oliver.Rauch@rauch-domain.de\n"
 msgstr ""
-"texto traducido al castellano\n"
-"por Gustavo D. Vranjes\n"
-"Correo electrÃ³nico gvranjes@SoftHome.net\n"
+"Türkçe'ye çevrim\n"
+"Togan Müftüoğlu\n"
+"E-posta: toganm@yahoo.com\n"
 
 #. TEXT_INFO_BOX
 msgid "0x0: 0KB"
-msgstr "0x0: 0KB"
+msgstr "0x0:0KB"
 
 #. TEXT_ADF_PAGES_SCANNED
 msgid "Scanned pages: "
-msgstr "PÃ¡ginas escaneadas:"
+msgstr "Taranan sayfalar: "
 
 #. TEXT_MAIL_TEXT
 msgid "Email text:"
-msgstr "Texto de correo electrÃ³nico:"
+msgstr "Eposta metni"
 
 #. TEXT_ATTACHMENTS
 msgid "Attachments:"
-msgstr "Adjuntos:"
+msgstr "Ekler"
 
 #. TEXT_MAIL_STATUS
 msgid "Project status:"
-msgstr "Estado del proyecto:"
+msgstr "Proje durumu"
 
 #. TEXT_MAIL_FILETYPE
 msgid "Mail image filetype:"
-msgstr "Tipo de archivo de imagen de correo electrÃ³nico"
+msgstr "Postalanacak resim dosya tipi:"
 
 #. TEXT_MEDIUM_DEFINITION_NAME
 msgid "Medium Name:"
-msgstr "Nombre del medio:"
+msgstr "Ortam ismi"
 
 #. TEXT_VIEWER_IMAGE_INFO
 #, c-format
 msgid ""
 "Size %d x %d pixel, %d bit/color, %d colors, %1.0f dpi x %1.0f dpi, %1.1f %s"
 msgstr ""
-"TamaÃ±o %d x %d pixel, %d bit/color, %d colores, %1.0f dpi x %1.0f ppp, %1.1f "
+"Boyut %d x %d piksel, %d bit/color, %d renkler, %1.0f dpi x %1.0f dpi, %1.1f "
 "%s"
 
 #. TEXT_DESPECKLE_RADIUS
 msgid "Despeckle radius:"
-msgstr "Radio de desparasitado"
+msgstr "Beneksizleştirme yarıçapı"
 
 #. TEXT_BLUR_RADIUS
 msgid "Blur radius:"
-msgstr "Radio de desenfoque de imagen:"
+msgstr "Bulanıklaştırma yarıçapı"
 
 #. TEXT_BATCH_AREA_DEFAULT_NAME
 msgid "(no name)"
-msgstr "(sin nombre)"
+msgstr "(adsız)"
 
 #. TEXT_BATCH_LIST_AREANAME
 msgid "Area name:"
-msgstr "Nombre de area:"
+msgstr "Alan adı:"
 
 #. TEXT_BATCH_LIST_SCANMODE
 msgid "Scanmode:"
-msgstr "Modo de escaneo:"
+msgstr "Tarama modu"
 
 #. TEXT_BATCH_LIST_GEOMETRY_TL
 msgid "Top left:"
-msgstr "Izquierda arriba:"
+msgstr "Sol üst"
 
 #. TEXT_BATCH_LIST_GEOMETRY_SIZE
 msgid "Size:"
-msgstr "TamaÃ±o:"
+msgstr "Boyut"
 
 #. TEXT_BATCH_LIST_RESOLUTION
 msgid "Resolution:"
-msgstr "ResoluciÃ³n:"
+msgstr "Çözünürlük:"
 
 #. TEXT_BATCH_LIST_BIT_DEPTH
 msgid "Bit depth:"
-msgstr "Profundidad de bit:"
+msgstr "Bit derinliği"
 
 #. TEXT_BATCH_LIST_BY_GUI
 msgid "as selected"
-msgstr "como se seleccionÃ³"
+msgstr "seçildiği gibi"
 
 #. TEXT_SETUP_PRINTER_SEL
 msgid "Printer selection:"
-msgstr "SelecciÃ³n de impresora:"
+msgstr "Yazıcı seçimi:"
 
 #. TEXT_SETUP_PRINTER_NAME
 msgid "Name:"
-msgstr "Nombre:"
+msgstr "Adı:"
 
 #. TEXT_SETUP_PRINTER_CMD, TEXT_SETUP_FAX_CMD
 msgid "Command:"
-msgstr "Comando:"
+msgstr "Komut:"
 
 #. TEXT_SETUP_COPY_NR_OPT
 msgid "Copy number option:"
-msgstr "Copiar opciÃ³n nÃºmero:"
+msgstr "Kopyalanacak sayı seçeneği:"
 
 #. TEXT_SETUP_PRINTER_LINEART_RES
 msgid "Lineart resolution (dpi):"
-msgstr "ResoluciÃ³n de lÃ­nea de arte (ppp):"
+msgstr "Lineart çözünürlük (dpi):"
 
 #. TEXT_SETUP_PRINTER_GRAYSCALE_RES
 msgid "Grayscale resolution (dpi):"
-msgstr "ResoluciÃ³n de tonos de gris (ppp):"
+msgstr "Grayscale çözünürlük (dpi):"
 
 #. TEXT_SETUP_PRINTER_COLOR_RES
 msgid "Color resolution (dpi):"
-msgstr "ResoluciÃ³n de color (ppp):"
+msgstr "Renkli çözünürlük (dpi):"
 
 #. TEXT_SETUP_PRINTER_WIDTH
 msgid "Width"
-msgstr "Anchura"
+msgstr "En "
 
 #. TEXT_SETUP_PRINTER_HEIGHT
 msgid "Height"
-msgstr "Altura"
+msgstr "Yükseklik"
 
 #. TEXT_SETUP_PRINTER_LEFT
 msgid "Left offset"
-msgstr "Desplazamiento a izquierda"
+msgstr "Sol boşluk "
 
 #. TEXT_SETUP_PRINTER_BOTTOM
 msgid "Bottom offset"
-msgstr "Desplazamiento hacia abajo"
+msgstr "Alt boşluk "
 
 #. TEXT_SETUP_PRINTER_GAMMA
 msgid "Printer gamma value:"
-msgstr "Valor de gamma de impresora:"
+msgstr "Yazıcı gamma değeri"
 
 #. TEXT_SETUP_PRINTER_GAMMA_RED
 msgid "Printer gamma red:"
-msgstr "Gamma rojo de impresora:"
+msgstr "Yazıcı kırmızı gamma: "
 
 #. TEXT_SETUP_PRINTER_GAMMA_GREEN
 msgid "Printer gamma green:"
-msgstr "Gamma verde de impresora:"
+msgstr "Yazıcı mavi gamma:"
 
 #. TEXT_SETUP_PRINTER_GAMMA_BLUE
 msgid "Printer gamma blue:"
-msgstr "Gamma azul de impresora:"
+msgstr "Yazıcı mavi gamma:"
 
 #. TEXT_SETUP_TMP_PATH
 msgid "Temporary directory"
-msgstr "Directorio temporal"
+msgstr "Geçici dizin"
 
 #. TEXT_SETUP_IMAGE_PERMISSION
 msgid "Image-file permissions"
-msgstr "Permisos de archivo de imagen"
+msgstr "Resim-dosya izinleri"
 
 #. TEXT_SETUP_DIR_PERMISSION
 msgid "Directory permissions"
-msgstr "Permisos de directorio"
+msgstr "Dizin izinleri"
 
 #. TEXT_SETUP_JPEG_QUALITY
 msgid "JPEG image quality"
-msgstr "Calidad de imagen JPEG "
+msgstr "JPEG resim kalitesi"
 
 #. TEXT_SETUP_PNG_COMPRESSION
 msgid "PNG image compression"
-msgstr "CompresiÃ³n de imagen PNG"
+msgstr "PNG resim sıkıştırması"
 
 #. TEXT_SETUP_FILENAME_COUNTER_LEN
 msgid "Filename counter length"
-msgstr "Largo del contador de nombre de archivo"
+msgstr "Dosya adı sayac uzunluğu"
 
 #. TEXT_SETUP_TIFF_COMPRESSION_16
 msgid "TIFF 16 bit image compression"
-msgstr "CompresiÃ³n de imagen TIFF de 16 bits"
+msgstr "TIFF 16 bit resim sıkıştırması"
 
 #. TEXT_SETUP_TIFF_COMPRESSION_8
 msgid "TIFF 8 bit image compression"
-msgstr "CompresiÃ³n de imagen TIFF de 8 bits"
+msgstr "TIFF 8 bit resim sıkıştırması"
 
 #. TEXT_SETUP_TIFF_COMPRESSION_1
 msgid "TIFF lineart image compression"
-msgstr "CompresiÃ³n de imagen TIFF de lÃ­nea de arte"
+msgstr "TIFF lineart resim sıkıştırması"
 
 #. TEXT_SETUP_SHOW_RANGE_MODE
 msgid "Show range as:"
-msgstr "Mostrar range as:"
+msgstr "Aralığı gösterme şekli:"
 
 #. TEXT_SETUP_PREVIEW_OVERSAMPLING
 msgid "Preview oversampling:"
-msgstr "Sobremuestra de vista previa:"
+msgstr "Önizleme örnekleme:"
 
 #. TEXT_SETUP_PREVIEW_GAMMA
 msgid "Preview gamma:"
-msgstr "Vista previa de gamma:"
+msgstr "Önizleme gamma:"
 
 #. TEXT_SETUP_PREVIEW_GAMMA_RED
 msgid "Preview gamma red:"
-msgstr "Vista previa de gamma rojo:"
+msgstr "Önizleme kırmızı gamma:"
 
 #. TEXT_SETUP_PREVIEW_GAMMA_GREEN
 msgid "Preview gamma green:"
-msgstr "Vista previa de gamma verde:"
+msgstr "Önizleme yeşil gamma:"
 
 #. TEXT_SETUP_PREVIEW_GAMMA_BLUE
 msgid "Preview gamma blue:"
-msgstr "Vista previa de gamma azul:"
+msgstr "Önizleme mavi gamma"
 
 #. TEXT_SETUP_LINEART_MODE
 msgid "Threshold option:"
-msgstr "OpciÃ³n de umbral:"
+msgstr "Threshold seçeneği"
 
 #. TEXT_SETUP_ADF_MODE
 msgid "Automatic Document Feeder Modus:"
-msgstr "MÃ³dulo de AlimentaciÃ³n AutomÃ¡tica de Documento:"
+msgstr "Otomatik Doküman Besleyici modu"
 
 #. TEXT_SETUP_PREVIEW_PIPETTE_RANGE
 msgid "Preview pipette range"
-msgstr "Rango de vista previa de pipeta"
+msgstr "Önizleme pipette aralığı:"
 
 #. TEXT_SETUP_THRESHOLD_MIN
 msgid "Threshold minimum:"
-msgstr "Umbral mÃ­nimo:"
+msgstr "Threshold minimum:"
 
 #. TEXT_SETUP_THRESHOLD_MAX
 msgid "Threshold maximum:"
-msgstr "Umbral mÃ¡ximo:"
+msgstr "Threshold maksimum:"
 
 #. TEXT_SETUP_THRESHOLD_MUL
 msgid "Threshold multiplier:"
-msgstr "Multiplicador de umbral:"
+msgstr "Threshold çarpanı:"
 
 #. TEXT_SETUP_THRESHOLD_OFF
 msgid "Threshold offset:"
-msgstr "Desplazamiento de umbral:"
+msgstr "Threshold boşluğu:"
 
 #. TEXT_SETUP_GRAYSCALE_SCANMODE
 msgid "Name of grayscale scanmode:"
-msgstr "Nombre del modo de escaneo en tonos de grises:"
+msgstr "Grayscale tarama modu komutu:"
 
 #. TEXT_SETUP_HELPFILE_VIEWER
 msgid "Helpfile viewer (HTML):"
-msgstr "Visor de archivo de ayuda (HTML):"
+msgstr "Yardım dosyası göstericisi (HTML):"
 
 #. TEXT_SETUP_FAX_RECEIVER_OPTION
 msgid "Receiver option:"
-msgstr "OpciÃ³n del receptor:"
+msgstr "Alıcı seçeneği:"
 
 #. TEXT_SETUP_FAX_POSTSCRIPT_OPT
 msgid "Postscriptfile option:"
-msgstr "OpciÃ³n del archivo post-script:"
+msgstr "Postscript dosya seçeneği"
 
 #. TEXT_SETUP_FAX_NORMAL_MODE_OPT
 msgid "Normal mode option:"
-msgstr "OpciÃ³n en modo normal:"
+msgstr "Normal mod seçeneği"
 
 #. TEXT_SETUP_FAX_FINE_MODE_OPT
 msgid "Fine mode option:"
-msgstr "OpciÃ³n en modo fino:"
+msgstr "Hassas mod seçeneği"
 
 #. TEXT_SETUP_FAX_PROGRAM_DEFAULTS
 msgid "Set program defaults for:"
-msgstr "Establecer por defecto para:"
+msgstr "Program öntanımlılarını belirle:"
 
 #. TEXT_SETUP_FAX_VIEWER
 msgid "Viewer (Postscript):"
-msgstr "Visor (Postscript):"
+msgstr "İzleyici (Postscript):"
 
 #. TEXT_SETUP_SMTP_SERVER
 msgid "SMTP server:"
-msgstr "Servidor SMTP:"
+msgstr "SMTP sunucu"
 
 #. TEXT_SETUP_SMTP_PORT
 msgid "SMTP port:"
-msgstr "puerto SMTP:"
+msgstr "SMTP portu"
 
 #. TEXT_SETUP_MAIL_FROM
 msgid "From:"
-msgstr "De:"
+msgstr "Kimden"
 
 #. TEXT_SETUP_MAIL_REPLY_TO
 msgid "Reply to:"
-msgstr "Responder a:"
+msgstr "Yanıt Adresi"
 
 #. TEXT_SETUP_POP3_SERVER
 msgid "POP3 server:"
-msgstr "Servidor POP3:"
+msgstr "POP3 Sunucu"
 
 #. TEXT_SETUP_POP3_PORT
 msgid "POP3 port:"
-msgstr "puerto POP3:"
+msgstr "POP3 Portu"
 
 #. TEXT_SETUP_POP3_USER
 msgid "POP3 user:"
-msgstr "Usuario POP3:"
+msgstr "POP3 kullanıcı:"
 
 #. TEXT_SETUP_POP3_PASS
 msgid "POP3 password:"
-msgstr "ContraseÃ±a POP3:"
+msgstr "POP3 Şifre:"
 
 #. TEXT_SETUP_MAIL_VIEWER
 msgid "Viewer (png):"
-msgstr "Visor (png):"
+msgstr "Gösterici (png):"
 
 #. TEXT_SETUP_OCR_COMMAND
 msgid "OCR Command:"
-msgstr "Comando OCR:"
+msgstr "OCR Komutu:"
 
 #. TEXT_SETUP_OCR_INPUTFILE_OPT
 msgid "Inputfile option:"
-msgstr "OpciÃ³n del archivo de entrada:"
+msgstr "Giren dosya seçeneği"
 
 #. TEXT_SETUP_OCR_OUTPUTFILE_OPT
 msgid "Outputfile option:"
-msgstr "OpciÃ³n del archivo de salida:"
+msgstr "Çıktı dosya seçeneği"
 
 #. TEXT_SETUP_OCR_USE_GUI_PIPE_OPT
 msgid "Use GUI progress pipe:"
-msgstr "Usar tuberÃ­a de progreso GUI:"
+msgstr "GUI ilerme çubuğunu kullan"
 
 #. TEXT_SETUP_OCR_OUTFD_OPT
 msgid "GUI output-fd option:"
-msgstr "OpciÃ³n de salida-fd GUI:"
+msgstr "GUI çıktı seçeneği:"
 
 #. TEXT_SETUP_OCR_PROGRESS_KEYWORD
 msgid "Progress keyword:"
-msgstr "Clave de progreso:"
+msgstr "İlerleme anahtar kelimesi"
 
 #. TEXT_SETUP_PERMISSION_USER
 msgid "user"
-msgstr "usuario"
+msgstr "kullanıcı"
 
 #. TEXT_SETUP_PERMISSION_GROUP
 msgid "group"
-msgstr "grupo"
+msgstr "grup"
 
 #. TEXT_SETUP_PERMISSION_ALL
 msgid "all"
-msgstr "todo"
+msgstr "hepsi"
 
 msgid "new media"
-msgstr "medio nuevo"
+msgstr "Yeni medya"
 
 #. NOTEBOOK_SAVING_OPTIONS
 msgid "Save"
-msgstr "Guarda imagen"
+msgstr "Kaydet"
 
 #. NOTEBOOK_IMAGE_OPTIONS
 msgid "Image"
-msgstr "Imagen"
+msgstr "Resim"
 
 #. NOTEBOOK_COPY_OPTIONS
 msgid "Copy"
-msgstr "Copia a impresora"
+msgstr "Kopyala"
 
 #. NOTEBOOK_FAX_OPTIONS
 msgid "Fax"
@@ -1067,7 +1064,7 @@ msgstr "Fax"
 
 #. NOTEBOOK_MAIL_OPTIONS
 msgid "Mail"
-msgstr "Correo electrÃ³nico"
+msgstr "E-posta:"
 
 #. NOTEBOOK_OCR_OPTIONS
 msgid "OCR"
@@ -1075,300 +1072,300 @@ msgstr "OCR"
 
 #. NOTEBOOK_DISPLAY_OPTIONS
 msgid "Display"
-msgstr "Pantalla"
+msgstr "Göster"
 
 #. NOTEBOOK_ENHANCE_OPTIONS
 msgid "Enhancement"
-msgstr "Mejora"
+msgstr "Geliştirme "
 
 #. MENU_ITEM_MAIL
 msgid "Email"
-msgstr "Correo electrÃ³nico"
+msgstr "E-posta:"
 
 #. MENU_ITEM_SHOW_TOOLTIPS
 msgid "Show tooltips"
-msgstr "Mostrar tooltips"
+msgstr "İpuçlarını göster"
 
 #. MENU_ITEM_SHOW_PREVIEW
 msgid "Show preview"
-msgstr "Mostrar vista previa"
+msgstr "Önizlemeyi göster"
 
 #. MENU_ITEM_SHOW_HISTOGRAM
 msgid "Show histogram"
-msgstr "Mostrar histograma"
+msgstr "Histogramı göster"
 
 #. MENU_ITEM_SHOW_GAMMA
 msgid "Show gamma curve"
-msgstr "Mostrar curva de gamma"
+msgstr "Gamma eğrisini göster"
 
 #. MENU_ITEM_SHOW_BATCH_SCAN
 msgid "Show batch scan"
-msgstr "Mostrar escaneo por lotes"
+msgstr "Sıralı taramayı göster"
 
 #. MENU_ITEM_SHOW_STANDARDOPTIONS
 msgid "Show standard options"
-msgstr "Mostrar opciones estÃ¡ndard"
+msgstr "Standart seçenekleri göster"
 
 #. MENU_ITEM_SHOW_ADVANCEDOPTIONS
 msgid "Show advanced options"
-msgstr "Mostrar opciones avanzadas"
+msgstr "Gelişmiş özellikleri göster"
 
 #. MENU_ITEM_SETUP
 msgid "Setup"
-msgstr "ConfiguraciÃ³n"
+msgstr "Ayarlar"
 
 #. MENU_ITEM_LENGTH_UNIT
 msgid "Length unit"
-msgstr "Unidad de medida"
+msgstr "Uzunluk birimi"
 
 #. SUBMENU_ITEM_LENGTH_MILLIMETERS
 msgid "millimeters"
-msgstr "milÃ­metros"
+msgstr "milimetre"
 
 #. SUBMENU_ITEM_LENGTH_CENTIMETERS
 msgid "centimeters"
-msgstr "centÃ­metros"
+msgstr "santimetre"
 
 #. SUBMENU_ITEM_LENGTH_INCHES
 msgid "inches"
-msgstr "pulgadas"
+msgstr "inç"
 
 #. MENU_ITEM_UPDATE_POLICY
 msgid "Update policy"
-msgstr "PÃ³liza de actualizaciÃ³n"
+msgstr "Güncelleme yöntemi"
 
 #. SUBMENU_ITEM_POLICY_CONTINUOUS
 msgid "continuous"
-msgstr "continuo"
+msgstr "sürekli"
 
 #. SUBMENU_ITEM_POLICY_DISCONTINU
 msgid "discontinuous"
-msgstr "discontinuo"
+msgstr "süreksiz"
 
 #. SUBMENU_ITEM_POLICY_DELAYED
 msgid "delayed"
-msgstr "retrasado"
+msgstr "gecikmeli"
 
 #. MENU_ITEM_SHOW_RESOLUTIONLIST
 msgid "Show resolution list"
-msgstr "Mostrar lista de resoluciones"
+msgstr "Çözünürlük listesini göster"
 
 #. MENU_ITEM_PAGE_ROTATE
 msgid "Rotate postscript"
-msgstr "Rotar postscript"
+msgstr "Postscripti döndür"
 
 #. MENU_ITEM_EDIT_MEDIUM_DEF
 msgid "Edit medium definition"
-msgstr "Editar definiciÃ³n de medio"
+msgstr "Ortam tanımını düzelt"
 
 #. MENU_ITEM_SAVE_DEVICE_SETTINGS
 msgid "Save device settings"
-msgstr "Guardar configuraciÃ³n de dispositivo"
+msgstr "Aygıt ayarlarını sakla "
 
 #. MENU_ITEM_LOAD_DEVICE_SETTINGS
 msgid "Load device settings"
-msgstr "Cargar configuraciÃ³n de dispositivo"
+msgstr "Aygıt ayarlarını yükle"
 
 #. MENU_ITEM_CHANGE_WORKING_DIR
 msgid "Change directory"
-msgstr "Cambiar directorio"
+msgstr "Dizin değiştir"
 
 #. MENU_ITEM_XSANE_EULA
 msgid "Show EULA"
-msgstr "Mostrar EULA"
+msgstr "EULA'yı göster"
 
 #. MENU_ITEM_XSANE_GPL
 msgid "Show license (GPL)"
-msgstr "Mostrar licencia (GPL)"
+msgstr "Lisansı (GPL) göster"
 
 #. MENU_ITEM_XSANE_DOC
 msgid "XSane doc"
-msgstr "Documentos de XSane"
+msgstr "Xsane dökümanı"
 
 #. MENU_ITEM_BACKEND_DOC
 msgid "Backend doc"
-msgstr "Documentos del backend"
+msgstr "Sürücü dokümanı"
 
 #. MENU_ITEM_AVAILABLE_BACKENDS
 msgid "Available backends"
-msgstr "Backends disponibles"
+msgstr "varolan sürücüler"
 
 #. MENU_ITEM_SCANTIPS
 msgid "Scantips"
-msgstr "Tips de escaneo"
+msgstr "Tarama ipuçları"
 
 #. MENU_ITEM_PROBLEMS
 msgid "Problems?"
-msgstr "Â¿Problemas?"
+msgstr "Problemler ?"
 
 #. MENU_ITEM_COUNTER_LEN_INACTIVE
 msgid "inactive"
-msgstr "inactivo"
+msgstr "pasif"
 
 #. MENU_ITEM_TIFF_COMP_NONE
 msgid "no compression"
-msgstr "sin compresiÃ³n"
+msgstr "sıkıştırma yok"
 
 #. MENU_ITEM_TIFF_COMP_CCITTRLE
 msgid "CCITT 1D Huffman compression"
-msgstr "CompresiÃ³n CCITT 1D Huffman"
+msgstr "CCITT 1D Huffman sıkıştırması"
 
 #. MENU_ITEM_TIFF_COMP_CCITFAX3
 msgid "CCITT Group 3 Fax compression"
-msgstr "CompresiÃ³n CCITT Grupo 3 Fax"
+msgstr "CCITT Grup 3 Faks sıkıştırması"
 
 #. MENU_ITEM_TIFF_COMP_CCITFAX4
 msgid "CCITT Group 4 Fax compression"
-msgstr "CompresiÃ³n CCITT Grupo 4 Fax"
+msgstr "CCITT Grup 4 Faks sıkıştırması"
 
 #. MENU_ITEM_TIFF_COMP_JPEG
 msgid "JPEG DCT compression"
-msgstr "CompresiÃ³n JPEG DCT"
+msgstr "JPEG DCT sıkıştırması"
 
 #. MENU_ITEM_TIFF_COMP_PACKBITS
 msgid "pack bits"
-msgstr "paquetes de bits"
+msgstr "bitleri paketle"
 
 #. MENU_ITEM_RANGE_SCALE
 msgid "Slider (Scale)"
-msgstr "Diapositiva (Escala)"
+msgstr "Ölçek Çubuğu"
 
 #. MENU_ITEM_RANGE_SCROLLBAR
 msgid "Slider (Scrollbar)"
-msgstr "Deslizador (Barra de scroll)"
+msgstr "Kaydırma Çubuğu"
 
 #. MENU_ITEM_RANGE_SPINBUTTON
 msgid "Spinbutton"
-msgstr "BotÃ³n de spin"
+msgstr "Çevirme düğmesi"
 
 #. MENU_ITEM_RANGE_SCALE_SPIN
 msgid "Scale and Spinbutton"
-msgstr "Escala y botÃ³n de spin"
+msgstr "Ölçekleme ve Çevirme düğmesi"
 
 #. MENU_ITEM_RANGE_SCROLL_SPIN
 msgid "Scrollbar and Spinbutton"
-msgstr "Barra de scroll y botÃ³n de spin"
+msgstr "Kaydırma çubuğu ve Çevirme düğmesi"
 
 #. MENU_ITEM_LINEART_MODE_STANDARD
 msgid "Standard options window (lineart)"
-msgstr "Ventana de opciones estÃ¡ndar (lÃ­nea de arte)"
+msgstr "Standart seçenekleri penceresi (lineart)"
 
 #. MENU_ITEM_LINEART_MODE_XSANE
 msgid "XSane main window (lineart)"
-msgstr "Ventana principal de XSane (lÃ­nea de arte)"
+msgstr "XSane ana pencere (lineart)"
 
 #. MENU_ITEM_LINEART_MODE_GRAY
 msgid "XSane main window (grayscale->lineart)"
-msgstr "Ventana principal de XSane (escala de grises ->lÃ­nea de arte)"
+msgstr "Xsane ana pencere (grayscale->lineart)"
 
 #. MENU_ITEM_SELECTION_NONE
 msgid "(none)"
-msgstr "(ninguno)"
+msgstr "(hiçbiri)"
 
 #. MENU_ITEM_FILETYPE_BY_EXT
 msgid "by ext"
-msgstr "por extensiÃ³n"
+msgstr "dosya son takısı"
 
 #. MENU_ITEM_PRESET_AREA_ADD_SEL
 msgid "Add selection to list"
-msgstr "AÃ±adir selecciÃ³n a la lista"
+msgstr "Seçileni listeye ekle"
 
 #. MENU_ITEM_MEDIUM_ADD
 msgid "Add medium definition"
-msgstr "Agragar definiciÃ³n de medio"
+msgstr "Ortam tanımı ekle"
 
 #. MENU_ITEM_RENAME
 msgid "Rename item"
-msgstr "Renombrar item"
+msgstr "Yeniden isimlendir"
 
 #. MENU_ITEM_DELETE
 msgid "Delete item"
-msgstr "Borrar item"
+msgstr "Sil"
 
 #. MENU_ITEM_MOVE_UP
 msgid "Move item up"
-msgstr "Mover item arriba"
+msgstr "Yukarı taşı"
 
 #. MENU_ITEM_MOVE_DWN
 msgid "Move item down"
-msgstr "Mover item abajo"
+msgstr "Aşağı taşı"
 
 #. PROGRESS_SCANNING
 msgid "Scanning"
-msgstr "Escaneando"
+msgstr "tarıyor"
 
 #. PROGRESS_RECEIVING_FRAME_DATA
 #, c-format
 msgid "Receiving %s data"
-msgstr "Recibiendo datos %s"
+msgstr "%s data alıyor"
 
 #. PROGRESS_TRANSFERING_DATA
 msgid "Transfering image"
-msgstr "Transfiriendo imagen"
+msgstr "Resmi aktarıyor"
 
 #. PROGRESS_ROTATING_DATA
 msgid "Rotating image"
-msgstr "Rotando imagen"
+msgstr "Resmi döndürüyor"
 
 #. PROGRESS_MIRRORING_DATA
 msgid "Mirroring image"
-msgstr "Espejando imagen"
+msgstr "Resmin ayna görüntüsünü oluştur"
 
 #. PROGRESS_PACKING_DATA
 msgid "Packing image"
-msgstr "Comprimiendo imagen"
+msgstr "Resmi sıkıştırıyor"
 
 #. PROGRESS_CONVERTING_DATA
 msgid "Converting image"
-msgstr "Convirtiendo imagen"
+msgstr "Resim dönüştürülüyor "
 
 #. PROGRESS_SAVING_DATA
 msgid "Saving image"
-msgstr "Guardando imagen"
+msgstr "Resim saklanıyor"
 
 #. PROGRESS_CLONING_DATA
 msgid "Cloning image"
-msgstr "Clonando imagen"
+msgstr "Resim çoğaltılıyor"
 
 #. PROGRESS_SCALING_DATA
 msgid "Scaling image"
-msgstr "Cambiando tamaÃ±o de imagen"
+msgstr "Resim boyutlandırılıyor"
 
 #. PROGRESS_DESPECKLING_DATA
 msgid "Despeckling image"
-msgstr "Desparasitando imagen"
+msgstr "Resmi beneksizleştir"
 
 #. PROGRESS_BLURING_DATA
 msgid "Bluring image"
-msgstr "Desenfocando imagen"
+msgstr "Resmi bulanıklaştır"
 
 #. PROGRESS_OCR
 msgid "OCR in progress"
-msgstr "OCR en progreso"
+msgstr "OCR çalışmakta"
 
 #. DESC_SCAN_START
 msgid "Start scan <Ctrl-Enter>"
-msgstr "Comenzar escaneo <Ctrl-Enter>"
+msgstr "Taramayı başlat <Ctrl-Enter>"
 
 #. DESC_SCAN_CANCEL
 msgid "Cancel scan <ESC>"
-msgstr "Cancelar escaneo <ESC>"
+msgstr "Taramayı iptal et <ESC>"
 
 #. DESC_PREVIEW_ACQUIRE
 msgid "Acquire preview scan <Alt-p>"
-msgstr "Adquirir vista previa del escaneo <Alt-p>"
+msgstr "Öntarama al <Alt-p>"
 
 #. DESC_PREVIEW_CANCEL
 msgid "Cancel preview scan <Alt-ESC>"
-msgstr "Cancelar vista previa del escaneo <Alt-ESC>"
+msgstr "Önizlemeyi iptal et <Alt-ESC>"
 
 #. DESC_XSANE_MODE
 msgid ""
 "save-<Ctrl-s>, view-<Ctrl-v>, photocopy-<Ctrl-c>, fax-<Ctrl-f> or mail-<Ctrl-"
 "m>"
 msgstr ""
-"guardar-<Ctrl-s>, ver-<Ctrl-v>, fotocopia-<Ctrl-c>, fax-<Ctrl-f> Ã³ correo "
-"electrÃ³nico-<Ctrl-m>"
+"sakla-<Ctrl-s>, izle-<Ctrl-v>, fotokopi-<Ctrl-c>, fax-<Ctrl-f> veyamail-"
+"<Ctrl-m>"
 
 #. DESC_XSANE_MEDIUM
 msgid ""
@@ -1378,168 +1375,167 @@ msgid ""
 "To create a medium enable the option edit medium definition in preferences "
 "menu."
 msgstr ""
-"Elegir tipo de medio fuente. \n"
-"Para renombrar, reordenar o borrar una entrada use el menu de contexto "
-"(botÃ³n derecho del ratÃ³n). \n"
-"Para crear un 'medio' habilitar la opciÃ³n 'editar definiciÃ³n de medio'en el "
-"menÃº de preferencias."
+"Kaynak ortam tipini seçin. \n"
+"Yeniden isimlendirmek, sıralamak veya silmek için, içeril menüsünü ( sağ "
+"fare tuşu) kullanın \n"
+"Ortam yaratmak için, tercihler menüsünde ortam tanımı düzeltme seçeneğini "
+"etkin kılın. "
 
 #. DESC_FILENAME_COUNTER_STEP
 msgid "Value that is added to filenamecounter after scan"
-msgstr ""
-"Valor que se agrega al contador de nombre de archivo despues de escanear"
+msgstr "Taramadan sonra dosyaadısayacına eklenen değer"
 
 #. DESC_BROWSE_FILENAME
 msgid "Browse for image filename"
-msgstr "Explorar nombre de archivo de imagen"
+msgstr "resim dosyası ara"
 
 #. DESC_FILENAME
 msgid "Filename for scanned image"
-msgstr "Nombre de archivo para la imagen escaneada"
+msgstr "Taranan resim için ad"
 
 #. DESC_FILETYPE
 msgid ""
 "Type of image format, the suitable filename extension is automatically added "
 "to the filename"
 msgstr ""
-"Tipo de formato de imagen, la extensiÃ³n adecuada se agregarÃ¡ "
-"automÃ¡ticamente  al nombre de archivo"
+"Resim formatının tipi, uygun olan dosya soneki otomatik olarak dosyaya "
+"eklenir"
 
 #. DESC_FAXPROJECT
 msgid "Enter name of fax project"
-msgstr "Ingresar nombre del proyecto de fax"
+msgstr "faks projesinin adını girin"
 
 #. DESC_FAXPAGENAME
 msgid "Enter new name for faxpage"
-msgstr "Ingrese nuevo nombre para la pÃ¡gina de fax"
+msgstr "Faks sayfası için ad girin"
 
 #. DESC_FAXRECEIVER
 msgid "Enter receiver phone number or address"
-msgstr "Ingrese nÃºmero de telÃ©fono del receptor Ã³ direcciÃ³n"
+msgstr "Alıcının telefon numrasını veya adresini girin"
 
 #. DESC_MAILPROJECT
 msgid "Enter name of mail project"
-msgstr "Ingresar nombre del proyecto de correo electrÃ³nico"
+msgstr "E-Posta projesinin adını girin"
 
 #. DESC_MAILIMAGENAME
 msgid "Enter new name for mail image"
-msgstr "Ingresar nuevo nombre para la imagen de correo electrÃ³nico"
+msgstr "E-Posta resmi için yeni isimgirin"
 
 #. DESC_MAILRECEIVER
 msgid "Enter email address"
-msgstr "Ingresar direcciÃ³n de correo electrÃ³nico"
+msgstr "E-posta adresi girin"
 
 #. DESC_MAILSUBJECT
 msgid "Enter subject of email"
-msgstr "Ingresar asunto de correo electrÃ³nico"
+msgstr "E-Posta konusu girin"
 
 #. DESC_MAIL_FILETYPE
 msgid "Select filetype for image attachments"
-msgstr "Seleccionar tipo de archivo para imagen adjunta"
+msgstr "Resim ekleri için dosya tipini seçin"
 
 #. DESC_PRESET_AREA_RENAME
 msgid "Enter new name for preset area"
-msgstr "Ingresar nuevo nombre para el Ã¡rea de preset"
+msgstr "Öncden belirlenen alan için yeni isim gir"
 
 #. DESC_PRESET_AREA_ADD
 msgid "Enter name for new preset area"
-msgstr "Ingresar nuevo nombre para el Ã¡rea de preset"
+msgstr "Önceden belirlenen yeni alan için isim gir"
 
 #. DESC_MEDIUM_RENAME
 msgid "Enter new name for medium definition"
-msgstr "Ingresar nuevo nombre para definiciÃ³n de medio"
+msgstr "Ortam tanımı için yeni isim gir"
 
 #. DESC_MEDIUM_ADD
 msgid "Enter name for new medium definition"
-msgstr "Ingresar nuevo nombre para definiciÃ³n de medio"
+msgstr "Ortam tanımı için isim gir"
 
 #. DESC_PRINTER_SELECT
 msgid "Select printerdefinition <Shift-F1/F2/...>"
-msgstr "Seleccionar definiciÃ³n de impresora <Shift-F1/F2/...>"
+msgstr "Yazıcı tanımını seçin <Shift-F1/F2/...>"
 
 #. DESC_RESOLUTION
 msgid "Set scan resolution"
-msgstr "Establecer resoluciÃ³n de escaneo"
+msgstr "Tarama çözünürlüğünü ayarla"
 
 #. DESC_RESOLUTION_X
 msgid "Set scan resolution for x direction"
-msgstr "Establecer resoluciÃ³n de escaneo en la direcciÃ³n x"
+msgstr "X yönü için tarama çözünürlüğünü ayarla"
 
 #. DESC_RESOLUTION_Y
 msgid "Set scan resolution for y direction"
-msgstr "Establecer resoluciÃ³n de escaneo en la direcciÃ³n y"
+msgstr "Y yönü için taramna çözünürlüğünü ayarla"
 
 #. DESC_ZOOM
 msgid "Set zoomfactor"
-msgstr "Establecer factor de ampliaciÃ³n"
+msgstr "Zum çarpanını ayarla"
 
 #. DESC_ZOOM_X
 msgid "Set zoomfactor for x direction"
-msgstr "Establecer factor de ampliaciÃ³n para la direcciÃ³n x"
+msgstr "X yönü için Zum çarpanını ayarla"
 
 #. DESC_ZOOM_Y
 msgid "Set zoomfactor for y direction"
-msgstr "Establecer factor de ampliaciÃ³n para la direcciÃ³n y"
+msgstr "Y yönü için zum çarpanını ayarla"
 
 #. DESC_COPY_NUMBER
 msgid "Set number of copies"
-msgstr "Establecer nÃºmero de copias"
+msgstr "Kopya sayısını belirle"
 
 #. DESC_NEGATIVE
 msgid "Negative: Invert colors for scanning negatives <Ctrl-n>"
-msgstr "Negativos: Invertir colores para escanear negativos <Ctrl-n>"
+msgstr "Negatif: negatifleri taramak için renkleri ters çevir<Ctrl-n>"
 
 #. DESC_GAMMA
 msgid "Set gamma value"
-msgstr "Establecer valor de gamma"
+msgstr "Gamma değerini belirle"
 
 #. DESC_GAMMA_R
 msgid "Set gamma value for red component"
-msgstr "Establecer valor de gamma para el componente rojo"
+msgstr "Kırmızı bileşenlerin gamma değerini belirle"
 
 #. DESC_GAMMA_G
 msgid "Set gamma value for green component"
-msgstr "Establecer valor de gamma para el componente verde"
+msgstr "Yeşil bileşenlerin gamma değerini belirle"
 
 #. DESC_GAMMA_B
 msgid "Set gamma value for blue component"
-msgstr "Establecer valor de gamma para el componente azul"
+msgstr "mavi bileşenlerin gamma değerini belirle"
 
 #. DESC_BRIGHTNESS
 msgid "Set brightness"
-msgstr "Establecer brillo"
+msgstr "Parlaklık ayarı"
 
 #. DESC_BRIGHTNESS_R
 msgid "Set brightness for red component"
-msgstr "Establecer brillo para el componente rojo"
+msgstr "Kırmızı bileşen için parlaklık ayarı"
 
 #. DESC_BRIGHTNESS_G
 msgid "Set brightness for green component"
-msgstr "Establecer brillo para el componente verde"
+msgstr "Yeşil bileşen için parlaklık ayarı"
 
 #. DESC_BRIGHTNESS_B
 msgid "Set brightness for blue component"
-msgstr "Establecer brillo para el componente azul"
+msgstr "Mavi bileşen için parlaklık ayarı"
 
 #. DESC_CONTRAST
 msgid "Set contrast"
-msgstr "Establecer contraste"
+msgstr "Kontrastı ayarla"
 
 #. DESC_CONTRAST_R
 msgid "Set contrast for red component"
-msgstr "Establecer contraste para el componente rojo"
+msgstr "Kırmızı bileşen için kontrastı belirle"
 
 #. DESC_CONTRAST_G
 msgid "Set contrast for green component"
-msgstr "Establecer contraste para el componente verde"
+msgstr "Yeşil bileşen için kontrastı belirle"
 
 #. DESC_CONTRAST_B
 msgid "Set contrast for blue component"
-msgstr "Establecer contraste para el componente azul"
+msgstr "Mavi bileşen için kontrastı belirle"
 
 #. DESC_THRESHOLD
 msgid "Set threshold"
-msgstr "Establecer umbral"
+msgstr "Threshold ayarı"
 
 #. DESC_RGB_DEFAULT
 msgid ""
@@ -1549,15 +1545,16 @@ msgid ""
 " brightness = 0\n"
 " contrast = 0"
 msgstr ""
-"RGB por omisiÃ³n: Establecer valores de mejora para rojo, verde y azul a "
-"valores por omisiÃ³n <Ctrl-b>:\n"
-"gamma = 1.0\n"
-"brillo = 0\n"
-"contraste = 0"
+"RGB Öntanımı: kırmızı,yeşil ve mavi için geliştirme değerlerini öntanıma "
+"ayarla değerler<Ctrl-b>:\n"
+" gamma =1.0\n"
+"  parlaklık =0\n"
+" kontrast =0"
 
 #. DESC_ENH_AUTO
 msgid "Autoadjust gamma, brightness and contrast <Ctrl-e>"
-msgstr "Autoajustar gamma, brillo y contraste <Ctrl-e>"
+msgstr ""
+"Seçilen alana bağlı olarak gamma, ışık ve kontrastı otomatik ayarla<Ctrl-e>"
 
 #. DESC_ENH_DEFAULT
 msgid ""
@@ -1566,164 +1563,157 @@ msgid ""
 "brightness = 0\n"
 "contrast = 0"
 msgstr ""
-"Establecer valores de mejora por omisiÃ³n <Ctrl-0>:\n"
-"gamma = 1.0\n"
-"brillo = 0\n"
-"contraste = 0"
+"Gelişmiş değerleri ayarla<Ctrl-0>:\n"
+"gamma =1.0\n"
+"parlaklık =0\n"
+"kontrast =0n"
 
 #. DESC_ENH_RESTORE
 msgid "Restore enhancement values from preferences <Ctrl-r>"
-msgstr "Restaurar valores de mejora desde preferencias <Ctrl-r>"
+msgstr "Tercihlerden geliştirilmiş değerleri geri yükle <Ctrl-r>"
 
 #. DESC_ENH_STORE
 msgid "Store active enhancement values to preferences <Ctrl-+>"
-msgstr "Guardar valores de mejora activos a preferencias <Ctrl-+>"
+msgstr "Etkin geliştirilmiş değerleri tercihlere yükle <Ctrl-+>"
 
 #. DESC_HIST_INTENSITY
 msgid "Show histogram of intensity/gray <Alt-i>"
-msgstr "Mostrar histograma de intensidad/grises <Alt-i>"
+msgstr "Yoğunluk/gri histogramını göster<Alt-i>"
 
 #. DESC_HIST_RED
 msgid "Show histogram of red component <Alt-r>"
-msgstr "Mostrar histograma de componente rojo <Alt-r>"
+msgstr "Kırmızı bileşenin histogramını göster<Alt-r>"
 
 #. DESC_HIST_GREEN
 msgid "Show histogram of green component <Alt-g>"
-msgstr "Mostrar histograma de componente verde <Alt-g>"
+msgstr "Yeşil bileşenin histogramını göster<Alt-g>"
 
 #. DESC_HIST_BLUE
 msgid "Show histogram of blue component <Alt-b>"
-msgstr "Mostrar histograma de componente azul <Alt-b>"
+msgstr "Mavi bileşenin histogramını göster<Alt-b>"
 
 #. DESC_HIST_PIXEL
 msgid "Display mode: show histogram with lines instead of pixels <Alt-m>"
-msgstr ""
-"Modo de pantalla: mostrar histograma con lÃ­neas en vez de pixels <Alt-m>"
+msgstr "Histogramı, pikseller yerine çizgilerle göster<Alt-m>"
 
 #. DESC_HIST_LOG
 msgid "Show logarithm of pixelcount <Alt-l>"
-msgstr "Mostrar logaritmo de la cuenta de pixels <Alt-l>"
+msgstr "Piksel sayısının logaritmasını göster<Alt-l>"
 
 #. DESC_PRINTER_SETUP
 msgid "Select definition to change"
-msgstr "Seleccionar definiciÃ³n a cambiar"
+msgstr "Değiştirilecek tanımı seçin"
 
 #. DESC_PRINTER_NAME
 msgid "Define a name for the selection of this definition"
-msgstr "Definir un nombre para la selecciÃ³n de Ã©sta definiciÃ³n"
+msgstr "Bu tanımın seçimi için bir isim belirleyin"
 
 #. DESC_PRINTER_COMMAND
 msgid "Enter command to be executed in copy mode (e.g. \"lpr\")"
-msgstr "ingrese comando a ser ejecutado en modo copia (e.g. \"lpr\")"
+msgstr "Kopyalama modunda çalıştırılacak komutu girin (örn. \"lpr \")"
 
 #. DESC_COPY_NUMBER_OPTION
 msgid "Enter option for copy numbers"
-msgstr "Ingrese opciÃ³n para el nÃºmero de copias"
+msgstr "Kopya sayıları seçeneğini girin"
 
 #. DESC_PRINTER_LINEART_RESOLUTION
 msgid ""
 "Resolution with which lineart images are printed and saved in postscript"
 msgstr ""
-"ResoluciÃ³n con la que las imÃ¡genes de lÃ­nea de arte son impresas y guardadas "
-"en postscript"
+"Lineart resimlerin yazdırılması ve postscript de saklanması için çözünürlük"
 
 #. DESC_PRINTER_GRAYSCALE_RESOLUTION
 msgid ""
 "Resolution with which grayscale images are printed and saved in postscript"
 msgstr ""
-"ResoluciÃ³n con la que las imÃ¡genes en tonos de grises son impresas y "
-"guardadas en postscript"
+"Grayscale resimlerin yazdırılması ve postscript de saklanması için çözünürlük"
 
 #. DESC_PRINTER_COLOR_RESOLUTION
 msgid "Resolution with which color images are printed and saved in postscript"
 msgstr ""
-"ResoluciÃ³n con la que las imÃ¡genes en color son impresas y guardadas en "
-"postscript"
+"Renkli resimlerin yazdırılması ve postscript de saklanması için çözünürlük"
 
 #. DESC_PRINTER_WIDTH
 msgid "Width of printable area"
-msgstr "Anchura de area imprimible"
+msgstr "Basılacak alanın genişliği"
 
 #. DESC_PRINTER_HEIGHT
 msgid "Height of printable area"
-msgstr "Altura de area imprimible"
+msgstr "Basılacak alanın yüksekliği"
 
 #. DESC_PRINTER_LEFTOFFSET
 msgid "Left offset from the edge of the paper to the printable area"
-msgstr ""
-"Deplazamiento a la izquierda desde el borde del papel al Ã¡rea imprimible"
+msgstr "Kağıdın sol boşluğundan basılacak alan "
 
 #. DESC_PRINTER_BOTTOMOFFSET
 msgid "Bottom offset from the edge of the paper to the printable area"
-msgstr "Deplazamiento hacia abajo desde el borde del papel al Ã¡rea imprimible"
+msgstr "Kağıdın alt boşluğundan basılacak alan "
 
 #. DESC_PRINTER_GAMMA
 msgid "Additional gamma value for photocopy"
-msgstr "Valor de gamma adicional para fotocopia"
+msgstr "Fotokopi için ilave gamma değeri"
 
 #. DESC_PRINTER_GAMMA_RED
 msgid "Additional gamma value for red component for photocopy"
-msgstr "Valor de gamma adicional del valor rojo para fotocopia"
+msgstr "Fotokopi için kırmızı bileşenin ilave gamma değeri"
 
 #. DESC_PRINTER_GAMMA_GREEN
 msgid "Additional gamma value for green component for photocopy"
-msgstr "Valor de gamma adicional del valor verde para fotocopia"
+msgstr "Fotokopi için yeşil bileşenin ilave gamma değeri"
 
 #. DESC_PRINTER_GAMMA_BLUE
 msgid "Additional gamma value for blue component for photocopy"
-msgstr "Valor de gamma adicional del valor azul para fotocopia"
+msgstr "Fotokopi için mavi bileşenin ilave gamma değeri"
 
 #. DESC_TMP_PATH
 msgid "Path to temp directory"
-msgstr "Ruta al directorio temporal"
+msgstr "Geçici dizin yolu"
 
 #. DESC_BUTTON_TMP_PATH_BROWSE
 msgid "Browse for temporary directory"
-msgstr "Explorar para directorio temporal"
+msgstr "Geçici dizine göz at"
 
 #. DESC_JPEG_QUALITY
 msgid ""
 "Quality in percent if image is saved as jpeg or tiff with jpeg compression"
 msgstr ""
-"Calidad en porcentaje si la imagen es guardada como jpeg Ã³ tiff con "
-"compresiÃ³n jpeg"
+"Eğer jpeg veya jpeg sıkıştırmalı tiff olarak saklanacaksa, resmin yüzde "
+"olarak kalitesi"
 
 #. DESC_PNG_COMPRESSION
 msgid "Compression if image is saved as png"
-msgstr "CompresiÃ³n si la imagen es guardada como png"
+msgstr "Eğer resim png olarak saklanırsa sıkıştırma"
 
 #. DESC_FILENAME_COUNTER_LEN
 msgid "Minimum length of counter in filename"
-msgstr "Medida mÃ­nima del contador en el nombre de archivo"
+msgstr "Dosya adı sayacının mimum uzunluğu"
 
 #. DESC_TIFF_COMPRESSION_16
 msgid "Compression type if 16 bit image is saved as tiff"
-msgstr "Tipo de compresiÃ³n si la imagen de 16 bits es guardada como tiff"
+msgstr "Eğer 16 bit resim tiff olarak saklanacaksa sıkıştırma tipi"
 
 #. DESC_TIFF_COMPRESSION_8
 msgid "Compression type if 8 bit image is saved as tiff"
-msgstr "Tipo de compresiÃ³n si la imagen de 8 bits es guardada como tiff"
+msgstr "Eğer 8 bit resim tiff olarak saklanacaksa sıkıştırma tipi"
 
 #. DESC_TIFF_COMPRESSION_1
 msgid "Compression type if lineart image is saved as tiff"
-msgstr "Tipo de compresiÃ³n si la imagen de lÃ­nea de arte es guardada como tiff"
+msgstr "Eğer lineart resim tiff olarak saklanacaksa sıkıştırma tipi"
 
 #. DESC_SAVE_DEVPREFS_AT_EXIT
 msgid "Save device dependant preferences in default file at exit of xsane"
-msgstr ""
-"Guardar preferencias dependientes del dispositivo en archivo por omisiÃ³n al "
-"salir de XSane"
+msgstr "Xsane'den çıkarken öntanımlı dosyadaki aygıt bağımlı tercihleri sakla"
 
 #. DESC_OVERWRITE_WARNING
 msgid "Warn before overwriting an existing file"
-msgstr "Advertir antes de sobreescribir un archivo existente"
+msgstr "Varolan dosyanın üzerine yazarken uyar"
 
 #. DESC_SKIP_EXISTING
 msgid ""
 "If filename counter is automatically increased, used numbers are skipped"
 msgstr ""
-"Si el contador de nombre archivo se incrementa automÃ¡ticamente, los nÃºmeros "
-"presentes son salteados"
+"Eğer dosya adı sayacı otomatik olarak artırılıyorsa, kullanılan rakamlar "
+"atlanır"
 
 #. DESC_SAVE_PNM16_AS_ASCII
 msgid ""
@@ -1732,330 +1722,307 @@ msgid ""
 "supported by all programs. The ascii format is supported by more programs "
 "but it produces really huge files!!!"
 msgstr ""
-"Cuando una imagen de 16 bits deba guardarse en formato pnm use el formato "
-"ascii en vez del formato binario. El formato binario es un formato nuevo que "
-"no estÃ¡ soportado por todos los programas. Â¡Â¡Â¡El formato ascii estÃ¡ "
-"soportado por la mayorÃ­a de los programas pero produce archivos realmente "
-"enormes!!!"
+"16 bitlik resim pnm formatında saklanacağı zaman binary formatı yerine ascii "
+"formatını  kullanın. Binary formatı henüz tüm programlar tarafından "
+"kullanılmayan yeni bir formattır. Ascii formatı daha fazla program "
+"tarafından kullanılmasına karşın oldukça büyük dosyalar üretir."
 
 #. DESC_REDUCE_16BIT_TO_8BIT
 msgid "If scanner sends image with 16 bits/color save image with 8 bits/color"
 msgstr ""
-"Si el escÃ¡ner envÃ­a imÃ¡genes de 16 bits/color guardar imÃ¡genes con 8 bits/"
-"color"
+"Eğer tarayıcı resmi 16 bit/renk olarak yollarsa, resmi 8 bit/renk olarak "
+"sakla"
 
 #. DESC_PSFILE_WIDTH
 msgid "Width of paper for postscript files"
-msgstr "Anchura de papel para archivos postscript"
+msgstr "Postscript dosyalar için kağıt eni "
 
 #. DESC_PSFILE_HEIGHT
 msgid "Height of paper for postscript files"
-msgstr "Altura de papel para archivos postscript"
+msgstr "Postscript dosyalar için kağıt boyu "
 
 #. DESC_PSFILE_LEFTOFFSET
 msgid ""
 "Left offset from the edge of the paper to the usable area for postscript "
 "files"
-msgstr ""
-"Desplazamiento a la izquierda desde el borde del papel hasta el Ã¡rea usable "
-"para los archivos postscript"
+msgstr "Postsrcipt dosyalar için kullanılabilen alana kağıdın sol boşluk arası"
 
 #. DESC_PSFILE_BOTTOMOFFSET
 msgid ""
 "Bottom offset from the edge of the paper to the usable area for postscript "
 "files"
-msgstr ""
-"Desplazamiento hacia abajo desde el borde del papel hasta el Ã¡rea usable "
-"para los archivos postscript"
+msgstr "Postsrcipt dosyalar için kullanılabilen alana kağıdın alt boşluk arası"
 
 #. DESC_MAIN_WINDOW_FIXED
 msgid "Use fixed main window size or scrolled, resizable main window"
 msgstr ""
-"Usar tamaÃ±o de ventana principal fijo Ã³ uno de tamaÃ±o variable con scroll"
+"Sabit ana pencere veya yeniden boyutlandırılabilir scrolled ana pencere "
+"kullan"
 
 #. DESC_DISABLE_GIMP_PREVIEW_GAMMA
 msgid "Disable preview gamma when XSane runs as gimp plugin"
-msgstr ""
-"Deshabilitar el gamma de previsualizaciÃ³n cuando XSane funciona como una "
-"extensiÃ³n de GIMP"
+msgstr "Xsane gimp plugini olarak çalıştırılırsa önizleme gammasını iptal et"
 
 #. DESC_PREVIEW_COLORMAP
 msgid "Use an own colormap for preview if display depth is 8 bpp"
 msgstr ""
-"Usar un mapa de colores propio si la profundidad de la pantalla es 8 bpp"
+"Eğer ekran derinliği 8 bpp ise öngösterim için kişisel renk tablosunu kullan"
 
 #. DESC_SHOW_RANGE_MODE
 msgid "Select how a range is displayed"
-msgstr "Seleccionar cÃ³mo se muestra un rango"
+msgstr "Aralığın nasıl gösterileceğini seçin"
 
 #. DESC_PREVIEW_OVERSAMPLING
 msgid "Value with that the calculated preview resolution is multiplied"
-msgstr "Valor con el que la resoluciÃ³n de la vista previa es multiplicado"
+msgstr "Hesaplanmış önizleme çözünürlüğünün çarpıldığı değer "
 
 #. DESC_PREVIEW_GAMMA
 msgid "Set gamma correction value for preview image"
-msgstr ""
-"Establecer el valor de la correcciÃ³n gamma para la imagen de previsualizaciÃ³n"
+msgstr "Öngösterim resmi için gamma düzeltme değerini ayarla"
 
 #. DESC_PREVIEW_GAMMA_RED
 msgid "Set gamma correction value for red component of preview image"
 msgstr ""
-"Establecer el valor de la correcciÃ³n gamma para el componente rojo de la "
-"imagen de previsualizaciÃ³n"
+"Öngösterim resminin kırmızı bileşeni için gamma düzeltme değerini ayarla"
 
 #. DESC_PREVIEW_GAMMA_GREEN
 msgid "Set gamma correction value for green component of preview image"
-msgstr ""
-"Establecer el valor de la correcciÃ³n gamma para el valor verde de la imagen "
-"de previsualizaciÃ³n"
+msgstr "Öngösterim resminin yeşil bileşeni için gamma düzeltme değerini ayarla"
 
 #. DESC_PREVIEW_GAMMA_BLUE
 msgid "Set gamma correction value for blue component of preview image"
-msgstr ""
-"Establecer el valor de la correcciÃ³n gamma para el valor azul de la imagen "
-"de previsualizaciÃ³n"
+msgstr "Öngösterim resminin mavi bileşeni için gamma düzeltme değerini ayarla"
 
 #. DESC_LINEART_MODE
 msgid "Define the way XSane shall handle the threshold option"
-msgstr "Definir la forma en que XSane manejarÃ¡ la opciÃ³n umbral"
+msgstr "Xsane'nin threshold seçeneğini nasıl kullanacağını belirleyin"
 
+# f,uzzy
 #. DESC_GRAYSCALE_SCANMODE
 msgid ""
 "Select grayscale scanmode. This scanmode is used for lineart preview scan "
 "when transformation from grayscale to lineart is enabled"
 msgstr ""
-"Seleccionar modo de escaneo tonos de grises. Ã‰ste modo es usado para "
-"previsualizaciÃ³n de lÃ­nea de arte cuando la transformaciÃ³n de tonos de "
-"grises a lÃ­nea de arte estÃ¡ habilitada"
+"Grayscaleden lineart'a dönüşümlü önzizleme için Grayscale modunun adını girin"
 
 #. DESC_PREVIEW_THRESHOLD_MIN
 #, no-c-format
 msgid "The scanner's minimum threshold level in %"
-msgstr "El mÃ­nimo nivel del umbral del escÃ¡ner en %"
+msgstr "Tarayıcının minimum threshold seviyesi %"
 
 #. DESC_PREVIEW_THRESHOLD_MAX
 #, no-c-format
 msgid "The scanner's maximum threshold level in %"
-msgstr "El mÃ¡ximo nivel del umbral del escÃ¡ner en %"
+msgstr "Tarayıcının maksimum threshold seviyesi %"
 
 #. DESC_PREVIEW_THRESHOLD_MUL
 msgid ""
 "Multiplier to make XSane threshold range and scanner threshold range the same"
 msgstr ""
-"Factor de multiplicaciÃ³n para hacer que el rango del umbral de XSane y el "
-"rango del umbral del escÃ¡ner sean iguales"
+"Xsane threshold aralığı ile tarayıcı threshold aralığını aynı yapacak çarpan"
 
 #. DESC_PREVIEW_THRESHOLD_OFF
 msgid ""
 "Offset to make XSane threshold range and scanner threshold range the same"
 msgstr ""
-"Desplazamiento para hacer que el rango del umbral de XSane y el rango del "
-"umbral del escÃ¡ner sean iguales"
+"Xsane threshold aralığı ile tarayıcı threshold aralığını aynı yapacak rakam"
 
 #. DESC_ADF_MODE
 msgid ""
 "Select scansource for Automatic Document feeder. If this scansource is "
 "selected XSane scans until \"out of paper\" or error."
 msgstr ""
-"Seleccionar fuente de escaneo para Alimentador de Documentos AutomÃ¡tico. Si "
-"Ã©sta fuente se selecciona XSane escanearÃ¡ hasta que ocurra un error \"out of "
-"paper\" (sin papel)."
+"Otomatik Döküman besyleyici için tarama kaynağını belirleyiniz. Eğer tarama "
+"kaynağı seçilirse, Xsane hata veya \"kağıt kalmadı\" mesajına kadar "
+"tarayacaktır"
 
 #. DESC_PREVIEW_PIPETTE_RANGE
 msgid "dimension of square that is used to average color for pipette function"
-msgstr ""
-"DimensiÃ³n del cuadrado que es usado para promediar color para la funciÃ³n "
-"pipeta"
+msgstr "Pipette fonksiyonu için ortalama renkte kullanılan karenin boyutları"
 
 #. DESC_DOC_VIEWER
 msgid ""
 "Enter command to be executed to display helpfiles, must be a html-viewer!"
 msgstr ""
-"Ingresar comando a ser ejecutado para mostrar archivos de ayuda, Â¡debe ser "
-"un visualizador html!"
+"yardım dosyalarını göstermek için çalıştırılacak komutu girin, html-"
+"göstericisi olmalıdır!"
 
 #. DESC_AUTOENHANCE_GAMMA
 msgid "Change gamma value when autoenhancement button is pressed"
-msgstr "Cambiar valor de gamma cuando el botÃ³n de automejora es presionado"
+msgstr "otomatik geliştirme tuşuna basılınca gamma değerini değiştir"
 
 #. DESC_PRESELECT_SCANAREA
 msgid "Select scanarea after preview scan has finished"
-msgstr ""
-"Seleccionar Ã¡rea de escaneo despuÃ©s de que la previsualizaciÃ³n ha concluÃ­do"
+msgstr "Önizleme taraması tamamlandıktan sonra tarama aranını seç"
 
 #. DESC_AUTOCORRECT_COLORS
 msgid "Do color correction after preview scan has finished"
-msgstr ""
-"Hacer correcciÃ³n de color despuÃ©s de que la previsualizaciÃ³n ha concluÃ­do"
+msgstr "Önizleme taraması bittikten sonra renk düzeltmesini yap"
 
 #. DESC_FAX_COMMAND
 msgid "Enter command to be executed in fax mode"
-msgstr "Ingresar comando a ser ejecutado en modo de fax"
+msgstr "Faks modunda çalıştırılacak komutu yazın"
 
 #. DESC_FAX_RECEIVER_OPT
 msgid "Enter option to specify receiver"
-msgstr "Ingresar opciÃ³n para especificar un receptor"
+msgstr "Alıcıyı belirlemek için seçeğeni girin"
 
 #. DESC_FAX_POSTSCRIPT_OPT
 msgid "Enter option to specify postscript files following"
-msgstr "Ingresar opciÃ³n para especificar archivos postscript siguientes"
+msgstr "Postsript dosyalara eklenecek belirleme seçeneğini girin"
 
 #. DESC_FAX_NORMAL_OPT
 msgid "Enter option to specify normal mode (low resolution)"
-msgstr "Ingresar opciÃ³n para especificar modo normal (baja resoluciÃ³n)"
+msgstr "Normal modu (düşük çözünürlük) belirleyecek seçeneği girin"
 
 #. DESC_FAX_FINE_OPT
 msgid "Enter option to specify fine mode (high resolution)"
-msgstr "Ingresar opciÃ³n para especificar modo fino (alta resoluciÃ³n)"
+msgstr "Hassas modu (yüksek çözünürlük) belirleyecek seçeneği girin"
 
 #. DESC_FAX_VIEWER
 msgid "Enter command to be executed to view a fax"
-msgstr "Ingresar comando a ser ejecutado para ver un fax"
+msgstr "Faksı görmek için çalıştırılacak komutu yazın"
 
 #. DESC_FAX_FINE_MODE
 msgid "Send fax with high vertical resolution (196 lpi instead of 98 lpi)"
-msgstr "Enviar fax con resoluciÃ³n vertical alta (196 lpp en vez de 98 lpp)"
+msgstr "Faksı yüksek dikey çözünürlükle (98 lpi yerine 196 lpi ile)gönder"
 
 #. DESC_SMTP_SERVER
 msgid "IP Address or Domain name of SMTP server"
-msgstr "DirecciÃ³n  IP Ã³ nombre de Dominio del servidor SMTP"
+msgstr "SMTP sunucusunun IP adresi veya Alan Adı"
 
 #. DESC_SMTP_PORT
 msgid "port to connect to SMTP server"
-msgstr "puerto a conectar del servidor SMTP"
+msgstr "SMTP Sunucusuna bağlanacak port"
 
 #. DESC_MAIL_FROM
 msgid "enter your email address"
-msgstr "Ingresar su direcciÃ³n de correo electrÃ³nico"
+msgstr "E-Posta adresinizi yazın"
 
 #. DESC_MAIL_REPLY_TO
 msgid "enter email address for replied emails"
-msgstr ""
-"Ingresar direcciÃ³n de correo electrÃ³nico para los correos electrÃ³nicos "
-"respondidos"
+msgstr "Yanıtlama Adresini girin "
 
 #. DESC_POP3_AUTHENTIFICATION
 msgid "Authentificate at POP3 server before sending mail"
-msgstr "Autentificar en un servidor POP3 antes de enviar el correo electrÃ³nico"
+msgstr "E-posta yollamadan önce POP3 sunucusunda otorizayon yap"
 
 #. DESC_POP3_SERVER
 msgid "IP Address or Domain name of POP3 server"
-msgstr "DirecciÃ³n IP Ã³ nombre de Dominio del servidor POP3"
+msgstr "POP3 Sunucusunun IP adresini veya Alan Adını yazın"
 
 #. DESC_POP3_PORT
 msgid "port to connect to POP3 server"
-msgstr "puerto a conectar al servidor POP3"
+msgstr "POP3 sunusunda bağlanılacak port"
 
 #. DESC_POP3_USER
 msgid "user name for POP3 server"
-msgstr "nombre de usuario para el servidor POP3"
+msgstr "POP3 sunucusundaki kullanıcı adı"
 
 #. DESC_POP3_PASS
 msgid "password for POP3 server"
-msgstr "contraseÃ±a para el servidor POP3"
+msgstr "POP3 sunucusu için şifre"
 
 #. DESC_MAIL_VIEWER
 msgid "Enter command to be executed to view a mail image"
-msgstr ""
-"Ingrese comando a ser ejecutado para ver una imagen de correo electrÃ³nico"
+msgstr "E-posta resmini görmek için çalıştırılacak komutu yazın"
 
 #. DESC_HTML_MAIL
 msgid "Mail is sent in html mode, place image with: <IMAGE>"
-msgstr ""
-"El correo electrÃ³nico se envÃ­a en modo html, coloque la imagen con: <IMAGE>"
+msgstr "E-Posta HTML olarak yollandı, resmi yerleştirmek için :<IMAGE>"
 
 #. DESC_OCR_COMMAND
 msgid "Enter command to start ocr program"
-msgstr "Ingresar comando para lanzar programa de OCR"
+msgstr "OCR prograrımın başlatmak için komutu girin"
 
 #. DESC_OCR_INPUTFILE_OPT
 msgid "Enter option of the ocr program to define input file"
-msgstr ""
-"Ingresar opciÃ³n para el programa de OCR para definir archivo de entrada"
+msgstr "Çıktı dosyası için ocr programının seçeneğini belirleyin"
 
 #. DESC_OCR_OUTPUTFILE_OPT
 msgid "Enter option of the ocr program to define output file"
-msgstr "ngresar opciÃ³n para el programa de OCR para definir archivo de salida"
+msgstr "Çıktı dosyası için ocr programının seçeneğini belirleyin"
 
 #. DESC_OCR_USE_GUI_PIPE_OPT
 msgid "Define if the ocr program supports gui progress pipe"
-msgstr "Definir si el programa de ocr soporta tuberÃ­a de proceso GUI"
+msgstr ""
+"OCR programının gui ilerleme çubuğunu destekleyip desteklemediğini tanımlayın"
 
 #. DESC_OCR_OUTFD_OPT
 msgid ""
 "Enter option of the ocr program to define output filedescripor in GUI mode"
 msgstr ""
-"Ingresar opciÃ³n para el programa de ocr para definir descriptor de archivo "
-"de salida en modo GUI"
+"Çıktı dosyası tanımı için ocr programının seçeneğini GUI konumunda belirleyin"
 
 #. DESC_OCR_PROGRESS_KEYWORD
 msgid "Define Keyword that is used to mark progress information"
-msgstr "Palabra clave que se usa para indicar informaciÃ³n de progreso"
+msgstr ""
+"İlerleme bilgisini belirlemek için kullanılan Anahtar kelimeyi tanımlayın"
 
 #. DESC_PERMISSION_READ
 msgid "read"
-msgstr "leer"
+msgstr "okuma"
 
 #. DESC_PERMISSION_WRITE
 msgid "write"
-msgstr "escribir"
+msgstr "yazma"
 
 #. DESC_PERMISSION_EXECUTE
 msgid "execute"
-msgstr "ejecutar"
+msgstr "çalıştırma"
 
 #. DESC_ADD_BATCH
 msgid "Add selection for batch scan"
-msgstr "AÃ±adir selecciÃ³n para escaneo por lotes"
+msgstr "Seçileni tarama listesine ekle"
 
 #. DESC_PIPETTE_WHITE
 msgid "Pick white point"
-msgstr "Tomar punto blanco"
+msgstr "Beyaz nokta seç"
 
 #. DESC_PIPETTE_GRAY
 msgid "Pick gray point"
-msgstr "Tomar punto gris"
+msgstr "Gri nokta seç"
 
 #. DESC_PIPETTE_BLACK
 msgid "Pick black point"
-msgstr "Tomar punto negro"
+msgstr "Siyah nokta seç"
 
 #. DESC_ZOOM_FULL
 msgid "Use full scanarea"
-msgstr "Usar Ã¡rea de escaneo completa"
+msgstr "Tüm tarama alanını kullan"
 
 #. DESC_ZOOM_OUT
 #, no-c-format
 msgid "Zoom 20% out"
-msgstr "Ampliar 20%"
+msgstr "% 20 zumla"
 
 #. DESC_ZOOM_IN
 msgid "Click at position to zoom to"
-msgstr "Hacer click en la posiciÃ³n para hacer zoom a"
+msgstr "Zumlanacak noktaya tıklayın"
 
 #. DESC_ZOOM_AREA
 msgid "Zoom into selected area"
-msgstr "Ampliar dentro del Ã¡rea seleccionada"
+msgstr "Seçilen alana zum yap"
 
 #. DESC_ZOOM_UNDO
 msgid "Undo last zoom"
-msgstr "Deshacer Ãºltima ampliaciÃ³n"
+msgstr "Son zumu geri al"
 
 #. DESC_FULL_PREVIEW_AREA
 msgid "Select visible area"
-msgstr "Seleccionar area visible"
+msgstr "Görülen alanı belirleyin"
 
 #. DESC_AUTOSELECT_SCANAREA
 msgid "Autoselect scanarea"
-msgstr "Autoseleccionar Ã¡rea de escaneado"
+msgstr "Tarama alanını otomatik seç"
 
 #. DESC_AUTORAISE_SCANAREA
 msgid "Autoraise scanarea"
-msgstr "Autoseleccionar Ã¡rea de escaneado"
+msgstr "Tarama alanını otomatik olarak öne çıkar"
 
 #. DESC_DELETE_IMAGES
 msgid "Delete preview image cache"
-msgstr "Borrar cache de imagen de previsualizaciÃ³n"
+msgstr "Önizleme resim kaşesini sil"
 
 #. DESC_PRESET_AREA
 msgid ""
@@ -2063,321 +2030,325 @@ msgid ""
 "To add new area or edit an existing area use contect menu (right mouse "
 "button)."
 msgstr ""
-"Ãrea de preset:\n"
-"Para agregar una nueva Ã¡rea o editar una existente usar el menÃº de contexto "
-"(botÃ³n derecho del ratÃ³n)."
+"Öntanımlı alan: \n"
+"Yeni alan eklemek veya varolan alanı düzeltmek için içerik menüsünü (sağ "
+"fare tuşu) kullanın."
 
 #. DESC_ROTATION
 msgid "Rotate preview and scan"
-msgstr "Rotar previsualizaciÃ³n y escanear"
+msgstr "Döndürmek önizlemek ve taramak"
 
 #. DESC_RATIO
 msgid "Aspect ratio of selection"
-msgstr "RelaciÃ³n de aspecto de selecciÃ³n"
+msgstr "Seçimin görünüm oranı:"
 
 #. DESC_PAPER_ORIENTATION
 msgid "Define image position for printing"
-msgstr "Definir posiciÃ³n de imagen para imprimir"
+msgstr "Basım için resim pozisyonunu tanımla"
 
 #. DESC_VIEWER_OCR
 msgid "Optical Character Recognition"
-msgstr "Reconocimiento Ã“ptico de Caracteres"
+msgstr "Optik karakter okuyucu"
 
 #. DESC_VIEWER_UNDO
 msgid "Undo last change"
-msgstr "Deshacer el Ãºltimo cambio"
+msgstr "Son değişikliği geri al"
 
 #. DESC_VIEWER_CLONE
 msgid "Clone image"
-msgstr "Clonar imagen"
+msgstr "Resmi çoğalt"
 
 #. DESC_ROTATE90
 msgid "Rotate image 90 degree"
-msgstr "Rotar imagen 90 grados"
+msgstr "Resmi 90 derece döndür"
 
 #. DESC_ROTATE180
 msgid "Rotate image 180 degree"
-msgstr "Rotar imagen 180 grados"
+msgstr "Resmi 180 derece döndür"
 
 #. DESC_ROTATE270
 msgid "Rotate image 270 degree"
-msgstr "Rotar imagen 270 grados"
+msgstr "Resmi 270 derece döndür"
 
 #. DESC_MIRROR_X
 msgid "Mirror image at vertical axis"
-msgstr "Espejar imagen sobre el eje vertical"
+msgstr "Düşey eksenlerde resmi ters görüntüle (ayna etkisi)"
 
 #. DESC_MIRROR_Y
 msgid "Mirror image at horizontal axis"
-msgstr "Espejar imagen sobre el eje horizontal"
+msgstr "Yatay eksenlerde resmi ters görüntüle (ayna etkisi)"
 
 #. DESC_VIEWER_ZOOM
 msgid "Zoom image"
-msgstr "Ampliar imagen"
+msgstr "Resmi büyüt"
 
 #. DESC_STORE_MEDIUM
 msgid "Store medium"
-msgstr "Guardar medio"
+msgstr "Saklama ortamı"
 
 #. DESC_DELETE_MEDIUM
 msgid "Delete active medium"
-msgstr "Borrar medio activo"
+msgstr "Aktif ortamı silin"
 
 #. DESC_SCALE_FACTOR
 msgid "Scale factor"
-msgstr "Factor de escala"
+msgstr "Ölçek çarpanı"
 
 #. DESC_X_SCALE_FACTOR
 msgid "X-Scale factor"
-msgstr "Factor de Escala-X"
+msgstr "X ölçek çarpanı"
 
 #. DESC_Y_SCALE_FACTOR
 msgid "Y-Scale factor"
-msgstr "Factor de Escala Y"
+msgstr "Y ölçek çarpanı"
 
 #. DESC_SCALE_WIDTH
 msgid "Scale image to width [in pixel]"
-msgstr "Escalar imagen a ancho [en pixels]"
+msgstr "Resmin enini boyutlandır [piksel olarak]"
 
 #. DESC_SCALE_HEIGHT
 msgid "Scale image to height [in pixel]"
-msgstr "Escalar imagen a alto [en pixels]"
+msgstr "Resmin yüksekliğini boyutlandır [piksel olarak]"
 
 #. DESC_BATCH_LIST_EMPTY
 msgid "Empty batch list"
-msgstr "Vaciar lista de proceso por lotes"
+msgstr "Tarama listesini sil"
 
 #. DESC_BATCH_LIST_SAVE
 msgid "Save batch list"
-msgstr "Guardar lista de proceso por lotes"
+msgstr "Tarama listesini sakla"
 
 #. DESC_BATCH_LIST_LOAD
 msgid "Load batch list"
-msgstr "Cargar lista de proceso por lotes"
+msgstr "Tarama listesini yükle"
 
 #. DESC_BATCH_RENAME
 msgid "Rename area"
-msgstr "Renombrar area"
+msgstr "Alanı yeniden isimlendir"
 
 #. DESC_BATCH_ADD
 msgid "Add selected preview area to batch list"
-msgstr "AÃ±adir vista previa seleccionada a la lista de proceso por lotes"
+msgstr "Seçilen önizleme alanını listeye ekle"
 
 #. DESC_BATCH_DEL
 msgid "Delete selected area from batch list"
-msgstr "Borrar area seleccionada de la lista de proceso por lotes"
+msgstr "Seçilen önizleme alanını listeden sil"
 
 #. DESC_AUTOMATIC
 msgid "Turns on automatic mode"
-msgstr "Enciende modo automÃ¡tico"
+msgstr "Otomatik modu ethin kılar"
 
 #. ERR_HOME_DIR
 msgid "Failed to determine home directory:"
-msgstr "FallÃ³ al determinar el directorio home:"
+msgstr "Ev dizinini belirlemede hata:"
 
 #. ERR_CHANGE_WORKING_DIR
 msgid "Failed to change working directory to"
-msgstr "FallÃ³ al cambiar el directorio de trabajo a"
+msgstr "Çalışma dizinini değiştirmede hata"
 
 #. ERR_FILENAME_TOO_LONG
 msgid "Filename too long"
-msgstr "Archivo demasiado grande"
+msgstr "Dosya adı çok uzun"
 
 #. ERR_CREATE_TEMP_FILE
 msgid "Could not create temporary file"
-msgstr "No se puede crear archivos temporales"
+msgstr "Geçici dosya yaratılamadı"
 
 #. ERR_SET_OPTION
 msgid "Failed to set value of option"
-msgstr "FallÃ³ al definir valor de opciÃ³n"
+msgstr "Seçeneğin değerini ayarlamada hata"
 
 #. ERR_GET_OPTION
 msgid "Failed to obtain value of option"
-msgstr "FallÃ³ al obtener valor de opciÃ³n"
+msgstr "Seçeneğin değerini elde etmede hata"
 
 #. ERR_OPTION_COUNT
 msgid "Error obtaining option count"
-msgstr "Error al obtener opciÃ³n de conteo"
+msgstr "Seçenek sayısını elde etmede hata"
 
 #. ERR_DEVICE_OPEN_FAILED
 msgid "Failed to open device"
-msgstr "FallÃ³ al abrir dispositivo"
+msgstr "Aygıtı açmada hata"
 
 #. ERR_NO_DEVICES
 msgid "no devices available"
-msgstr "no hay dispositivos obtenibles"
+msgstr "Hiçbir aygıt mevcut değil"
 
 #. ERR_DURING_READ
 msgid "Error during read:"
-msgstr "Error durante lectura:"
+msgstr "Okuma esnasında hata:"
 
 #. ERR_DURING_SAVE
 msgid "Error during save:"
-msgstr "Error durante guardado:"
+msgstr "Saklama esnasında hata"
 
 #. ERR_BAD_DEPTH
 msgid "Can't handle depth"
-msgstr "No puede manejar la profundidad"
+msgstr "Derinliği kullanamaz"
 
 #. ERR_GIMP_BAD_DEPTH
 #, c-format
 msgid "GIMP can't handle depth %d bits/color"
-msgstr "GIMP no puede manejar la profundidad de %d bits/color"
+msgstr "GIMP %d bit /renk derinliği kullanamaz"
 
 #. ERR_UNKNOWN_SAVING_FORMAT
 msgid "Unknown file format for saving"
-msgstr "Formato de  archivo desconocido para guardar"
+msgstr "Saklamak için bilinmeyen format"
 
 #. ERR_OPEN_FAILED
 msgid "Failed to open"
-msgstr "FallÃ³ al abrir"
+msgstr "Açmada hata"
 
 #. ERR_CREATE_SECURE_FILE
 msgid "Could not create secure file (may be a link does exist):"
-msgstr "No se puede crear un archivo seguro (puede ser que exista un link):"
+msgstr "Güvenli dosya yaratılamadı (belki bağ mevcut değil)"
 
 #. ERR_FAILED_PRINTER_PIPE
 msgid "Failed to open pipe for executing printercommand"
-msgstr "FallÃ³ al abrir tuberÃ­a para ejecutar comando de impresiÃ³n"
+msgstr "yazıcı komutunu çalıştırmak için pipe açmada hata"
 
 #. ERR_FAILED_EXEC_PRINTER_CMD
 msgid "Failed to execute printercommand:"
-msgstr "FallÃ³ al ejecutar comando de impresiÃ³n:"
+msgstr "yazıcı komutunu çalıştırmada hata:"
 
 #. ERR_FAILED_START_SCANNER
 msgid "Failed to start scanner:"
-msgstr "FallÃ³ al encender escÃ¡ner:"
+msgstr "Tarayıcıyı başlatmada hata:"
 
 #. ERR_FAILED_GET_PARAMS
 msgid "Failed to get parameters:"
-msgstr "FallÃ³ al tomar parÃ¡metros:"
+msgstr "parametreleri almada hata:"
 
 #. ERR_NO_OUTPUT_FORMAT
 msgid "No output format given"
-msgstr "No se dio formato de salida"
+msgstr "Çıktı formatı belirtilmedi"
 
 #. ERR_NO_MEM
 msgid "out of memory"
-msgstr "sin memoria"
+msgstr "yetersiz hafıza"
 
 #. ERR_TOO_MUCH_DATA
 msgid "Backend sends more image data than it defined in parameters"
 msgstr ""
-"El Backend envÃ­a mÃ¡s datos de imagen que los definidos en los parÃ¡metros"
+"Tarayıcı sürücüsü parametrelerde belirtilenden daha fazla resim datası "
+"gönderiyor"
 
 #. ERR_LIBTIFF
 msgid "LIBTIFF reports error"
-msgstr "LIBTIFF reporta un error"
+msgstr "LIBTIFF hata veriyor"
 
 #. ERR_LIBPNG
 msgid "LIBPNG reports error"
-msgstr "LIBPNG reporta un error"
+msgstr "LIBPNG hata veriyor"
 
 #. ERR_LIBJPEG
 msgid "LIBJPEG reports error"
-msgstr "LIBJPE G reporta un error"
+msgstr "LIBJPEG hata veriyor"
+
+#. ERR_ZLIB
+msgid "ZLIB error or memory allocation problem"
+msgstr ""
 
 #. ERR_UNKNOWN_TYPE
 msgid "unknown type"
-msgstr "tipo desconocido"
+msgstr "bilinmeyen tip"
 
 #. ERR_UNKNOWN_CONSTRAINT_TYPE
 msgid "unknown constraint type"
-msgstr "Tipo de restricciÃ³n desconocida"
+msgstr "bilinmeyen sıkıştırma tipi"
 
 #. ERR_OPTION_NAME_NULL
 msgid "Option has empty name (NULL)."
-msgstr "La opciÃ³n tiene nombre vacÃ­o (NULL)."
+msgstr "Seçeneğin ismi boş (NULL)"
 
 #. ERR_BACKEND_BUG
 msgid "This is a backend bug. Please inform the author of the backend!"
-msgstr "Ã‰ste es un error del backend. Â¡Favor de informar al autor del backend!"
+msgstr "Bu arkaplan aygıt hatası. Lütfen yazarı aygıt hakkında bilgilendiriniz"
 
 #. ERR_FAILED_EXEC_DOC_VIEWER
 msgid "Failed to execute documentation viewer:"
-msgstr "FallÃ³ al ejecutar visor de documentaciÃ³n:"
+msgstr "Dokümantasyon göstericisini çalıştıramadı:"
 
 #. ERR_FAILED_EXEC_FAX_VIEWER
 msgid "Failed to execute fax viewer:"
-msgstr "FallÃ³ al ejecutar visor de fax:"
+msgstr "Faks göstericisini çalıştıramadı:"
 
 #. ERR_FAILED_EXEC_FAX_CMD
 msgid "Failed to execute fax command:"
-msgstr "FallÃ³ al ejecutar comando de fax:"
+msgstr "faks komutunu çalıştıramadı:"
 
 #. ERR_FAILED_EXEC_MAIL_VIEWER
 msgid "Failed to execute mail image viewer:"
-msgstr "FallÃ³ al ejecutar visor de imagen de correo electrÃ³nico:"
+msgstr "E-posta göstericisini çalıştıramadı:"
 
 #. ERR_FAILED_EXEC_OCR_CMD
 msgid "Failed to execute ocr command:"
-msgstr "FallÃ³ al ejecutar comando de OCR:"
+msgstr "ocr komutunu çalıştıramadı:"
 
 #. ERR_BAD_FRAME_FORMAT
 msgid "bad frame format"
-msgstr "formato de frame inadecuado"
+msgstr "kötü kare formatı"
 
 #. ERR_FAILED_SET_RESOLUTION
 msgid "unable to set resolution"
-msgstr "No es posible establecer la resoluciÃ³n"
+msgstr "çözünürlüğü ayarlayamadı"
 
 #. ERR_PASSWORD_FILE_INSECURE
 #, c-format
 msgid "Password file (%s) is insecure, use permission x00\n"
-msgstr "El archivo de contraseÃ±a (%s) es inseguro, usar permisos x00\n"
+msgstr "Şifre dosyası (%s) güvenli değil, x00 izinlerin kullanın\n"
 
 #. ERR_ERROR
 msgid "error"
-msgstr "error"
+msgstr "hata"
 
 #. ERR_MAJOR_VERSION_NR_CONFLICT
 msgid "Sane major version number mismatch!"
-msgstr "Â¡El nÃºmero de versiÃ³n principal de Sane no coincide!"
+msgstr "Sane sürüm rakamı tutmuyor !"
 
 #. ERR_XSANE_MAJOR_VERSION
 msgid "XSane major version ="
-msgstr "VersiÃ³n principal de XSane = "
+msgstr "Xsane sürüm ="
 
 #. ERR_BACKEND_MAJOR_VERSION
 msgid "backend major version ="
-msgstr "VersiÃ³n principal de backend = "
+msgstr "sürücü ana versiyon ="
 
 #. ERR_PROGRAM_ABORTED
 msgid "*** PROGRAM ABORTED ***"
-msgstr "*** PROGRAMA ABORTADO ***"
+msgstr "*** PROGRAM SONLANDIRILDI***"
 
 #. ERR_FAILED_ALLOCATE_IMAGE
 msgid "Failed to allocate image memory:"
-msgstr "FallÃ³ al colocar la imagen de memoria:"
+msgstr "Resim hafızası kullanmada hata:"
 
 #. ERR_PREVIEW_BAD_DEPTH
 msgid "Preview cannot handle bit depth"
-msgstr "La vista previa no puede manejar la profundidad de bits"
+msgstr "Önizleme bit derinliğini kullanamaz"
 
 #. ERR_GIMP_SUPPORT_MISSING
 msgid "GIMP support missing"
-msgstr "No hay soporte de GIMP"
+msgstr "GIMP desteği kayıp"
 
 #. ERR_CREATE_PREVIEW_FILE
 msgid "Could not create temporary preview files"
-msgstr "No se puede crear archivos temporales de previsualizaciÃ³n"
+msgstr "Geçici önizleme dosyaları yaratılamadı"
 
 #. ERR_CREATE_PREVIEW_FILENAME
 msgid "Could not create filenames for preview files"
-msgstr ""
-"No se puede crear nombres de archivos para archivos de previsualizaciÃ³n"
+msgstr "Önizleme dosyaları için dosya isimleri yaratılamadı"
 
 #. ERR_CREATE_FAX_PROJECT
 msgid "Could not create faxproject"
-msgstr "No se pudo crear proyecto de fax"
+msgstr "Fax projesi yaratılamadı"
 
 #. WARN_COUNTER_UNDERRUN
 msgid "Filename counter underrun"
-msgstr "Desborde negativo para el contador de nombres de archivo"
+msgstr "Dosya adı sayacı karıştı"
 
 #. WARN_NO_VALUE_CONSTRAINT
 msgid "warning: option has no value constraint"
-msgstr "advertencia: la opciÃ³n no tiene restricciones de valor"
+msgstr "uyarı: seçeneğin değeri belirtilmemiş"
 
 #. WARN_XSANE_AS_ROOT
 msgid ""
@@ -2387,96 +2358,96 @@ msgid ""
 "have any problem while running XSane as root:\n"
 "YOU ARE ALONE!"
 msgstr ""
-"Â¡Usted intenta ejecutar XSane como ROOT, es verdaderamente PELIGROSO!\n"
+"Xsane'ni ROOT olarak çalıştırmak istiyorsunuz, bu TEHLİKELİDİR!\n"
 "\n"
-"Â¡ No envÃ­e ningÃºn reporte de bugs cuando usted\n"
-"tenga algÃºn problema mientras ejecute XSane as root:\n"
-"USTED ESTÃ SOLO!"
+"Root olarak xsane'i kullanırken olacak hataları \n"
+"lütfen hata raporu olarak yollamayın\n"
+"TEK BAŞINASINIZ!"
 
 #. ERR_HEADER_ERROR
 msgid "Error"
-msgstr "Error"
+msgstr "Hata"
 
 #. ERR_HEADER_WARNING
 msgid "Warning"
-msgstr "Aviso"
+msgstr "Uyarı"
 
 #. ERR_HEADER_INFO
 msgid "Information"
-msgstr "InformaciÃ³n"
+msgstr "Bilgi"
 
 #. ERR_HEADER_CHILD_PROCESS_ERROR
 msgid "Child process error"
-msgstr "Error de proceso hijo"
+msgstr "Ast süreç hatası"
 
 #. ERR_FAILED_CREATE_FILE
 msgid "Failed to create file:"
-msgstr "FallÃ³ al crear archivo:"
+msgstr "Dosya yaratmada hata:"
 
 #. ERR_LOAD_DEVICE_SETTINGS
 msgid "Error while loading device settings:"
-msgstr "Error mientras se cargaban las opciones del dispositivo:"
+msgstr "Aygıt ayarlarını yüklemede hata"
 
 #. ERR_NO_DRC_FILE
 msgid "is not a device-rc-file !!!"
-msgstr "Â¡Â¡Â¡no es un  archivo-rc-de-dispositivo!!!"
+msgstr "aygıt-rc-dosyası değil !!"
 
 #. ERR_NETSCAPE_EXECUTE_FAIL
 msgid "Failed to execute netscape!"
-msgstr "Â¡FallÃ³ al ejecutar Netscape!"
+msgstr "netscape çalıştırılamadı!"
 
 #. ERR_SENDFAX_RECEIVER_MISSING
 msgid "Send fax: no receiver defined"
-msgstr "EnvÃ­o de fax: no se definiÃ³ receptor"
+msgstr "Faks gönder: alıcı tanımlanmadı"
 
 #. ERR_CREATED_FOR_DEVICE
 msgid "has been created for device"
-msgstr "se creÃ³ para dispositivo"
+msgstr "aygıt için yaratılmıştır"
 
 #. ERR_USED_FOR_DEVICE
 msgid "you want to use it for device"
-msgstr "usted quiere usarlo para el dispositivo"
+msgstr "aygıt için kullanmak istiyorsunuz"
 
 #. ERR_MAY_CAUSE_PROBLEMS
 msgid "this may cause problems!"
-msgstr "Â¡Ã©sto puede causr problemas!"
+msgstr "bu bazı sorunlar yaratabilir!"
 
 #. WARN_UNSAVED_IMAGES
 #, c-format
 msgid "There are %d unsaved images"
-msgstr "Hay %d imÃ¡genes no guardadas"
+msgstr "Saklanmamış %d resim var"
 
 #. WARN_FILE_EXISTS
 #, c-format
 msgid "File %s already exists"
-msgstr "El archivo %s ya existe"
+msgstr "%s dosyası zaten var"
 
 #. ERR_FILE_NOT_EXISTS
 #, c-format
 msgid "File %s does not exist"
-msgstr "El archivo %s no existe"
+msgstr "%s dosyası yok"
 
 #. ERR_FILE_NOT_POSTSCRIPT
 #, c-format
 msgid "File %s is not a postscript file"
-msgstr "El archivo %s no es un archivo postscript"
+msgstr "Dosya %s postscript dosyası değil"
 
 #. ERR_UNSUPPORTED_OUTPUT_FORMAT
 #, c-format
 msgid "Unsupported %d-bit output format: %s"
-msgstr "Formato de salida de %d-bit no soportado: %s"
+msgstr "Desteklenmeyen %d-bit çıktı formatı:%s"
 
 #. WARN_VIEWER_IMAGE_NOT_SAVED
 msgid "viewer image is not saved"
-msgstr "La imagen del visor no se guardÃ³"
+msgstr "İzleme resmi saklanamadı"
 
 #. TEXT_USAGE
 msgid "Usage:"
-msgstr "Uso:"
+msgstr "Kullanım:"
 
 #. TEXT_USAGE_OPTIONS
 msgid "[OPTION]... [DEVICE]"
-msgstr "[OPCIÃ“N]... [DISPOSITIVO]"
+msgstr "[SEÇENEK]...[AYGIT]"
 
 #. TEXT_HELP
 msgid ""
@@ -2513,74 +2484,67 @@ msgid ""
 " --sync                       request a synchronous connection with the X11 "
 "server"
 msgstr ""
-"Inicio de interfaz grÃ¡fica de usuario para acceder a dispositivos SANE [\n"
-"(A)cceso a e(S)cÃ¡ner (N)ahora (E)fÃ¡cil]\n"
+"SANE (Scanner Access Now Easy) aygıtlarına ulaşmak için grafik kullanıcı "
+"arayüzünü başlat.\n"
 "\n"
-"El formato de [DISPOSITIVO] es nombre_de_backend:archivo_de_dispositivo\n"
-"(p/ej. umax:/dev/scanner).\n"
-"[OPCIÃ“N]... puede  ser una combinaciÃ³n de los siguientes Ã­tems:\n"
-" -h, --help                   mostrar Ã©ste mensaje de ayuda y salir\n"
-" -v, --version                imprimir informaciÃ³n de la versiÃ³n\n"
-" -l, --license                imprimir informaciÃ³n de la licencia\n"
+"Kullanım şekli [AYGIT] sürücü:aygıtdosyası (örn. umax:/dev/scanner).\n"
+"[SEÇENEK]... aşağıdakilerin kombinasyonu olabilir:\n"
+" -h, --help                   yardım mesajını göster ve sonlandır\n"
+" -v, --version               sürüm bilgisini göster\n"
+"-l , --licence ·················· lisans bilgisini göster\n"
 "\n"
-" -d, --device-settings file  cargar opciones de dispositivo desde archivo\n"
-"                             (sin \".drc\")\n"
+" -d, --device-settings file   aygıt ayarlarını dosyadan yükle (\".drc\" "
+"olmadan)\n"
 "\n"
-" -V, --viewer                 comenzar con viewer-mode activo (por defecto)\n"
-" -s, --save                   comenzar con save-mode activo\n"
-" -c, --copy                   comenzar con copy-mode activo\n"
-" -f, --fax                    comenzar con fax-mode activo\n"
-" -m, --mail                   comenzar con mail-mode activo\n"
-" -n, --no-mode-selection      no habilitar menu para selecciÃ³n del modo "
-"XSAne\n"
+" -V, --viewer                izleme modu aktif olarak başla (ön tanımlı)\n"
+" -s, --save                   saklama modu aktif olarak başla\n"
+" -c, --copy                   kopyalama modu aktif olarak başla\n"
+" -f, --fax                      faks modu aktif olarak başla\n"
+" -m, --mail                  e-posta modu aktif olarak başla\n"
+" -n, --no-mode-selection      xsane mod seçimi menüsünü pasif kıl\n"
 "\n"
-" -M, --Medium-calibration     habilitar modo de calibraciÃ³n medio\n"
+"-, --Fixed                  sabit ana pencere boyutu (tercihler değerinin "
+"yerine geçer)\n"
+" -R, --Resizeable             yeniden boyutlanadırılabilir, kayan pencere "
+"(tercihler değerinin yerine geçer)\n"
 "\n"
-" -F, --Fixed                  tamaÃ±o de ventana principal fijo\n"
-"                              (sobreescribe el valor de preferencias)\n"
-" -R, --Resizeable             ventana principal redimensionable, con scroll\n"
-"                              (sobreescribe el valor de preferencias)\n"
-"\n"
-" -p, --print-filenames        imprimir nombres de archivos de imÃ¡genes\n"
-"                              creadas por XSane\n"
-" -N, --force-filename name    forzar nombre de archivo y no habilitar el de\n"
-"                              la selecciÃ³n del usuario \n"
-"\n"
-" --display X11-display        redireccionar salida a la pantalla de X11\n"
-" --no-xshm                    no usar imÃ¡genes en memoria compartida\n"
-" --sync                       requerir una conexiÃ³n sincrÃ³nica con "
-"el                               servidor X11"
+"-p, --print-filenames ············ Xsane tarafından yaratılan resim "
+"dosyalarını bas\n"
+"-N, --force-filename name dosyaadını kulllan ve kullanıcı dosyaad seçimi "
+"iptal et\n"
+" --display X11-display        çıktıyı X11-ekranına yönlendir\n"
+" --no-xshm                    paylaşılan hafıza resimleri kullanma\n"
+" --sync                       X11 sunucu ile senkronize bağlantı iste"
 
 #. strings for gimp plugin
 #. XSANE_GIMP_INSTALL_BLURB
 msgid "Front-end to the SANE interface"
-msgstr "Front-end para la interfaz SANE "
+msgstr "Sane arabirimine Ön yüz"
 
 #. XSANE_GIMP_INSTALL_HELP
 msgid ""
 "This function provides access to scanners and other image acquisition "
 "devices through the SANE (Scanner Access Now Easy) interface."
 msgstr ""
-"Ã‰sta funciÃ³n proporciona acceso a escÃ¡neres y otros dispositivos de "
-"adquisiciÃ³n de imÃ¡genes a travÃ©s de la interfaz SANE[(A)cceso a e(S)cÃ¡ner (N)"
-"ahora (E)fÃ¡cil)"
+"Bu fonksiyon tarayıcılara ve diğer resim yakalama aygıtlarınaSANE (Scanner "
+"Access Now Easy) arabirimi ile ulaşmayı sağlar."
 
 #. Menu path must not be translated, this is done by the gimp. Only translate the text behind the last "/"
 #. XSANE_GIMP_MENU_DIALOG
 msgid "<Toolbox>/File/Acquire/XSane: Device dialog..."
-msgstr "<Toolbox>/File/Acquire/XSane: Ventana de diÃ¡logo de dispositivo..."
+msgstr "<Araçkutusu>/Dosya/yakala/Xsane: Aygıt Diyalogu..."
 
 #. XSANE_GIMP_MENU
 msgid "<Toolbox>/File/Acquire/XSane: "
-msgstr "<Toolbox>/File/Acquire/XSane: "
+msgstr "<Araçkutusu>/Dosya/Yakala/Xsane:"
 
 #. XSANE_GIMP_MENU_DIALOG_OLD
 msgid "<Toolbox>/Xtns/XSane/Device dialog..."
-msgstr "<Toolbox>/Xtns/XSane: Ventana de diÃ¡logo de dispositivo..."
+msgstr "<Araçkutusu>/XTns/Xsane/Aygıt diyalog "
 
 #. XSANE_GIMP_MENU_OLD
 msgid "<Toolbox>/Xtns/XSane/"
-msgstr "<Toolbox>/Xtns/XSane/"
+msgstr "<Araçkutusu>/Xtns/XSane/"
 
 #. HELP_NO_DEVICES
 msgid ""
@@ -2593,43 +2557,43 @@ msgid ""
 "5) The backend is not configured correct (man sane-\"backendname\")\n"
 "6) Possibly there is more than one SANE version installed"
 msgstr ""
-"Razones posibles:\n"
-"1) No hay un dispositivo soportado por SANE\n"
-"2) Los dispositivos soportados estÃ¡n ocupados\n"
-"3) Los permisos para el dispositivo no le permiten usarlo. Pruebe como root\n"
-"4) El backend no estÃ¡ cargado por SANE (man sane-dll)\n"
-"5) El backend no estÃ¡ configurado correctamente (man sane-\"backendname\")\n"
-"6) Posiblemente haya mÃ¡s de una versiÃ³n de SANE instalada"
+"Olası nedenler: \n"
+"1)SANE tarafından desteklenen aygıt yok \n"
+"2)Desteklenen aygıtlar meşgul \n"
+"3)Aygıt dosyası için erişim izniniz yok, root olarak deneyin \n"
+"4)Sürücü SANE tarafından yüklenmemiş (man sane-dll)\n"
+"5)Sürücü doğru ayarlanmamış (man sane-\"sürücüadı\")\n"
+"6)Birden fazla SANE sürümü yüklenmiş olabilir"
 
 #. strings that are used in structures, so it is not allowed to use _()/gettext() here
 #. gettext_noop does mark these texts but does not change the string
 #. MENU_ITEM_SURFACE_FULL_SIZE
 msgid "full size"
-msgstr "tamaÃ±o real"
+msgstr "tam boyut"
 
 #. MENU_ITEM_SURFACE_DIN_A3P
 msgid "DIN A3 port."
-msgstr "DIN A3 vert."
+msgstr "DIN A3 dikey"
 
 #. MENU_ITEM_SURFACE_DIN_A3L
 msgid "DIN A3 land."
-msgstr "DIN A3 horiz."
+msgstr "DIN A3 yatay"
 
 #. MENU_ITEM_SURFACE_DIN_A4P
 msgid "DIN A4 port."
-msgstr "DIN A4 vert."
+msgstr "DIN A4 dikey"
 
 #. MENU_ITEM_SURFACE_DIN_A4L
 msgid "DIN A4 land."
-msgstr "DIN A4 horiz."
+msgstr "DIN A4 yatay"
 
 #. MENU_ITEM_SURFACE_DIN_A5P
 msgid "DIN A5 port."
-msgstr "DIN A5 vert."
+msgstr "DIN A5 dikey"
 
 #. MENU_ITEM_SURFACE_DIN_A5L
 msgid "DIN A5 land."
-msgstr "DIN A5 horiz."
+msgstr "DIN A5 yatay"
 
 #. MENU_ITEM_SURFACE_13cmx18cm
 msgid "13cm x 18cm"
@@ -2657,183 +2621,183 @@ msgstr "13cm x 9cm"
 
 #. MENU_ITEM_SURFACE_legal_P
 msgid "legal port."
-msgstr "legal vert."
+msgstr "yasal dikey."
 
 #. MENU_ITEM_SURFACE_legal_L
 msgid "legal land."
-msgstr "legal horiz."
+msgstr "yasal yatay"
 
 #. MENU_ITEM_SURFACE_letter_P
 msgid "letter port."
-msgstr "carta vert."
+msgstr "mektup dikey"
 
 #. MENU_ITEM_SURFACE_letter_L
 msgid "letter land."
-msgstr "carta horiz."
+msgstr "mektup yatay"
 
 #. MENU_ITEM_MEDIUM_FULL_COLOR_RANGE
 msgid "Full color range"
-msgstr "Rango de color completo"
+msgstr "Tüm renk aralığı"
 
 #. MENU_ITEM_MEDIUM_SLIDE
 msgid "Slide"
-msgstr "Diapositiva"
+msgstr "Diapozitif"
 
 #. MENU_ITEM_MEDIUM_STANDARD_NEG
 msgid "Standard negative"
-msgstr "Negativo estÃ¡ndar"
+msgstr "Standart negatif"
 
 #. MENU_ITEM_MEDIUM_AGFA_NEG
 msgid "Agfa negative"
-msgstr "Negativo Agfa"
+msgstr "Agfa negatif"
 
 #. MENU_ITEM_MEDIUM_AGFA_NEG_XRG200_4
 msgid "Agfa negative XRG 200-4"
-msgstr "Negativo Agfa XRG 200-4"
+msgstr "Agfa negatif XRG 200-4"
 
 #. MENU_ITEM_MEDIUM_AGFA_NEG_HDC_100
 msgid "Agfa negative HDC 100"
-msgstr "Negativo Agfa HDC 100"
+msgstr "Agfa negatif HDC 100"
 
 #. MENU_ITEM_MEDIUM_FUJI_NEG
 msgid "Fuji negative"
-msgstr "Negativo Fuji"
+msgstr "Fuji negatif"
 
 #. MENU_ITEM_MEDIUM_KODAK_NEG
 msgid "Kodak negative"
-msgstr "Negativo Kodak"
+msgstr "Kodak negatif"
 
 #. MENU_ITEM_MEDIUM_KONICA_NEG
 msgid "Konica negative"
-msgstr "Negativo Konica"
+msgstr "Konica negatif"
 
 #. MENU_ITEM_MEDIUM_KONICA_NEG_VX_100
 msgid "Konica negative VX 100"
-msgstr "Negativo Konica VX 100"
+msgstr "Konica negatif VX 100"
 
 #. MENU_ITEM_MEDIUM_ROSSMANN_NEG_HR_100
 msgid "Rossmann negative HR 100"
-msgstr "Negativo Rossmann HR 100"
+msgstr "Rossmann negatif HR 100"
 
 #. TEXT_MAIL_STATUS_NOT_CREATED
 msgid "Mail project not created"
-msgstr "Proyecto de correo electrÃ³nico no creado"
+msgstr "E-Posta projesi yaratılmadı"
 
 #. TEXT_MAIL_STATUS_CREATED
 msgid "Mail project created"
-msgstr "Proyecto de correo electrÃ³nico creado"
+msgstr "E-Posta projesi yaratıldı"
 
 #. TEXT_MAIL_STATUS_CHANGED
 msgid "Mail project changed"
-msgstr "Proyecto de correo electrÃ³nico cambiado"
+msgstr "E-Posta projesi değişti"
 
 #. TEXT_MAIL_STATUS_ERR_READ_PROJECT
 msgid "Error reading mailproject"
-msgstr "Error leyendo el proyecto de correo electrÃ³nico"
+msgstr "E-Posta projesini okumada hata"
 
 #. TEXT_MAIL_STATUS_POP3_CONNECTION_FAILED
 msgid "POP3 connection failed"
-msgstr "FallÃ³ la conexiÃ³n POP3"
+msgstr "POP3 bağlantısı kurulamadı"
 
 #. TEXT_MAIL_STATUS_POP3_LOGIN_FAILED
 msgid "POP3 login failed"
-msgstr "FallÃ³ el login POP3"
+msgstr "POP3 login hatalı"
 
 #. TEXT_MAIL_STATUS_SMTP_CONNECTION_FAILED
 msgid "SMTP connection failed"
-msgstr "FallÃ³ la conexiÃ³n SMTP"
+msgstr "SMTP bağlantısı yapılamadı"
 
 #. TEXT_MAIL_STATUS_SMTP_ERR_FROM
 msgid "From entry not accepted"
-msgstr "Datos de entrada no aceptados"
+msgstr "Gönderen girdisi kabul edilmedi"
 
 #. TEXT_MAIL_STATUS_SMTP_ERR_RCPT
 msgid "Receiver entry not accepted"
-msgstr "Entrada del receptor no aceptada"
+msgstr "Alıcı girdisi kabul edilmedi"
 
 #. TEXT_MAIL_STATUS_SMTP_ERR_DATA
 msgid "Mail data not accepted"
-msgstr "Datos de correo electrÃ³nico no aceptados"
+msgstr "Posta bilgisi kabul edilmedi"
 
 #. TEXT_MAIL_STATUS_SENDING
 msgid "Sending mail"
-msgstr "Eviando correo electrÃ³nico"
+msgstr "Posta gönderiliyor"
 
 #. TEXT_MAIL_STATUS_SENT
 msgid "Mail has been sent"
-msgstr "El correo electrÃ³nico se enviÃ³"
+msgstr "Posta gönderildi"
 
 #. TEXT_FAX_STATUS_NOT_CREATED
 msgid "Fax project not created"
-msgstr "Proyecto de fax no creado"
+msgstr "Faks projesi yaratılamadı"
 
 #. TEXT_FAX_STATUS_CREATED
 msgid "Fax project created"
-msgstr "Proyecto de fax creado"
+msgstr "Faks projesi yaratıldı"
 
 #. TEXT_FAX_STATUS_CHANGED
 msgid "Fax project changed"
-msgstr "Proyecto de fax cambiado"
+msgstr "Faks projesi değiştirildi"
 
 #. TEXT_FAX_STATUS_QUEUEING_FAX
 msgid "Queueing Fax"
-msgstr "Poniendo el fax en la cola de envÃ­o"
+msgstr "Faks kuyruğa alınıyor"
 
 #. TEXT_FAX_STATUS_FAX_QUEUED
 msgid "Fax is queued"
-msgstr "el fax estÃ¡ en la cola de envÃ­o"
+msgstr "Faks kuyrukta"
 
 #. Sane backend messages
 msgid "flatbed scanner"
-msgstr "escÃ¡ner flatbed"
+msgstr "flatbed tarayıcı"
 
 msgid "frame grabber"
-msgstr "capturador de frames"
+msgstr "kare yakalayıcı"
 
 msgid "handheld scanner"
-msgstr "escÃ¡ner manual"
+msgstr "el tarayıcısı"
 
 msgid "still camera"
-msgstr "cÃ¡mara fotogrÃ¡fica"
+msgstr "fotograf makinesi "
 
 msgid "video camera"
-msgstr "cÃ¡mara de video"
+msgstr "video kamera"
 
 msgid "virtual device"
-msgstr "dispositivo virtual"
+msgstr "Sanal aygıt"
 
 msgid "Success"
-msgstr "Ã‰xito"
+msgstr "Başarı"
 
 msgid "Operation not supported"
-msgstr "OperaciÃ³n no soportada"
+msgstr "İşlem desteklenmiyor"
 
 msgid "Operation was cancelled"
-msgstr "OperaciÃ³n cancelada"
+msgstr "İşlem iptal edildi"
 
 msgid "Device busy"
-msgstr "Dispositivo ocupado"
+msgstr "Aygıt meşgul"
 
 msgid "Invalid argument"
-msgstr "Argumento no vÃ¡lido"
+msgstr "Geçersiz argüman"
 
 msgid "End of file reached"
-msgstr "Final de archivo alcanzado"
+msgstr "Dosya sonuna ulaşıldı"
 
 msgid "Document feeder jammed"
-msgstr "Alimentador de Documentos atascado"
+msgstr "Doküman yükleyici sıkıştı"
 
 msgid "Document feeder out of documents"
-msgstr "Alimentador de Documentos sin documentos"
+msgstr "Doküman yükleyici dokümansız"
 
 msgid "Scanner cover is open"
-msgstr "La tapa del EscÃ¡ner estÃ¡ abierta"
+msgstr "Tarayıcı kapağı açık"
 
 msgid "Error during device I/O"
-msgstr "Error durante E/S de dispositivo"
+msgstr "Aygıt I/O hatası"
 
 msgid "Out of memory"
-msgstr "Sin memoria"
+msgstr "Yetersiz hafıza"
 
 msgid "Access to resource has been denied"
-msgstr "Acceso al recurso fue prohibido"
+msgstr "Kaynağa erişim reddedildi"
