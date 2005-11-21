@@ -99,10 +99,10 @@
 #define PACKAGE "xsane"
 
 /* Define to the version of the distribution.  */
-#define VERSION "0.98"
+#define VERSION "0.98a"
 
 /* The concatenation of the strings PACKAGE, "-", and VERSION.  */
-#define XSANE_PACKAGE_VERSION "xsane-0.98"
+#define XSANE_PACKAGE_VERSION "xsane-0.98a"
 
 /* Define if you have the __argz_count function.  */
 #define HAVE___ARGZ_COUNT 1
