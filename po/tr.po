@@ -1,13 +1,14 @@
+# translation of xsane_tr.po to Turkish
 # translation of tr.po to Turkish
 # Turkish Translation for XSane
 # TOGAN MUFTUOGLU  <toganm@yahoo.com>, 2000.
-# Togan Muftuoglu <toganm@yahoo.com>, 2004
+# Togan Muftuoglu <toganm@yahoo.com>, 2004,2005
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: XSANE 0.96\n"
-"POT-Creation-Date: 2005-10-23 00:20+0200\n"
-"PO-Revision-Date: 2004-08-26 11:08+0200\n"
+"Project-Id-Version: xsane_tr\n"
+"POT-Creation-Date: 2006-01-07 00:26+0100\n"
+"PO-Revision-Date: 2005-12-22 10:01+0100\n"
 "Last-Translator: Togan Muftuoglu <toganm@yahoo.com>\n"
 "Language-Team: Turkish <kde-i18n-tr@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -81,17 +82,21 @@ msgstr "fax sayfasını yeniden isimlendir"
 msgid "insert ps-file into fax"
 msgstr "ps-dosyasını faxa yerleştirin"
 
-#. WINDOW_MAIL_PROJECT
-msgid "mail project"
-msgstr "posta projesi"
+#. WINDOW_EMAIL_PROJECT
+msgid "E-mail project"
+msgstr "E-posta projesi"
 
-#. WINDOW_MAIL_RENAME
-msgid "rename mail image"
-msgstr "posta resmini yeniden isimlendir"
+#. WINDOW_EMAIL_RENAME
+msgid "rename e-mail image"
+msgstr "E-posta resmini yeniden isimlendir"
 
-#. WINDOW_MAIL_INSERT
-msgid "insert file into mail"
-msgstr "dosyayı postaya yerleştirin"
+#. WINDOW_EMAIL_INSERT
+msgid "insert file into e-mail"
+msgstr "dosyayı E-postaya yerleştirin"
+
+#. WINDOW_MULTIPAGE_PROJECT
+msgid "multipage project"
+msgstr "Çok sayfalı proje"
 
 #. WINDOW_PRESET_AREA_RENAME
 msgid "rename preset area"
@@ -381,6 +386,10 @@ msgstr "Proje yarat"
 msgid "Send project"
 msgstr "Projeyi gönder"
 
+#. BUTTON_SAVE_MULTIPAGE
+msgid "Save multipage file"
+msgstr "Çok sayfalı dosyayı kaydet"
+
 #. BUTTON_DELETE_PROJECT
 msgid "Delete project"
 msgstr "Projeyi sil"
@@ -421,9 +430,9 @@ msgstr "Boyutları tut"
 msgid "Fine mode"
 msgstr "Fine modu"
 
-#. RADIO_BUTTON_HTML_MAIL
-msgid "HTML mail"
-msgstr "HTML e-posta"
+#. RADIO_BUTTON_HTML_EMAIL
+msgid "HTML e-mail"
+msgstr "HTML E-posta"
 
 #. RADIO_BUTTON_SAVE_DEVPREFS_AT_EXIT
 msgid "Save device preferences at exit"
@@ -436,6 +445,14 @@ msgstr "Üzerine yazma uyarısı"
 #. RADIO_BUTTON_SKIP_EXISTING_NRS
 msgid "Skip existing filenames"
 msgstr "Varolan dosya isimlerini atla"
+
+#. RADIO_BUTTON_SAVE_PS_FLATDECODED
+msgid "Save postscript zlib compressed (ps level 3)"
+msgstr "Postscript dosyayı zlib sıkıştırmalı kaydet (ps 3 seviyesinde)"
+
+#. RADIO_BUTTON_SAVE_PDF_FLATDECODED
+msgid "Save PDF zlib compressed"
+msgstr "PDF dosyayı zlib sıkıştırmalı kaydet"
 
 #. RADIO_BUTTON_SAVE_PNM16_AS_ASCII
 msgid "Save 16bit pnm in ascii format"
@@ -469,10 +486,6 @@ msgstr "Tarama alanını önceden seç"
 msgid "Autocorrect colors"
 msgstr "Renkleri otomatik düzelt"
 
-#. RADIO_BUTTON_POP3_AUTHENTIFICATION
-msgid "POP3 authentification"
-msgstr "POP3 otorizasyon"
-
 #. RADIO_BUTTON_OCR_USE_GUI_PIPE
 msgid "Use GUI progress pipe"
 msgstr "GUI ilerleme çubuğunu kullan"
@@ -488,14 +501,6 @@ msgstr "Varolan aygıtlar"
 #. TEXT_XSANE_OPTIONS
 msgid "XSane options"
 msgstr "Xsane seçenekleri"
-
-#. TEXT_XSANE_MODE
-msgid "XSane mode"
-msgstr "Xsane modu"
-
-#. TEXT_FILENAME_COUNTER_STEP
-msgid "Step"
-msgstr "Sayaç"
 
 #. TEXT_FILETYPE
 msgid "Type"
@@ -685,9 +690,9 @@ msgstr ""
 "HİÇBİR GARANTİ İÇERMEZ; hatta HERHANGİ BİR AMACA \n"
 "UYGUNLUĞU VEYA ÜRÜNLEŞTİRİLMESİNİ bile.\n"
 
-#. TEXT_EMAIL
-msgid "Email:"
-msgstr "Eposta:"
+#. TEXT_EMAIL_ADR
+msgid "E-mail:"
+msgstr "E-posta:"
 
 #. TEXT_HOMEPAGE
 msgid "Homepage:"
@@ -704,14 +709,14 @@ msgstr "Tercüme:"
 #. Please translate this to something like
 #. translation to YOUR LANGUAGE\n
 #. by YOUR NAME\n
-#. Email: your.name@yourdomain.com\n
+#. E-mail: your.name@yourdomain.com\n
 #. TEXT_TRANSLATION_INFO
 msgid ""
 "untranslated original english text\n"
 "by Oliver Rauch\n"
-"Email: Oliver.Rauch@rauch-domain.de\n"
+"E-mail: Oliver.Rauch@rauch-domain.de\n"
 msgstr ""
-"Türkçe'ye çevrim\n"
+"Türkçe'ye çevrim \n"
 "Togan Müftüoğlu\n"
 "E-posta: toganm@yahoo.com\n"
 
@@ -723,21 +728,29 @@ msgstr "0x0:0KB"
 msgid "Scanned pages: "
 msgstr "Taranan sayfalar: "
 
-#. TEXT_MAIL_TEXT
-msgid "Email text:"
-msgstr "Eposta metni"
+#. TEXT_EMAIL_TEXT
+msgid "E-mail text:"
+msgstr "E-posta metni"
 
 #. TEXT_ATTACHMENTS
 msgid "Attachments:"
 msgstr "Ekler"
 
-#. TEXT_MAIL_STATUS
+#. TEXT_EMAIL_STATUS
 msgid "Project status:"
 msgstr "Proje durumu"
 
-#. TEXT_MAIL_FILETYPE
-msgid "Mail image filetype:"
-msgstr "Postalanacak resim dosya tipi:"
+#. TEXT_EMAIL_FILETYPE
+msgid "E-mail image filetype:"
+msgstr "E-Postada bulunacak resim dosya tipi:"
+
+#. TEXT_PAGES
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#. TEXT_MULTIPAGE_FILETYPE
+msgid "Multipage document filetype:"
+msgstr "Çok sayfalı doküman dosya tipi:"
 
 #. TEXT_MEDIUM_DEFINITION_NAME
 msgid "Medium Name:"
@@ -851,6 +864,11 @@ msgstr "Yazıcı mavi gamma:"
 msgid "Printer gamma blue:"
 msgstr "Yazıcı mavi gamma:"
 
+#. TEXT_SETUP_PRINTER_PS_FLATDECODED
+msgid "Create zlib compressed postscript image (ps level 3) for printing"
+msgstr ""
+"Yazdırmak için zlib sıkıştırılmış postscript (ps 3. seviye) resim yarat "
+
 #. TEXT_SETUP_TMP_PATH
 msgid "Temporary directory"
 msgstr "Geçici dizin"
@@ -873,7 +891,11 @@ msgstr "PNG resim sıkıştırması"
 
 #. TEXT_SETUP_FILENAME_COUNTER_LEN
 msgid "Filename counter length"
-msgstr "Dosya adı sayac uzunluğu"
+msgstr "Dosya adı sayaç uzunluğu"
+
+#. TEXT_SETUP_TIFF_ZIP_COMPRESSION
+msgid "TIFF zip compression rate"
+msgstr "TIFF zip sıkıştırma oranı"
 
 #. TEXT_SETUP_TIFF_COMPRESSION_16
 msgid "TIFF 16 bit image compression"
@@ -914,10 +936,6 @@ msgstr "Önizleme mavi gamma"
 #. TEXT_SETUP_LINEART_MODE
 msgid "Threshold option:"
 msgstr "Threshold seçeneği"
-
-#. TEXT_SETUP_ADF_MODE
-msgid "Automatic Document Feeder Modus:"
-msgstr "Otomatik Doküman Besleyici modu"
 
 #. TEXT_SETUP_PREVIEW_PIPETTE_RANGE
 msgid "Preview pipette range"
@@ -971,6 +989,10 @@ msgstr "Program öntanımlılarını belirle:"
 msgid "Viewer (Postscript):"
 msgstr "İzleyici (Postscript):"
 
+#. TEXT_SETUP_FAX_PS_FLATDECODED
+msgid "Create zlib compressed postscript image (ps level 3) for fax"
+msgstr "Faks için zlib sıkıştırılmış postscript (ps 3. seviye) resim yarat "
+
 #. TEXT_SETUP_SMTP_SERVER
 msgid "SMTP server:"
 msgstr "SMTP sunucu"
@@ -979,13 +1001,28 @@ msgstr "SMTP sunucu"
 msgid "SMTP port:"
 msgstr "SMTP portu"
 
-#. TEXT_SETUP_MAIL_FROM
+#. TEXT_SETUP_EMAIL_FROM
 msgid "From:"
 msgstr "Kimden"
 
-#. TEXT_SETUP_MAIL_REPLY_TO
+#. TEXT_SETUP_EMAIL_REPLY_TO
 msgid "Reply to:"
 msgstr "Yanıt Adresi"
+
+#. TEXT_SETUP_EMAIL_AUTHENTICATION
+#, fuzzy
+msgid "E-mail authentication"
+msgstr "POP3 otorizasyon"
+
+#. TEXT_SETUP_EMAIL_AUTH_USER
+#, fuzzy
+msgid "User:"
+msgstr "Kullanım:"
+
+#. TEXT_SETUP_EMAIL_AUTH_PASS
+#, fuzzy
+msgid "Password:"
+msgstr "Şifre:"
 
 #. TEXT_SETUP_POP3_SERVER
 msgid "POP3 server:"
@@ -994,18 +1031,6 @@ msgstr "POP3 Sunucu"
 #. TEXT_SETUP_POP3_PORT
 msgid "POP3 port:"
 msgstr "POP3 Portu"
-
-#. TEXT_SETUP_POP3_USER
-msgid "POP3 user:"
-msgstr "POP3 kullanıcı:"
-
-#. TEXT_SETUP_POP3_PASS
-msgid "POP3 password:"
-msgstr "POP3 Şifre:"
-
-#. TEXT_SETUP_MAIL_VIEWER
-msgid "Viewer (png):"
-msgstr "Gösterici (png):"
 
 #. TEXT_SETUP_OCR_COMMAND
 msgid "OCR Command:"
@@ -1050,9 +1075,9 @@ msgstr "Yeni medya"
 msgid "Save"
 msgstr "Kaydet"
 
-#. NOTEBOOK_IMAGE_OPTIONS
-msgid "Image"
-msgstr "Resim"
+#. NOTEBOOK_FILETYPE_OPTIONS
+msgid "Filetype"
+msgstr "Dosya tipi"
 
 #. NOTEBOOK_COPY_OPTIONS
 msgid "Copy"
@@ -1062,9 +1087,9 @@ msgstr "Kopyala"
 msgid "Fax"
 msgstr "Fax"
 
-#. NOTEBOOK_MAIL_OPTIONS
-msgid "Mail"
-msgstr "E-posta:"
+#. NOTEBOOK_EMAIL_OPTIONS
+msgid "E-mail"
+msgstr "E-posta"
 
 #. NOTEBOOK_OCR_OPTIONS
 msgid "OCR"
@@ -1078,9 +1103,9 @@ msgstr "Göster"
 msgid "Enhancement"
 msgstr "Geliştirme "
 
-#. MENU_ITEM_MAIL
-msgid "Email"
-msgstr "E-posta:"
+#. MENU_ITEM_MULTIPAGE
+msgid "Multipage"
+msgstr "Çok sayfa"
 
 #. MENU_ITEM_SHOW_TOOLTIPS
 msgid "Show tooltips"
@@ -1226,6 +1251,10 @@ msgstr "JPEG DCT sıkıştırması"
 msgid "pack bits"
 msgstr "bitleri paketle"
 
+#. MENU_ITEM_TIFF_COMP_DEFLATE
+msgid "deflate"
+msgstr "indirge"
+
 #. MENU_ITEM_RANGE_SCALE
 msgid "Slider (Scale)"
 msgstr "Ölçek Çubuğu"
@@ -1290,6 +1319,27 @@ msgstr "Yukarı taşı"
 msgid "Move item down"
 msgstr "Aşağı taşı"
 
+#. MENU_ITEM_AUTH_NONE
+#, fuzzy
+msgid "no authentication"
+msgstr "POP3 otorizasyon"
+
+#. MENU_ITEM_AUTH_POP3
+msgid "POP3 before SMTP"
+msgstr ""
+
+#. MENU_ITEM_AUTH_ASMTP_PLAIN
+msgid "ASMTP Plain"
+msgstr ""
+
+#. MENU_ITEM_AUTH_ASMTP_LOGIN
+msgid "ASMTP Login"
+msgstr ""
+
+#. MENU_ITEM_AUTH_ASMTP_CRAM_MD5
+msgid "ASMTP CRAM-MD5"
+msgstr ""
+
 #. PROGRESS_SCANNING
 msgid "Scanning"
 msgstr "tarıyor"
@@ -1298,6 +1348,10 @@ msgstr "tarıyor"
 #, c-format
 msgid "Receiving %s data"
 msgstr "%s data alıyor"
+
+#. PROGRESS_PAGE
+msgid "page"
+msgstr "sayfa"
 
 #. PROGRESS_TRANSFERING_DATA
 msgid "Transfering image"
@@ -1361,11 +1415,11 @@ msgstr "Önizlemeyi iptal et <Alt-ESC>"
 
 #. DESC_XSANE_MODE
 msgid ""
-"save-<Ctrl-s>, view-<Ctrl-v>, photocopy-<Ctrl-c>, fax-<Ctrl-f> or mail-<Ctrl-"
-"m>"
+"viewer-<Ctrl-v>, save-<Ctrl-s>, photocopy-<Ctrl-c>, multipage-<Ctrl-m>, fax-"
+"<Ctrl-f> or e-mail-<Ctrl-e>"
 msgstr ""
-"sakla-<Ctrl-s>, izle-<Ctrl-v>, fotokopi-<Ctrl-c>, fax-<Ctrl-f> veyamail-"
-"<Ctrl-m>"
+"izle-<Ctrl-v>, sakla-<Ctrl-s>,fotokopi-<Ctrl-c>, çoklusayfa-<Ctrl-m>,fax-"
+"<Ctrl-f> veya email-<Ctrl-e>"
 
 #. DESC_XSANE_MEDIUM
 msgid ""
@@ -1413,25 +1467,33 @@ msgstr "Faks sayfası için ad girin"
 msgid "Enter receiver phone number or address"
 msgstr "Alıcının telefon numrasını veya adresini girin"
 
-#. DESC_MAILPROJECT
-msgid "Enter name of mail project"
-msgstr "E-Posta projesinin adını girin"
+#. DESC_EMAIL_PROJECT
+msgid "Enter name of e-mail project"
+msgstr "E-Posta projesinin adını girin "
 
-#. DESC_MAILIMAGENAME
-msgid "Enter new name for mail image"
-msgstr "E-Posta resmi için yeni isimgirin"
+#. DESC_EMAIL_IMAGENAME
+msgid "Enter new name for e-mail image"
+msgstr "E-Posta resmi için yeni isim girin"
 
-#. DESC_MAILRECEIVER
-msgid "Enter email address"
-msgstr "E-posta adresi girin"
+#. DESC_EMAIL_RECEIVER
+msgid "Enter e-mail address"
+msgstr "E-posta adresi girin "
 
-#. DESC_MAILSUBJECT
-msgid "Enter subject of email"
-msgstr "E-Posta konusu girin"
+#. DESC_EMAIL_SUBJECT
+msgid "Enter subject of e-mail"
+msgstr "E-Posta konusu girin "
 
-#. DESC_MAIL_FILETYPE
+#. DESC_EMAIL_FILETYPE
 msgid "Select filetype for image attachments"
 msgstr "Resim ekleri için dosya tipini seçin"
+
+#. DESC_MULTIPAGE_PROJECT
+msgid "Enter name of multipage project"
+msgstr "Çoklu sayfa projesinin adını girin"
+
+#. DESC_MULTIPAGE_FILETYPE
+msgid "Select filetype for multipage file"
+msgstr "Çoklu sayfa için dosya tipini seçin"
 
 #. DESC_PRESET_AREA_RENAME
 msgid "Enter new name for preset area"
@@ -1665,6 +1727,14 @@ msgstr "Fotokopi için yeşil bileşenin ilave gamma değeri"
 msgid "Additional gamma value for blue component for photocopy"
 msgstr "Fotokopi için mavi bileşenin ilave gamma değeri"
 
+#. DESC_PRINTER_PS_FLATDECODED
+msgid ""
+"Create zlib compressed postscript image for printer (flatdecode).\n"
+"The printer has to understand postscript level 3!"
+msgstr ""
+"Yazıcı için zlib sıkıştırılmış postscript görüntü yarat (flatdecode)\n"
+"Yazıcı postscript 3 dilini anlamalı "
+
 #. DESC_TMP_PATH
 msgid "Path to temp directory"
 msgstr "Geçici dizin yolu"
@@ -1687,6 +1757,10 @@ msgstr "Eğer resim png olarak saklanırsa sıkıştırma"
 #. DESC_FILENAME_COUNTER_LEN
 msgid "Minimum length of counter in filename"
 msgstr "Dosya adı sayacının mimum uzunluğu"
+
+#. DESC_TIFF_ZIP_COMPRESSION
+msgid "Compression rate for zip compressed tiff (deflate)"
+msgstr "Zip sıkıştırmalı tiff sıkıştırma oranı (indirgeme)"
 
 #. DESC_TIFF_COMPRESSION_16
 msgid "Compression type if 16 bit image is saved as tiff"
@@ -1714,6 +1788,19 @@ msgid ""
 msgstr ""
 "Eğer dosya adı sayacı otomatik olarak artırılıyorsa, kullanılan rakamlar "
 "atlanır"
+
+#. DESC_SAVE_PS_FLATDECODED
+msgid ""
+"compress postscript image with zlib algorithm (flatdecode). When you want to "
+"print such a file your printer has to understand postscript level 3"
+msgstr ""
+"Zlib algoritması ile  sıkıştırılmış postscript görüntü yarat (flatdecode) "
+"Eğer böyle bir dosyayı çıktı olarak almak istiyorsanız yazıcı postscript 3 "
+"dilini anlamalı "
+
+#. DESC_SAVE_PDF_FLATDECODED
+msgid "compress PDF image with zlib algorithm (flatdecode)."
+msgstr "PDF dosyayı zlib algoritması ile sıkıştır (indirge)"
 
 #. DESC_SAVE_PNM16_AS_ASCII
 msgid ""
@@ -1827,14 +1914,9 @@ msgid ""
 msgstr ""
 "Xsane threshold aralığı ile tarayıcı threshold aralığını aynı yapacak rakam"
 
-#. DESC_ADF_MODE
-msgid ""
-"Select scansource for Automatic Document feeder. If this scansource is "
-"selected XSane scans until \"out of paper\" or error."
-msgstr ""
-"Otomatik Döküman besyleyici için tarama kaynağını belirleyiniz. Eğer tarama "
-"kaynağı seçilirse, Xsane hata veya \"kağıt kalmadı\" mesajına kadar "
-"tarayacaktır"
+#. DESC_ADF_PAGES_MAX
+msgid "Number of pages to scan"
+msgstr "Taranacak sayfa adedi"
 
 #. DESC_PREVIEW_PIPETTE_RANGE
 msgid "dimension of square that is used to average color for pipette function"
@@ -1887,6 +1969,10 @@ msgstr "Faksı görmek için çalıştırılacak komutu yazın"
 msgid "Send fax with high vertical resolution (196 lpi instead of 98 lpi)"
 msgstr "Faksı yüksek dikey çözünürlükle (98 lpi yerine 196 lpi ile)gönder"
 
+#. DESC_FAX_PS_FLATDECODED
+msgid "Create zlib compressed postscript image for fax (flatdecode)"
+msgstr "Faks için zlib sıkıştırlmış postscript görüntü yarat (flatdecode)"
+
 #. DESC_SMTP_SERVER
 msgid "IP Address or Domain name of SMTP server"
 msgstr "SMTP sunucusunun IP adresi veya Alan Adı"
@@ -1895,17 +1981,28 @@ msgstr "SMTP sunucusunun IP adresi veya Alan Adı"
 msgid "port to connect to SMTP server"
 msgstr "SMTP Sunucusuna bağlanacak port"
 
-#. DESC_MAIL_FROM
-msgid "enter your email address"
-msgstr "E-Posta adresinizi yazın"
+#. DESC_EMAIL_FROM
+msgid "enter your e-mail address"
+msgstr "E-Posta adresinizi girin"
 
-#. DESC_MAIL_REPLY_TO
-msgid "enter email address for replied emails"
-msgstr "Yanıtlama Adresini girin "
+#. DESC_EMAIL_REPLY_TO
+msgid "enter e-mail address for replied e-mails"
+msgstr "Yanıtlama adresini girin "
 
-#. DESC_POP3_AUTHENTIFICATION
-msgid "Authentificate at POP3 server before sending mail"
-msgstr "E-posta yollamadan önce POP3 sunucusunda otorizayon yap"
+#. DESC_EMAIL_AUTHENTICATION
+#, fuzzy
+msgid "Type of authentication before sending e-mail"
+msgstr "E-posta yollamadan önce POP3 sunucusundan otorizayon iste"
+
+#. DESC_EMAIL_AUTH_USER
+#, fuzzy
+msgid "user name for e-mail server"
+msgstr "POP3 sunucusundaki kullanıcı adı"
+
+#. DESC_EMAIL_AUTH_PASS
+#, fuzzy
+msgid "password for e-mail server"
+msgstr "POP3 sunucusu için şifre"
 
 #. DESC_POP3_SERVER
 msgid "IP Address or Domain name of POP3 server"
@@ -1915,20 +2012,8 @@ msgstr "POP3 Sunucusunun IP adresini veya Alan Adını yazın"
 msgid "port to connect to POP3 server"
 msgstr "POP3 sunusunda bağlanılacak port"
 
-#. DESC_POP3_USER
-msgid "user name for POP3 server"
-msgstr "POP3 sunucusundaki kullanıcı adı"
-
-#. DESC_POP3_PASS
-msgid "password for POP3 server"
-msgstr "POP3 sunucusu için şifre"
-
-#. DESC_MAIL_VIEWER
-msgid "Enter command to be executed to view a mail image"
-msgstr "E-posta resmini görmek için çalıştırılacak komutu yazın"
-
-#. DESC_HTML_MAIL
-msgid "Mail is sent in html mode, place image with: <IMAGE>"
+#. DESC_HTML_EMAIL
+msgid "E-mail is sent in html mode, place image with: <IMAGE>"
 msgstr "E-Posta HTML olarak yollandı, resmi yerleştirmek için :<IMAGE>"
 
 #. DESC_OCR_COMMAND
@@ -2151,8 +2236,12 @@ msgid "Filename too long"
 msgstr "Dosya adı çok uzun"
 
 #. ERR_CREATE_TEMP_FILE
-msgid "Could not create temporary file"
-msgstr "Geçici dosya yaratılamadı"
+msgid ""
+"Could not create temporary file.\n"
+"Open Menue Preferences->Setup Tab Save and\n"
+"select a temporary directory where you have\n"
+"write permissions."
+msgstr ""
 
 #. ERR_SET_OPTION
 msgid "Failed to set value of option"
@@ -2247,7 +2336,7 @@ msgstr "LIBJPEG hata veriyor"
 
 #. ERR_ZLIB
 msgid "ZLIB error or memory allocation problem"
-msgstr ""
+msgstr "ZLIB hatası veya hafıza paylaşımı hatası"
 
 #. ERR_UNKNOWN_TYPE
 msgid "unknown type"
@@ -2276,10 +2365,6 @@ msgstr "Faks göstericisini çalıştıramadı:"
 #. ERR_FAILED_EXEC_FAX_CMD
 msgid "Failed to execute fax command:"
 msgstr "faks komutunu çalıştıramadı:"
-
-#. ERR_FAILED_EXEC_MAIL_VIEWER
-msgid "Failed to execute mail image viewer:"
-msgstr "E-posta göstericisini çalıştıramadı:"
 
 #. ERR_FAILED_EXEC_OCR_CMD
 msgid "Failed to execute ocr command:"
@@ -2329,14 +2414,6 @@ msgstr "Önizleme bit derinliğini kullanamaz"
 #. ERR_GIMP_SUPPORT_MISSING
 msgid "GIMP support missing"
 msgstr "GIMP desteği kayıp"
-
-#. ERR_CREATE_PREVIEW_FILE
-msgid "Could not create temporary preview files"
-msgstr "Geçici önizleme dosyaları yaratılamadı"
-
-#. ERR_CREATE_PREVIEW_FILENAME
-msgid "Could not create filenames for preview files"
-msgstr "Önizleme dosyaları için dosya isimleri yaratılamadı"
 
 #. ERR_CREATE_FAX_PROJECT
 msgid "Could not create faxproject"
@@ -2466,8 +2543,9 @@ msgid ""
 " -V, --viewer                 start with viewer-mode active (default)\n"
 " -s, --save                   start with save-mode active\n"
 " -c, --copy                   start with copy-mode active\n"
+" -m, --multipage              start with multipage-mode active\n"
 " -f, --fax                    start with fax-mode active\n"
-" -m, --mail                   start with mail-mode active\n"
+" -e, --email                  start with e-mail-mode active\n"
 " -n, --no-mode-selection      disable menu for XSane mode selection\n"
 "\n"
 " -F, --Fixed                  fixed main window size (overwrite preferences "
@@ -2500,7 +2578,8 @@ msgstr ""
 " -s, --save                   saklama modu aktif olarak başla\n"
 " -c, --copy                   kopyalama modu aktif olarak başla\n"
 " -f, --fax                      faks modu aktif olarak başla\n"
-" -m, --mail                  e-posta modu aktif olarak başla\n"
+" -e, --mail                  e-posta modu aktif olarak başla\n"
+"-m, --multipage           çok sayfalı modunda başla\n"
 " -n, --no-mode-selection      xsane mod seçimi menüsünü pasif kıl\n"
 "\n"
 "-, --Fixed                  sabit ana pencere boyutu (tercihler değerinin "
@@ -2679,65 +2758,74 @@ msgstr "Konica negatif VX 100"
 msgid "Rossmann negative HR 100"
 msgstr "Rossmann negatif HR 100"
 
-#. TEXT_MAIL_STATUS_NOT_CREATED
-msgid "Mail project not created"
-msgstr "E-Posta projesi yaratılmadı"
+#. TEXT_PROJECT_STATUS_NOT_CREATED
+msgid "Project not created"
+msgstr "Proje yaratılmadı"
 
-#. TEXT_MAIL_STATUS_CREATED
-msgid "Mail project created"
-msgstr "E-Posta projesi yaratıldı"
+#. TEXT_PROJECT_STATUS_CREATED
+msgid "Project created"
+msgstr "Proje yaratıldı"
 
-#. TEXT_MAIL_STATUS_CHANGED
-msgid "Mail project changed"
-msgstr "E-Posta projesi değişti"
+#. TEXT_PROJECT_STATUS_CHANGED
+msgid "Project changed"
+msgstr "Proje değiştirildi"
 
-#. TEXT_MAIL_STATUS_ERR_READ_PROJECT
-msgid "Error reading mailproject"
-msgstr "E-Posta projesini okumada hata"
+#. TEXT_PROJECT_STATUS_ERR_READ_PROJECT
+msgid "Error reading project"
+msgstr "Projeyi okumada hata"
 
-#. TEXT_MAIL_STATUS_POP3_CONNECTION_FAILED
+#. TEXT_PROJECT_STATUS_FILE_SAVING_ERROR
+msgid "Error saving file"
+msgstr "Dosya saklama da hata"
+
+#. TEXT_PROJECT_STATUS_FILE_SAVING
+msgid "Saving file"
+msgstr "Dosya saklanıyor"
+
+#. TEXT_PROJECT_STATUS_FILE_SAVING_ABORTED
+msgid "Aborted saving file"
+msgstr "Dosya sakla iptal edildi"
+
+#. TEXT_PROJECT_STATUS_FILE_SAVED
+msgid "File has been saved"
+msgstr "Dosya saklandı"
+
+#. TEXT_EMAIL_STATUS_POP3_CONNECTION_FAILED
 msgid "POP3 connection failed"
 msgstr "POP3 bağlantısı kurulamadı"
 
-#. TEXT_MAIL_STATUS_POP3_LOGIN_FAILED
+#. TEXT_EMAIL_STATUS_POP3_LOGIN_FAILED
 msgid "POP3 login failed"
 msgstr "POP3 login hatalı"
 
-#. TEXT_MAIL_STATUS_SMTP_CONNECTION_FAILED
+#. TEXT_EMAIL_STATUS_ASMTP_AUTH_FAILED
+#, fuzzy
+msgid "ASMTP authentication failed"
+msgstr "SMTP bağlantısı yapılamadı"
+
+#. TEXT_EMAIL_STATUS_SMTP_CONNECTION_FAILED
 msgid "SMTP connection failed"
 msgstr "SMTP bağlantısı yapılamadı"
 
-#. TEXT_MAIL_STATUS_SMTP_ERR_FROM
+#. TEXT_EMAIL_STATUS_SMTP_ERR_FROM
 msgid "From entry not accepted"
 msgstr "Gönderen girdisi kabul edilmedi"
 
-#. TEXT_MAIL_STATUS_SMTP_ERR_RCPT
+#. TEXT_EMAIL_STATUS_SMTP_ERR_RCPT
 msgid "Receiver entry not accepted"
 msgstr "Alıcı girdisi kabul edilmedi"
 
-#. TEXT_MAIL_STATUS_SMTP_ERR_DATA
-msgid "Mail data not accepted"
-msgstr "Posta bilgisi kabul edilmedi"
+#. TEXT_EMAIL_STATUS_SMTP_ERR_DATA
+msgid "E-mail data not accepted"
+msgstr "E-Posta bilgisi kabul edilmedi"
 
-#. TEXT_MAIL_STATUS_SENDING
-msgid "Sending mail"
-msgstr "Posta gönderiliyor"
+#. TEXT_EMAIL_STATUS_SENDING
+msgid "Sending e-mail"
+msgstr "E-Posta gönderiliyor"
 
-#. TEXT_MAIL_STATUS_SENT
-msgid "Mail has been sent"
-msgstr "Posta gönderildi"
-
-#. TEXT_FAX_STATUS_NOT_CREATED
-msgid "Fax project not created"
-msgstr "Faks projesi yaratılamadı"
-
-#. TEXT_FAX_STATUS_CREATED
-msgid "Fax project created"
-msgstr "Faks projesi yaratıldı"
-
-#. TEXT_FAX_STATUS_CHANGED
-msgid "Fax project changed"
-msgstr "Faks projesi değiştirildi"
+#. TEXT_EMAIL_STATUS_SENT
+msgid "E-mail has been sent"
+msgstr "E-Posta gönderildi"
 
 #. TEXT_FAX_STATUS_QUEUEING_FAX
 msgid "Queueing Fax"
@@ -2801,3 +2889,25 @@ msgstr "Yetersiz hafıza"
 
 msgid "Access to resource has been denied"
 msgstr "Kaynağa erişim reddedildi"
+
+#~ msgid "Could not create temporary file"
+#~ msgstr "Geçici dosya yaratılamadı"
+
+#~ msgid "Could not create temporary preview files"
+#~ msgstr "Geçici önizleme dosyaları yaratılamadı"
+
+#~ msgid "Could not create filenames for preview files"
+#~ msgstr "Önizleme dosyaları için dosya isimleri yaratılamadı"
+
+#, fuzzy
+#~ msgid "POP3 authentication"
+#~ msgstr "POP3 otorizasyon"
+
+#~ msgid "XSane mode"
+#~ msgstr "Xsane modu"
+
+#~ msgid "POP3 user:"
+#~ msgstr "POP3 kullanıcı:"
+
+#~ msgid "POP3 password:"
+#~ msgstr "POP3 Şifre:"

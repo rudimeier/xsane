@@ -28,6 +28,6 @@
 
 extern void xsane_scan_done(SANE_Status status);
 extern void xsane_cancel(void);
-extern void xsane_scan_dialog(void);
+extern gint xsane_scan_dialog(gpointer *data);
 
 /* ---------------------------------------------------------------------------------------------------------------------- */

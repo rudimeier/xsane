@@ -2,9 +2,10 @@
 <html>
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.74 [en] (X11; U; Linux 2.2.18 i686) [Netscape]">
    <meta name="Author" content="Oliver Rauch">
    <meta name="Description" content="scan, photocopy and fax frontend for SANE">
-   <title>XSane - Mail setup</title>
+   <title>XSane - Scan mode</title>
 </head>
 <body text="#000000" bgcolor="#FFFFFF" link="#0000EF" vlink="#51188E" alink="#FF0000">
 
@@ -16,7 +17,7 @@
 </td>
 <td>
 <blockquote>
-<h1><font color="#009900">Mail setup</font></h1>
+<h1><font color="#009900">Scan options</font></h1>
 </blockquote>
 </td>
 </tr>
@@ -32,19 +33,22 @@
 <a href="sane-xsane-doc.html">Index</a>
 <br>
 <br>
-<br>
-<font color="#000000">Main window:</font>
+<font color="#000000">XSane mode:</font>
+<img SRC="xsane-target.jpg" alt="xsane-target">
 <ul>
 <li><a href="sane-xsane-viewer-doc.html">Viewer mode</a></li>
 <li><a href="sane-xsane-save-doc.html">Save mode</a></li>
 <li><a href="sane-xsane-copy-doc.html">Copy mode</a></li>
+<li><a href="sane-xsane-multipage-doc.html">Multipage mode</a></li>
 <li><a href="sane-xsane-fax-doc.html">Fax mode</a></li>
-<li><a href="sane-xsane-mail-doc.html">Mail mode</a></li>
+<li><a href="sane-xsane-email-doc.html">E-mail mode</a></li>
 <li><a href="sane-xsane-gimp-doc.html">Gimp plugin</a></li>
 </ul>
 <br>
-<a href="sane-xsane-medium-definition-doc.html">Medium selection</a>
+<a href="sane-xsane-scan-options-doc.html">Scan options</a>
 <br>
+<br>
+<a href="sane-xsane-medium-definition-doc.html">Medium selection</a>
 <br>
 <br>
 <a href="sane-xsane-color-correction-doc.html">Color correction:</a>
@@ -66,9 +70,7 @@
 <a href="sane-xsane-standard-doc.html">Standard options window</a>
 <br>
 <br>
-<br>
 <a href="sane-xsane-advanced-doc.html">Advanced options window</a>
-<br>
 <br>
 <br>
 <a href="sane-xsane-preview-doc.html">Preview:</a>
@@ -110,8 +112,8 @@
 <li><a href="sane-xsane-setup-display-doc.html">Display setup</a></li>
 <li><a href="sane-xsane-setup-enhancement-doc.html">Enhancement setup</a></li>
 <li><a href="sane-xsane-setup-fax-doc.html">Fax setup</a></li>
-<li><a href="sane-xsane-setup-image-doc.html">Image setup</a></li>
-<li><a href="sane-xsane-setup-mail-doc.html">Mail setup</a></li>
+<li><a href="sane-xsane-setup-filetype-doc.html">Filetype setup</a></li>
+<li><a href="sane-xsane-setup-email-doc.html">E-mail setup</a></li>
 <li><a href="sane-xsane-setup-save-doc.html">Saving setup</a></li>
 </ul>
 </td>
@@ -121,81 +123,67 @@
 <td VALIGN=TOP BGCOLOR="#FFFFFF">
 <blockquote>
 <br>
-You open the setup window via the menu <i>preferences/setup</i> in the
-main window of xsane.
+Here you find a description of the available scan options in the XSane main window.
+If an option is available depends on the scanner model, available hardware extensions,
+the scanmode and the xsane mode.
 <br>
 <br>
 <br>
-<center><img SRC="xsane-setup-mail.jpg" alt="Xsane-setup-mail-window"></center>
+<center><img SRC="xsane-viewer.jpg" alt="XSane-main-window"></center>
 <br>
 <br>
+
+<a NAME="ADF_PAGES"></a>
+<img SRC="xsane-adf-pages.jpg" alt="adf-pages">
+&nbsp;&nbsp;
+<b>ADF-Pages:</b>
+<blockquote>
+Select the number of pages that shall be scanned.
+You can use this with an automatic document feeder (ADF)
+or by changing the papers by hand while the scanhead moves back.
+</blockquote>
+
+<a NAME="SCANSOURCE"></a>
+<img SRC="xsane-scansource.jpg" alt="scansource">
+&nbsp;&nbsp;
+<b>Scansource:</b>
+<blockquote>
+Select scansource, e.g.: Flatbed, Transparency, Automatic Document Feeder.
+</blockquote>
+
+<img SRC="xsane-colormode.jpg" alt="colormode">
+&nbsp;&nbsp;
+<b>Scanmode:</b>
+<blockquote>
+Select scanmode, e.g.: color, grayscale, halftone, lineart.
+</blockquote>
+
+<img SRC="xsane-medium.jpg" alt="medium">
+&nbsp;&nbsp;
+<b><a href="sane-xsane-medium-definition-doc.html">Medium selection:</a></b>
+<blockquote>
+Select scanmedium, e.g.: <i>slide</i>, <i>standard negative</i>,
+<i>Agfa negative</i>, ... or <i>Full range</i>.
+</blockquote>
+
+<a NAME="RESOLUTION"></a>
+<img SRC="xsane-resolution.jpg" alt="resolution">
+&nbsp;&nbsp;
+<b>Scan resolution:</b>
+<blockquote>
+Select resolution that is used for scanning. If the backends makes available a
+range of resolutions (e.g. 100-600 dpi) XSane can display a slider or a
+list of resolutions. You select this via <i>Preferences/Show resolution list</i>.
 <br>
-
-<h4>FROM:</h4>
-<blockquote>
-Enter your email address.
+The backend can define a list of resolutions insted of a range, in this
+case it is not possible to enable the slider.
+<p>
+To select exact resolutions with the slider click the slider with the mouse pointer
+and use the cursor keys to change the value in small steps, if you press <i>ctrl</i>
+and a cursor key the resolution is changed in larger steps.
 </blockquote>
 
-<h4>REPLY TO:</h4>
-<blockquote>
-Enter the email address to which the receiver shall answer.
-If this is the same as the <i>from</i> address enter the same
-address again.
 </blockquote>
-
-<h4>SMTP SERVER:</h4>
-<blockquote>
-This is the address of the smtp server.
-</blockquote>
-
-<h4>SMPT PORT:</h4>
-<blockquote>
-Here you have to enter the port number on which the smtp server
-expects smtp connections. The standard port number is 25.
-</blockquote>
-
-<h4>POP3 authentification:</h4>
-<blockquote>
-Some smtp servers expect authentification before accepting
-any mail. The smtp protocol does not define any authentification
-routines. A lot of smtp servers expect that you authentificate
-yourself via the pop3 authentification routines.
-</blockquote>
-
-<h4>POP3 server:</h4>
-<blockquote>
-This is the address of the pop3 server.
-</blockquote>
-
-<h4>POP3 port:</h4>
-<blockquote>
-Here you have to enter the port number on which the pop3 server
-expects pop3 connections. The standard port number is 110.
-</blockquote>
-
-<h4>POP3 user:</h4>
-<blockquote>
-Enter your username for the pop3 server.
-</blockquote>
-
-<h4>POP3 password:</h4>
-<blockquote>
-Enter the password for the pop3 server. Pay attention, this can
-be a security hole. The user and password is stored in the
-xsane.rc file in ~/.sane/xsane/xsane.rc. The password is
-not stored in plain text but it is simple to reconstruct
-the password from the entry in xsane.rc. If you enter
-your pop3 password here make sure no one gets access
-to your xsane.rc file.
-</blockquote>
-
-<h4>Viewer(png):</h4>
-<blockquote>
-Enter the program that shall be used to display a scanned
-image when the <i>show image</i> button is pressed in the mail dialog.
-The program has to be able to display png images.
-</blockquote>
-
 </blockquote>
 </td>
 </tr>

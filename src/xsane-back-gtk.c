@@ -269,7 +269,7 @@ int xsane_back_gtk_make_path(size_t buf_size, char *buf, const char *prog_name, 
   {
     snprintf(buf, buf_size-2, "%s", STRINGIFY(PATH_SANE_DATA_DIR));
   }
-  else /* make path to temporary file */
+  else /* make path to temporary file XSANE_PATH_TMP */
   {
     snprintf(buf, buf_size-2, "%s", preferences.tmp_path);
   }
@@ -2138,7 +2138,7 @@ void xsane_set_sensitivity(SANE_Int sensitivity)
 {
   DBG(DBG_proc, "xsane_set_sensitivity(%d)\n", sensitivity);
 
-  if (xsane.shell)
+  if (xsane.dialog)
   {
     /* clear or rebuild histogram */
     if (sensitivity)
@@ -2154,8 +2154,8 @@ void xsane_set_sensitivity(SANE_Int sensitivity)
     gtk_widget_set_sensitive(xsane.menubar, sensitivity); 
     gtk_widget_set_sensitive(xsane.xsane_window, sensitivity); 
     gtk_widget_set_sensitive(GTK_WIDGET(xsane.start_button), sensitivity);
-    gtk_widget_set_sensitive(xsane.standard_options_shell, sensitivity);
-    gtk_widget_set_sensitive(xsane.advanced_options_shell, sensitivity);
+    gtk_widget_set_sensitive(xsane.standard_options_dialog, sensitivity);
+    gtk_widget_set_sensitive(xsane.advanced_options_dialog, sensitivity);
     gtk_widget_set_sensitive(xsane.histogram_dialog, sensitivity);
 #ifdef HAVE_WORKING_GTK_GAMMACURVE
     gtk_widget_set_sensitive(xsane.gamma_dialog, sensitivity);
@@ -2172,22 +2172,13 @@ void xsane_set_sensitivity(SANE_Int sensitivity)
     gtk_widget_set_sensitive(xsane.preview->start, sensitivity);        /* Acquire preview button */
   }
 
-  if (xsane.fax_dialog)
+  if (xsane.project_dialog)
   {
-    /* do not change sensitivity of fax_dialog, we want the progress bar */
+    /* do not change sensitivity of project_dialog, we want the progress bar */
     /* to be sensitive */
-    gtk_widget_set_sensitive(xsane.fax_project_box, sensitivity);
-    gtk_widget_set_sensitive(xsane.fax_project_exists, sensitivity);
-    gtk_widget_set_sensitive(xsane.fax_project_entry_box, sensitivity);
-  }
-
-  if (xsane.mail_dialog)
-  {
-    /* do not change sensitivity of mail_dialog, we want the progress bar */
-    /* to be sensitive */
-    gtk_widget_set_sensitive(xsane.mail_project_box, sensitivity);
-    gtk_widget_set_sensitive(xsane.mail_project_exists, sensitivity);
-    gtk_widget_set_sensitive(xsane.mail_project_entry_box, sensitivity);
+    gtk_widget_set_sensitive(xsane.project_box, sensitivity);
+    gtk_widget_set_sensitive(xsane.project_exists, sensitivity);
+    gtk_widget_set_sensitive(xsane.project_entry_box, sensitivity);
   }
 
   if (xsane.batch_scan_dialog)

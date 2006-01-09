@@ -85,11 +85,11 @@
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
-#define XSANE_VERSION		"0.98"
+#define XSANE_VERSION		"0.99"
 #define XSANE_AUTHOR		"Oliver Rauch"
 #define XSANE_COPYRIGHT		"Oliver Rauch"
 #define XSANE_DATE		"1998-2005"
-#define XSANE_EMAIL		"Oliver.Rauch@xsane.org"
+#define XSANE_EMAIL_ADR		"Oliver.Rauch@xsane.org"
 #define XSANE_HOMEPAGE		"http://www.xsane.org"
 #define XSANE_COPYRIGHT_TXT	XSANE_DATE " " XSANE_COPYRIGHT
 
@@ -103,34 +103,46 @@
 #define XSANE_DEFAULT_DEVICE		"SANE_DEFAULT_DEVICE"
 #define XSANE_3PASS_BUFFER_RGB_SIZE	1024
 
+#ifndef M_PI_2
+# define M_PI_2 1.57079632679489661923  /* pi/2 */
+#endif
+
 #ifdef HAVE_WINDOWS_H
-# define BUGGY_GDK_INPUT_EXCEPTION
 # define _WIN32
+#endif
+
+#ifdef _WIN32
+# define BUGGY_GDK_INPUT_EXCEPTION
+#endif
+
+#ifdef HAVE_OS2_H
+# define BUGGY_GDK_INPUT_EXCEPTION
+# define strcasecmp stricmp
 #endif
 
 #ifdef HAVE_LIBPNG
 #ifdef HAVE_LIBZ
-# define XSANE_DEFAULT_MAILTYPE XSANE_FILETYPE_PNG
-# define XSANE_ACTIVATE_MAIL
+# define XSANE_DEFAULT_EMAIL_TYPE XSANE_FILETYPE_PNG
+# define XSANE_ACTIVATE_EMAIL
 #endif
 #endif
 
-#ifndef XSANE_DEFAULT_MAILTYPE
+#ifndef XSANE_DEFAULT_EMAIL_TYPE
 #ifdef HAVE_LIBJPEG
-# define XSANE_DEFAULT_MAILTYPE XSANE_FILETYPE_JPEG
-# define XSANE_ACTIVATE_MAIL
+# define XSANE_DEFAULT_EMAIL_TYPE XSANE_FILETYPE_JPEG
+# define XSANE_ACTIVATE_EMAIL
 #endif
 #endif
 
-#ifndef XSANE_DEFAULT_MAILTYPE
+#ifndef XSANE_DEFAULT_EMAIL_TYPE
 #ifdef HAVE_LIBTIFF
-# define XSANE_DEFAULT_MAILTYPE XSANE_FILETYPE_TIFF
-# define XSANE_ACTIVATE_MAIL
+# define XSANE_DEFAULT_EMAIL_TYPE XSANE_FILETYPE_TIFF
+# define XSANE_ACTIVATE_EMAIL
 #endif
 #endif
 
-#ifndef XSANE_DEFAULT_MAILTYPE
-# define XSANE_DEFAULT_MAILTYPE XSANE_FILETYPE_PNM
+#ifndef XSANE_DEFAULT_EMAIL_TYPE
+# define XSANE_DEFAULT_EMAIL_TYPE XSANE_FILETYPE_PNM
 #endif
 
 
@@ -237,6 +249,11 @@
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
+#define IMAGE_SAVED	TRUE
+#define IMAGE_NOT_SAVED	FALSE
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
 #include "xsane-text.h"
 #include "xsane-fixedtext.h"
 #include "xsane-icons.h"
@@ -277,12 +294,6 @@
 #    define bindtextdomain(Domain,Directory) (Domain)
 #    define _(String) (String)
 #    define N_(String) (String)
-#endif
-
-/* ---------------------------------------------------------------------------------------------------------------------- */
-
-#ifdef HAVE_OS2_H
-# define strcasecmp stricmp
 #endif
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -432,15 +443,36 @@ Image_info;
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
-enum { XSANE_VIEWER, XSANE_SAVE, XSANE_COPY, XSANE_FAX, XSANE_MAIL };
-enum { XSANE_LINEART_STANDARD, XSANE_LINEART_XSANE, XSANE_LINEART_GRAYSCALE };
+enum
+{
+  XSANE_VIEWER,
+  XSANE_SAVE,
+  XSANE_COPY,
+  XSANE_MULTIPAGE,
+  XSANE_FAX,
+  XSANE_EMAIL
+};
 
+enum
+{
+  XSANE_LINEART_STANDARD,
+  XSANE_LINEART_XSANE,
+  XSANE_LINEART_GRAYSCALE
+};
+
+enum
+{
+  EMAIL_AUTH_NONE = 0,
+  EMAIL_AUTH_POP3,
+  EMAIL_AUTH_ASMTP_PLAIN,
+  EMAIL_AUTH_ASMTP_LOGIN,
+  EMAIL_AUTH_ASMTP_CRAM_MD5
+};
+                                                                                                                 
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
 extern void xsane_pref_save(void);
 extern void xsane_interface(int argc, char **argv);
-extern void xsane_fax_project_save(void);
-extern void xsane_mail_project_save(void);
 extern void xsane_batch_scan_add(void);
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -464,10 +496,11 @@ extern void xsane_batch_scan_add(void);
 #define FAXPOSTSCRIPTOPT	""
 #define FAXNORMALOPT		"-l"
 #define FAXFINEOPT		"-m"
+#define FAXVIEWER		"ghostscript"
 #define FAXCONVERTPSTOPNM  	"gs -dNOPAUSE -dBATCH -q -r204 -sDEVICE=pnm -sOutputFile="
-#define MAILPROJECT 	    	"mailproject"
-#define MAILCOMMAND 	 	"sendmail"
-#define MAILVIEWER 	 	"xv"
+#define EMAILPROJECT 	    	"emailproject"
+#define EMAILCOMMAND 	 	"sendmail"
+#define MULTIPAGEPROJECT    	"multipageproject"
 #define OCRCOMMAND 	 	"gocr"
 #define OCRINPUTFILEOPT	 	"-i"
 #define OCROUTPUTFILEOPT	"-o"
@@ -489,26 +522,28 @@ extern void xsane_batch_scan_add(void);
 #define XSANE_GAMMA_MIN		0.3
 #define XSANE_GAMMA_MAX		3.0
 
-#define HIST_WIDTH		256
-#define HIST_HEIGHT		100
-#define XSANE_SHELL_WIDTH	296
-#define XSANE_SHELL_HEIGHT	451
-#define XSANE_SHELL_POS_X	1
-#define XSANE_SHELL_POS_Y	50
-#define XSANE_HISTOGRAM_POS_X	280
-#define XSANE_HISTOGRAM_POS_Y	50
-#define XSANE_GAMMA_POS_X	280
-#define XSANE_GAMMA_POS_Y	420
-#define XSANE_BATCH_POS_X	480
-#define XSANE_BATCH_POS_Y	420
-#define XSANE_STD_OPTIONS_POS_X	1
-#define XSANE_STD_OPTIONS_POS_Y	400
-#define XSANE_ADV_OPTIONS_POS_X	280
-#define XSANE_ADV_OPTIONS_POS_Y	420
-#define XSANE_PREVIEW_POS_X	560
-#define XSANE_PREVIEW_POS_Y	50
-#define XSANE_PREVIEW_WIDTH	100
-#define XSANE_PREVIEW_HEIGHT	100
+#define HIST_WIDTH			256
+#define HIST_HEIGHT			100
+#define XSANE_DIALOG_WIDTH		296
+#define XSANE_DIALOG_HEIGHT		451
+#define XSANE_DIALOG_POS_X		1
+#define XSANE_DIALOG_POS_Y		50
+#define XSANE_HISTOGRAM_DIALOG_POS_X	280
+#define XSANE_HISTOGRAM_DIALOG_POS_Y	50
+#define XSANE_PROJECT_DIALOG_POS_X	280
+#define XSANE_PROJECT_DIALOG_POS_Y	425
+#define XSANE_GAMMA_DIALOG_POS_X	280
+#define XSANE_GAMMA_DIALOG_POS_Y	420
+#define XSANE_BATCH_DIALOG_POS_X	480
+#define XSANE_BATCH_DIALOG_POS_Y	420
+#define XSANE_STD_OPTIONS_DIALOG_POS_X	1
+#define XSANE_STD_OPTIONS_DIALOG_POS_Y	400
+#define XSANE_ADV_OPTIONS_DIALOG_POS_X	280
+#define XSANE_ADV_OPTIONS_DIALOG_POS_Y	420
+#define XSANE_PREVIEW_DIALOG_POS_X	560
+#define XSANE_PREVIEW_DIALOG_POS_Y	50
+#define XSANE_PREVIEW_DIALOG_WIDTH	100
+#define XSANE_PREVIEW_DIALOG_HEIGHT	100
 
 #define XSANE_SLIDER_ACTIVE	0
 #define XSANE_SLIDER_INACTIVE	4
@@ -634,10 +669,10 @@ typedef struct Xsane
 
 
     /* dialogs */
-    GtkWidget *shell;
+    GtkWidget *dialog;
     GtkWidget *menubar;
-    GtkWidget *standard_options_shell;
-    GtkWidget *advanced_options_shell;
+    GtkWidget *standard_options_dialog;
+    GtkWidget *advanced_options_dialog;
     GtkWidget *main_dialog_scrolled;
     GtkWidget *histogram_dialog;
     GtkWidget *gamma_dialog;
@@ -648,28 +683,21 @@ typedef struct Xsane
     GtkWidget *batch_scan_list;
     GtkAdjustment *batch_scan_vadjustment;
 
-    GtkWidget *fax_dialog;
-    GtkWidget *fax_list;
-    GtkWidget *fax_project_box;
-    GtkWidget *fax_project_exists;
-    GtkWidget *fax_project_not_exists;
-    GtkWidget *fax_project_entry;
-    GtkWidget *fax_project_entry_box;
-    GtkWidget *fax_receiver_entry;
-    GtkProgressBar *fax_progress_bar;
+    GtkWidget *project_dialog;
+    GtkWidget *project_list;
+    GtkWidget *project_box;
+    GtkWidget *project_exists;
+    GtkWidget *project_not_exists;
+    GtkWidget *project_entry;
+    GtkWidget *project_entry_box;
+    GtkProgressBar *project_progress_bar;
 
-    GtkWidget *mail_dialog;
-    GtkWidget *mail_list;
-    GtkWidget *mail_project_box;
-    GtkWidget *mail_project_exists;
-    GtkWidget *mail_project_not_exists;
-    GtkWidget *mail_project_entry;
-    GtkWidget *mail_project_entry_box;
-    GtkWidget *mail_receiver_entry;
-    GtkWidget *mail_subject_entry;
-    GtkWidget *mail_text_widget;
-    GtkWidget *mail_html_mode_widget;
-    GtkProgressBar *mail_progress_bar;
+    GtkWidget *fax_receiver_entry;
+
+    GtkWidget *email_receiver_entry;
+    GtkWidget *email_subject_entry;
+    GtkWidget *email_text_widget;
+    GtkWidget *email_html_mode_widget;
 
     GdkPixmap *window_icon_pixmap;
     GdkBitmap *window_icon_mask;        
@@ -807,10 +835,11 @@ typedef struct Xsane
     SANE_Bool scanner_gamma_color;
     SANE_Bool scanner_gamma_gray;
 
-    int mail_project_save;
-    int mail_html_mode;
+    int email_project_save;
+    int email_html_mode;
 
     GtkWidget *outputfilename_entry;
+    GtkWidget *adf_pages_max_entry;
     GtkWidget *copy_number_entry;
 
     gfloat *free_gamma_data, *free_gamma_data_red, *free_gamma_data_green, *free_gamma_data_blue;
@@ -823,13 +852,16 @@ typedef struct Xsane
     char *fax_filename;
     char *fax_receiver;
 
-    float mail_progress_val;
-    int   mail_progress_size;
-    int   mail_progress_bytes;
-    char *mail_status;
-    char *mail_filename;
-    char *mail_receiver;
-    char *mail_subject;
+    float email_progress_val;
+    int   email_progress_size;
+    int   email_progress_bytes;
+    char *email_status;
+    char *email_filename;
+    char *email_receiver;
+    char *email_subject;
+
+    char *multipage_status;
+    char *multipage_filename;
 
     int block_update_param;
     int block_enhancement_update;
@@ -847,14 +879,16 @@ typedef struct Xsane
    rc_io-routintes that are based on double, int, ... */
 
     /* window position and geometry */
-    int shell_posx;
-    int shell_posy;
-    int shell_height;
-    int shell_width;
-    int standard_options_shell_posx;
-    int standard_options_shell_posy;
-    int advanced_options_shell_posx;
-    int advanced_options_shell_posy;
+    int dialog_posx;
+    int dialog_posy;
+    int dialog_height;
+    int dialog_width;
+    int project_dialog_posx;
+    int project_dialog_posy;
+    int standard_options_dialog_posx;
+    int standard_options_dialog_posy;
+    int advanced_options_dialog_posx;
+    int advanced_options_dialog_posy;
     int histogram_dialog_posx;
     int histogram_dialog_posy;
     int gamma_dialog_posx;
@@ -914,7 +948,6 @@ typedef struct Xsane
     int print_filenames;
     int force_filename;
     char *external_filename;
-    char *adf_scansource;
 
 /* -------------------------------------------------- */
 
@@ -943,13 +976,17 @@ typedef struct XsaneSetup
   GtkWidget *printer_gamma_blue_entry;
   GtkWidget *printer_width_entry;
   GtkWidget *printer_height_entry;
+  GtkWidget *printer_ps_flatdecoded_button;
 
   GtkWidget *jpeg_image_quality_scale;
-  GtkWidget *pnm_image_compression_scale;
+  GtkWidget *png_image_compression_scale;
+  GtkWidget *tiff_image_zip_compression_scale;
   GtkWidget *save_devprefs_at_exit_button;
   GtkWidget *overwrite_warning_button;
   GtkWidget *increase_filename_counter_button;
   GtkWidget *skip_existing_numbers_button;
+  GtkWidget *save_ps_flatdecoded_button;
+  GtkWidget *save_pdf_flatdecoded_button;
   GtkWidget *save_pnm16_as_ascii_button;
   GtkWidget *reduce_16bit_to_8bit_button;
 
@@ -983,18 +1020,19 @@ typedef struct XsaneSetup
   GtkWidget *fax_leftoffset_entry;
   GtkWidget *fax_bottomoffset_entry;
   GtkWidget *fax_height_entry;
+  GtkWidget *fax_ps_flatdecoded_button;
+
   GtkWidget *tmp_path_entry;
 
-  GtkWidget *mail_smtp_server_entry;
-  GtkWidget *mail_smtp_port_entry;
-  GtkWidget *mail_from_entry;
-  GtkWidget *mail_reply_to_entry;
-  GtkWidget *mail_pop3_authentification_entry;
-  GtkWidget *mail_pop3_server_entry;
-  GtkWidget *mail_pop3_port_entry;
-  GtkWidget *mail_pop3_user_entry;
-  GtkWidget *mail_pop3_pass_entry;
-  GtkWidget *mail_viewer_entry;
+  GtkWidget *email_smtp_server_entry;
+  GtkWidget *email_smtp_port_entry;
+  GtkWidget *email_from_entry;
+  GtkWidget *email_reply_to_entry;
+  GtkWidget *email_auth_user_entry;
+  GtkWidget *email_auth_pass_entry;
+  GtkWidget *email_pop3_server_entry;
+  GtkWidget *email_pop3_port_entry;
+  GtkWidget *pop3_vbox;
 
   GtkWidget *ocr_command_entry;
   GtkWidget *ocr_inputfile_option_entry;
@@ -1008,6 +1046,8 @@ typedef struct XsaneSetup
   int tiff_compression16_nr;
   int tiff_compression8_nr;
   int tiff_compression1_nr;
+
+  int email_authentication;
 
   int show_range_mode;
   int lineart_mode;

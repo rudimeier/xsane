@@ -2405,12 +2405,22 @@ int preview_create_batch_icon_from_file(Preview *p, FILE *in, Batch_Scan_Paramet
 
 void preview_create_batch_icon(Preview *p, Batch_Scan_Parameters *parameters)
 {
- FILE *in;
+ FILE *in = NULL;
  int quality = 0;
  int time = 0;
+ int level;
 
-  in = fopen(xsane.preview->filename[0], "rb");
-  quality = preview_create_batch_icon_from_file(xsane.preview, in, parameters, quality, &time);
+  for(level = 2; level >= 0; level--)
+  {
+    if (p->filename[level])
+    {
+      in = fopen(p->filename[level], "rb"); /* read binary (b for win32) */
+      if (in)
+      {
+        quality = preview_create_batch_icon_from_file(xsane.preview, in, parameters, quality, &time);
+      }
+    }
+  }
 
   if (quality <= 0)
   {
@@ -2430,7 +2440,6 @@ void preview_create_batch_icon(Preview *p, Batch_Scan_Parameters *parameters)
   }
   fclose(in);
 }
-
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
 static int preview_restore_image_from_file(Preview *p, FILE *in, int min_quality, int *min_time)
@@ -4122,8 +4131,6 @@ static void preview_create_preset_area_menu(Preview *p, int selection)
 void preview_generate_preview_filenames(Preview *p)
 {
  char filename[PATH_MAX];
- char buf[256];
- int error_flag = 0;
  int i;
 
   DBG(DBG_proc, "preview_generate_preview_filenames\n");
@@ -4143,28 +4150,21 @@ void preview_generate_preview_filenames(Preview *p)
       }
       else
       {
-        p->filename[i] = NULL; /* mark filename does not exist */
         DBG(DBG_error, "ERROR: could not create preview file %s\n", filename);
-        error_flag = 1;
+        p->filename[0] = NULL; /* mark filename does not exist */
+        p->filename[1] = NULL; /* mark filename does not exist */
+        p->filename[2] = NULL; /* mark filename does not exist */
+       break; /* do not try next preview level, one error is enough */
       }
     }
     else
     {
       DBG(DBG_error, "ERROR: could not create filename for preview level %d\n", i);
-      p->filename[i] = NULL;
-      error_flag = 2;
+      p->filename[0] = NULL; /* mark filename does not exist */
+      p->filename[1] = NULL; /* mark filename does not exist */
+      p->filename[2] = NULL; /* mark filename does not exist */
+     break; /* do not try next preview level, one error is enough */
     }
-  }
-
-  if (error_flag == 1)
-  {
-    snprintf(buf, sizeof(buf), ERR_CREATE_PREVIEW_FILE);
-    xsane_back_gtk_error(buf, TRUE);
-  }
-  else if (error_flag == 2)
-  {
-    snprintf(buf, sizeof(buf), ERR_CREATE_PREVIEW_FILENAME);
-    xsane_back_gtk_error(buf, TRUE);
   }
 
  return;
@@ -4526,17 +4526,6 @@ Preview *preview_new(void)
   gtk_container_add(GTK_CONTAINER(frame), p->zoom);
   gtk_widget_show(p->zoom);
 
-#if 0
-  /* the RGB label */
-  frame = gtk_frame_new(0);
-  gtk_box_pack_start(GTK_BOX(p->menu_box), frame, FALSE, FALSE, 3);
-  gtk_widget_show(frame);
-  p->rgb_label = gtk_label_new(0);
-  gtk_container_add(GTK_CONTAINER(frame), p->rgb_label);
-  gtk_widget_show(p->rgb_label);
-  preview_display_color_components(p, -1, -1); /* display "###, ###, ###" */
-#endif
-
   gtk_widget_show(p->menu_box);
   /* the menu box is ready */
 
@@ -4592,7 +4581,6 @@ Preview *preview_new(void)
   gtk_widget_show(p->cancel);
   gtk_widget_set_sensitive(p->cancel, FALSE);
 
-#if 1
   /* the RGB label */
   frame = gtk_frame_new(0);
   gtk_box_pack_start(GTK_BOX(action_box), frame, FALSE, FALSE, 3);
@@ -4601,14 +4589,13 @@ Preview *preview_new(void)
   gtk_container_add(GTK_CONTAINER(frame), p->rgb_label);
   gtk_widget_show(p->rgb_label);
   preview_display_color_components(p, -1, -1); /* display "###, ###, ###" */
-#endif
 
   preview_update_surface(p, 0);
 
   gtk_widget_show(p->window);
   gtk_widget_show(p->top);
 
-  cursor = gdk_cursor_new(XSANE_CURSOR_PREVIEW);	/* set default curosr */
+  cursor = gdk_cursor_new(XSANE_CURSOR_PREVIEW);	/* set default cursor */
   gdk_window_set_cursor(p->window->window, cursor);
   gdk_cursor_unref(cursor);
   p->cursornr = XSANE_CURSOR_PREVIEW;
@@ -4622,7 +4609,7 @@ Preview *preview_new(void)
 
   preview_display_valid(p);
 
-  return p;
+ return p;
 }
 
 
