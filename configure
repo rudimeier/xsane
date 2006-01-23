@@ -1321,7 +1321,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 # version code:
 V_MAJOR=0
-V_MINOR=99
+V_MINOR=991
 
 PACKAGE=xsane
 
