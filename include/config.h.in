@@ -290,6 +290,9 @@
 /* Define if you have libtiff.  */
 #undef HAVE_LIBTIFF
 
+/* Define if you have liblcms.  */
+#undef HAVE_LIBLCMS
+
 #ifndef HAVE_STRNCASECMP
   /* OS/2 needs this */
 # define strncasecmp(a, b, c) strnicmp(a, b, c)
